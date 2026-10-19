@@ -1,0 +1,141 @@
+{
+  "retrievedAt": "2026-10-20",
+  "datasets": [
+    {
+      "id": "aisi-doubling",
+      "title": "自主网络任务能力的翻倍周期正在缩短",
+      "sourceName": "英国 AI Security Institute",
+      "sourceUrl": "https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing",
+      "date": "2025-11 / 2026-02（两次估计时点）",
+      "sample": "AISI 窄域网络任务评测；80% 成功率；每任务 250 万 token 上限",
+      "unit": "个月",
+      "note": "展示两次研究的翻倍周期估计，而非逐月模型能力实测值。任务时长以人类专家完成时间衡量；不能外推为真实受防护网络的攻击成功率，也不是未来预测。",
+      "rows": [
+        {
+          "label": "2025年11月估计",
+          "value": 8.0
+        },
+        {
+          "label": "2026年2月估计",
+          "value": 4.7
+        }
+      ],
+      "localSource": "/data/sources/cyber/aisi.html"
+    },
+    {
+      "id": "model-disclosure",
+      "title": "857 次模型发布中的公开安全评估",
+      "sourceName": "SemiAnalysis 原始调查",
+      "sourceUrl": "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
+      "date": "2026-10-08",
+      "sample": "中国 9 家开发企业，2021年至2026年9月15日，857次发布（741个产品模型、116个研究模型）",
+      "unit": "%",
+      "note": "发布时或之前公开是已公开结果的子集，两项不能相加。未找到公开结果不等于未在内部测试；该调查没有同口径美国企业对照，不能解释为企业安全水平排名。",
+      "rows": [
+        {
+          "label": "有公开安全结果",
+          "value": 3.62,
+          "count": 31,
+          "total": 857
+        },
+        {
+          "label": "发布时或之前公开",
+          "value": 1.05,
+          "count": 9,
+          "total": 857
+        }
+      ],
+      "breakdown": [
+        {
+          "label": "发布时或之前公开",
+          "value": 9
+        },
+        {
+          "label": "发布后公开",
+          "value": 16
+        },
+        {
+          "label": "时点或模型匹配不明",
+          "value": 6
+        },
+        {
+          "label": "仅声明进行过评估",
+          "value": 10
+        },
+        {
+          "label": "仅媒体或投资人资料",
+          "value": 3
+        },
+        {
+          "label": "未找到安全披露",
+          "value": 813
+        }
+      ],
+      "localSource": "/data/sources/cyber/disclosure.html"
+    },
+    {
+      "id": "gtig-disclosures",
+      "title": "2026 年漏洞披露数量增长",
+      "sourceName": "Google Threat Intelligence Group",
+      "sourceUrl": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era",
+      "date": "2026-09-30",
+      "sample": "GTIG 2025年1月至2026年8月监测范围中的公开漏洞；此处仅列正文明确给出的3个月份",
+      "unit": "项 / 月",
+      "note": "仅使用原文给出的月份，未对缺失月份插值。披露数量受 CVE 分配、厂商发布周期和检测方式影响，不能仅据此将增长归因于 AI。",
+      "rows": [
+        {
+          "label": "2026年1月",
+          "value": 5045.0
+        },
+        {
+          "label": "2026年7月",
+          "value": 10477.0
+        },
+        {
+          "label": "2026年8月",
+          "value": 10740.0
+        }
+      ],
+      "localSource": "/data/sources/cyber/gtig.html"
+    },
+    {
+      "id": "gtig-exploitation",
+      "title": "漏洞在野利用的月均变化",
+      "sourceName": "Google Threat Intelligence Group",
+      "sourceUrl": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era",
+      "date": "2026-09-30",
+      "sample": "2025年全年与2026年1—8月，GTIG观测到的实际利用；采用报告公布的月均值",
+      "unit": "项 / 月",
+      "note": "零日漏洞是全部被利用漏洞的子集，两个系列不可相加。报告月均数经过舍入；比较区间长度不同，且观测受检测覆盖影响。",
+      "rows": [
+        {
+          "label": "2025年",
+          "value": 10.5,
+          "series": "全部在野利用"
+        },
+        {
+          "label": "2026年1—8月",
+          "value": 18.0,
+          "series": "全部在野利用"
+        },
+        {
+          "label": "2025年",
+          "value": 8.0,
+          "series": "其中：零日漏洞"
+        },
+        {
+          "label": "2026年1—8月",
+          "value": 11.0,
+          "series": "其中：零日漏洞"
+        }
+      ],
+      "localSource": "/data/sources/cyber/gtig.html"
+    }
+  ],
+  "verificationNotes": [
+    "所有数值已核对一手网页；抓取脚本保存 HTML 原文并通过正文匹配提取核心统计。",
+    "本次未找到 AISI 可直接下载的逐模型数值表，因此使用正文明确给出的两次翻倍周期估计，未从图像猜测数据点。",
+    "模型披露采用 SemiAnalysis 一手调查，替代 Reuters 二手引文；31例中包括6例时点或模型匹配不明的结果，沿用原调查分类。",
+    "GTIG 原报告区分披露量与实际利用量；零日是实际利用的子集。没有将不同计量单位放入同一尺度。"
+  ]
+}

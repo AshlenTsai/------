@@ -1,0 +1,126 @@
+[
+  {
+    "id": "openai",
+    "url": "https://openai.com/index/path-to-astra/",
+    "downloaded": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "metr",
+    "url": "https://metr.org/zh-hans/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+    "file": "metr.html",
+    "bytes": 431414,
+    "downloaded": true
+  },
+  {
+    "id": "anthropic",
+    "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "file": "anthropic.html",
+    "bytes": 165523,
+    "downloaded": true
+  },
+  {
+    "id": "anthropicSep",
+    "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "file": "anthropicSep.html",
+    "bytes": 470704,
+    "downloaded": true
+  },
+  {
+    "id": "independent",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "file": "independent.html",
+    "bytes": 132665,
+    "downloaded": true
+  },
+  {
+    "id": "cvp",
+    "url": "https://www.anthropic.com/news/cyber-verification-program",
+    "file": "cvp.html",
+    "bytes": 135611,
+    "downloaded": true
+  },
+  {
+    "id": "meta",
+    "url": "https://research.meta.ai/blog/addressing-third-party-testing-misconfiguration-muse-spark-1-1",
+    "file": "meta.html",
+    "bytes": 114388,
+    "downloaded": true
+  },
+  {
+    "id": "google",
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+    "file": "google.html",
+    "bytes": 995413,
+    "downloaded": true
+  },
+  {
+    "id": "china2023",
+    "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+    "file": "china2023.html",
+    "bytes": 29431,
+    "downloaded": true
+  },
+  {
+    "id": "china2025",
+    "url": "https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm",
+    "file": "china2025.html",
+    "bytes": 17701,
+    "downloaded": true
+  },
+  {
+    "id": "china2026",
+    "url": "https://www.mee.gov.cn/zcwj/gwywj/202605/t20260514_1152263.shtml",
+    "file": "china2026.html",
+    "bytes": 62278,
+    "downloaded": true
+  },
+  {
+    "id": "framework",
+    "url": "https://www.cac.gov.cn/2026-09/14/c_1791137092283345.htm",
+    "file": "framework.html",
+    "bytes": 14179,
+    "downloaded": true
+  },
+  {
+    "id": "sb53date",
+    "url": "https://www.gov.ca.gov/2025/12/31/new-in-2026-california-laws-taking-effect-in-the-new-year/",
+    "downloaded": false,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "eo",
+    "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
+    "file": "eo.html",
+    "bytes": 303816,
+    "downloaded": true
+  },
+  {
+    "id": "usFramework",
+    "url": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+    "file": "usFramework.html",
+    "bytes": 269582,
+    "downloaded": true
+  },
+  {
+    "id": "bill",
+    "url": "https://www.govinfo.gov/app/details/BILLS-119s5576is",
+    "file": "bill.html",
+    "bytes": 47126,
+    "downloaded": true
+  },
+  {
+    "id": "s5576",
+    "url": "https://www.govinfo.gov/content/pkg/BILLS-119s5576is/pdf/BILLS-119s5576is.pdf",
+    "file": "s5576.pdf",
+    "bytes": 295335,
+    "downloaded": true
+  },
+  {
+    "id": "china_framework3",
+    "url": "https://www.cac.gov.cn/rootimages/uploadimg/1791137114683961/1791137114683961.pdf",
+    "file": "china_framework3.pdf",
+    "bytes": 3325115,
+    "downloaded": true
+  }
+]

@@ -1,0 +1,441 @@
+{
+  "retrievedAt": "2026-10-20",
+  "datasets": [
+    {
+      "sourceName": "Quinnipiac University Poll",
+      "sourceUrl": "https://poll.qu.edu/poll-release?releaseid=3969",
+      "localSource": "/data/sources/opinion/quinnipiac-2026-09-30.pdf",
+      "date": "2026-09-30",
+      "sample": "美国成年人 1,202 人；调查于 2026 年 9 月 24—27 日进行；总体误差 ±3.5 个百分点",
+      "unit": "%",
+      "id": "ai-development-pace",
+      "title": "公众希望 AI 以怎样的速度发展？",
+      "note": "问题 25。暂停与减速均以完成安全评估为条件；总体比例合计 100%，分组可能因四舍五入存在差异。",
+      "rows": [
+        {
+          "label": "暂停研发",
+          "value": 30,
+          "groups": {
+            "总体": 30,
+            "男性": 24,
+            "女性": 36,
+            "18—34岁": 42,
+            "35—49岁": 33,
+            "50—64岁": 20,
+            "65岁及以上": 20
+          }
+        },
+        {
+          "label": "放慢研发",
+          "value": 47,
+          "groups": {
+            "总体": 47,
+            "男性": 46,
+            "女性": 47,
+            "18—34岁": 43,
+            "35—49岁": 47,
+            "50—64岁": 52,
+            "65岁及以上": 48
+          }
+        },
+        {
+          "label": "保持速度",
+          "value": 14,
+          "groups": {
+            "总体": 14,
+            "男性": 17,
+            "女性": 11,
+            "18—34岁": 9,
+            "35—49岁": 13,
+            "50—64岁": 19,
+            "65岁及以上": 19
+          }
+        },
+        {
+          "label": "加快研发",
+          "value": 5,
+          "groups": {
+            "总体": 5,
+            "男性": 8,
+            "女性": 2,
+            "18—34岁": 4,
+            "35—49岁": 4,
+            "50—64岁": 6,
+            "65岁及以上": 6
+          }
+        },
+        {
+          "label": "不知道／未回答",
+          "value": 4,
+          "groups": {
+            "总体": 4,
+            "男性": 4,
+            "女性": 4,
+            "18—34岁": 2,
+            "35—49岁": 4,
+            "50—64岁": 3,
+            "65岁及以上": 6
+          }
+        }
+      ]
+    },
+    {
+      "sourceName": "Quinnipiac University Poll",
+      "sourceUrl": "https://poll.qu.edu/poll-release?releaseid=3969",
+      "localSource": "/data/sources/opinion/quinnipiac-2026-09-30.pdf",
+      "date": "2026-09-30",
+      "sample": "美国成年人 1,202 人；调查于 2026 年 9 月 24—27 日进行；总体误差 ±3.5 个百分点",
+      "unit": "%",
+      "id": "ai-risk-source",
+      "title": "人们更担心哪一种 AI 风险？",
+      "note": "问题 30。完整选项原始比例合计 99%，由整数四舍五入造成；不要自动补成 100%。",
+      "rows": [
+        {
+          "label": "人类利用 AI 造成伤害",
+          "value": 52,
+          "groups": {
+            "总体": 52,
+            "男性": 56,
+            "女性": 49,
+            "18—34岁": 66,
+            "35—49岁": 55,
+            "50—64岁": 48,
+            "65岁及以上": 42
+          }
+        },
+        {
+          "label": "自主 AI 智能体造成伤害",
+          "value": 33,
+          "groups": {
+            "总体": 33,
+            "男性": 31,
+            "女性": 35,
+            "18—34岁": 27,
+            "35—49岁": 28,
+            "50—64岁": 41,
+            "65岁及以上": 36
+          }
+        },
+        {
+          "label": "不会造成伤害（自发回答）",
+          "value": 2,
+          "groups": {
+            "总体": 2,
+            "男性": 3,
+            "女性": 1,
+            "18—34岁": 1,
+            "35—49岁": 3,
+            "50—64岁": 2,
+            "65岁及以上": 4
+          }
+        },
+        {
+          "label": "不知道／未回答",
+          "value": 12,
+          "groups": {
+            "总体": 12,
+            "男性": 10,
+            "女性": 14,
+            "18—34岁": 6,
+            "35—49岁": 14,
+            "50—64岁": 9,
+            "65岁及以上": 18
+          }
+        }
+      ]
+    },
+    {
+      "id": "pew-ai-concerns",
+      "title": "隐私与治理信心：美国公众的三项担忧",
+      "sourceName": "Pew Research Center",
+      "sourceUrl": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "localSource": "/data/sources/opinion/pew-americans-ai-2026-topline.pdf",
+      "date": "2026-06-17",
+      "sample": "美国成年人 5,119 人；American Trends Panel；调查于 2026 年 2 月 17—23 日进行",
+      "unit": "%",
+      "note": "三项属于不同问题，并非互斥选项，不能相加。信心不足包括信心不太足和完全没有信心。",
+      "rows": [
+        {
+          "label": "认为个人信息更不安全",
+          "value": 71
+        },
+        {
+          "label": "对政府有效监管缺乏信心",
+          "value": 67,
+          "republican": 61,
+          "democrat": 74
+        },
+        {
+          "label": "对企业负责任使用缺乏信心",
+          "value": 59,
+          "republican": 53,
+          "democrat": 65
+        }
+      ]
+    },
+    {
+      "id": "ipsos-government-trust",
+      "title": "公众信任本国政府负责任监管 AI 的程度",
+      "sourceName": "Ipsos AI Monitor 2025",
+      "sourceUrl": "https://www.ipsos.com/sites/default/files/ct/publication/documents/2025-06/Ipsos-AI-Monitor-2025.pdf",
+      "localSource": "/data/sources/opinion/ipsos-ai-monitor-2025.pdf",
+      "sourcePage": 23,
+      "date": "2025-06",
+      "sample": "30 个国家，23,216 名受访者；2025 年 3 月 21 日—4 月 4 日；各国年龄范围见报告第 56 页",
+      "unit": "%",
+      "note": "30 国平均为各国结果的未按人口加权平均，并非全球人口比例。部分国家样本更偏城市、高学历或高收入群体；印度包含面访。原报告未覆盖中国，未纳入稿件中的中国 67%。",
+      "rows": [
+        {
+          "label": "30 国平均",
+          "country": "30-country average",
+          "value": 54,
+          "disagree": 37,
+          "other": 9
+        },
+        {
+          "label": "新加坡",
+          "country": "Singapore",
+          "value": 81,
+          "disagree": 14,
+          "other": 5
+        },
+        {
+          "label": "印度尼西亚",
+          "country": "Indonesia",
+          "value": 76,
+          "disagree": 18,
+          "other": 6
+        },
+        {
+          "label": "马来西亚",
+          "country": "Malaysia",
+          "value": 73,
+          "disagree": 19,
+          "other": 8
+        },
+        {
+          "label": "泰国",
+          "country": "Thailand",
+          "value": 70,
+          "disagree": 20,
+          "other": 10
+        },
+        {
+          "label": "智利",
+          "country": "Chile",
+          "value": 67,
+          "disagree": 27,
+          "other": 6
+        },
+        {
+          "label": "墨西哥",
+          "country": "Mexico",
+          "value": 67,
+          "disagree": 26,
+          "other": 7
+        },
+        {
+          "label": "哥伦比亚",
+          "country": "Colombia",
+          "value": 66,
+          "disagree": 26,
+          "other": 8
+        },
+        {
+          "label": "印度",
+          "country": "India",
+          "value": 65,
+          "disagree": 25,
+          "other": 10
+        },
+        {
+          "label": "波兰",
+          "country": "Poland",
+          "value": 61,
+          "disagree": 28,
+          "other": 10
+        },
+        {
+          "label": "阿根廷",
+          "country": "Argentina",
+          "value": 61,
+          "disagree": 29,
+          "other": 10
+        },
+        {
+          "label": "秘鲁",
+          "country": "Peru",
+          "value": 61,
+          "disagree": 30,
+          "other": 9
+        },
+        {
+          "label": "西班牙",
+          "country": "Spain",
+          "value": 55,
+          "disagree": 33,
+          "other": 12
+        },
+        {
+          "label": "瑞士",
+          "country": "Switzerland",
+          "value": 55,
+          "disagree": 37,
+          "other": 8
+        },
+        {
+          "label": "南非",
+          "country": "South Africa",
+          "value": 55,
+          "disagree": 38,
+          "other": 7
+        },
+        {
+          "label": "意大利",
+          "country": "Italy",
+          "value": 50,
+          "disagree": 41,
+          "other": 9
+        },
+        {
+          "label": "比利时",
+          "country": "Belgium",
+          "value": 49,
+          "disagree": 40,
+          "other": 11
+        },
+        {
+          "label": "爱尔兰",
+          "country": "Ireland",
+          "value": 49,
+          "disagree": 43,
+          "other": 8
+        },
+        {
+          "label": "德国",
+          "country": "Germany",
+          "value": 49,
+          "disagree": 42,
+          "other": 9
+        },
+        {
+          "label": "荷兰",
+          "country": "Netherlands",
+          "value": 48,
+          "disagree": 44,
+          "other": 9
+        },
+        {
+          "label": "土耳其",
+          "country": "Türkiye",
+          "value": 48,
+          "disagree": 43,
+          "other": 10
+        },
+        {
+          "label": "巴西",
+          "country": "Brazil",
+          "value": 48,
+          "disagree": 40,
+          "other": 12
+        },
+        {
+          "label": "韩国",
+          "country": "South Korea",
+          "value": 46,
+          "disagree": 47,
+          "other": 6
+        },
+        {
+          "label": "澳大利亚",
+          "country": "Australia",
+          "value": 46,
+          "disagree": 46,
+          "other": 8
+        },
+        {
+          "label": "瑞典",
+          "country": "Sweden",
+          "value": 46,
+          "disagree": 45,
+          "other": 10
+        },
+        {
+          "label": "法国",
+          "country": "France",
+          "value": 42,
+          "disagree": 49,
+          "other": 10
+        },
+        {
+          "label": "加拿大",
+          "country": "Canada",
+          "value": 40,
+          "disagree": 48,
+          "other": 12
+        },
+        {
+          "label": "英国",
+          "country": "Great Britain",
+          "value": 39,
+          "disagree": 48,
+          "other": 13
+        },
+        {
+          "label": "匈牙利",
+          "country": "Hungary",
+          "value": 33,
+          "disagree": 59,
+          "other": 8
+        },
+        {
+          "label": "日本",
+          "country": "Japan",
+          "value": 32,
+          "disagree": 51,
+          "other": 17
+        },
+        {
+          "label": "美国",
+          "country": "United States",
+          "value": 31,
+          "disagree": 58,
+          "other": 11
+        }
+      ]
+    }
+  ],
+  "verificationNotes": [
+    "Quinnipiac 网页问卷第 25、30 题与下载的官方 PDF 交叉核验；不是根据稿件手工补值。",
+    "Pew 数据自动读取官方网页表格，原始 topline PDF 已一并保存。",
+    "Ipsos 数据从 PDF 第 23 页自动提取，并与该页渲染图片核对。报告的 30 国调查不含中国，因此未采用稿件中的中国 67%。",
+    "不同调查的时间、问题措辞与样本不同；不得将 Quinnipiac、Pew、Ipsos 的数字当成同一调查或时间序列。"
+  ],
+  "sources": [
+    {
+      "url": "https://poll.qu.edu/poll-release?releaseid=3969",
+      "file": "/data/sources/opinion/quinnipiac-2026-09-30.html",
+      "sha256": "4902c1ab7bc7316fe3dbbdc9f05dbe0976471b667c6f153d3ce661ae51c9db47"
+    },
+    {
+      "url": "https://poll.qu.edu/images/polling/us/us09302026_uruk99.pdf",
+      "file": "/data/sources/opinion/quinnipiac-2026-09-30.pdf",
+      "sha256": "d6256462dce90f2a55ebeb7419320372c7a2f59a18e38b572c4b4e16e997c6cf"
+    },
+    {
+      "url": "https://www.ipsos.com/sites/default/files/ct/publication/documents/2025-06/Ipsos-AI-Monitor-2025.pdf",
+      "file": "/data/sources/opinion/ipsos-ai-monitor-2025.pdf",
+      "sha256": "1fb4a30950aaaef3ebb4b4ee5bcee6f574f9c20fbb5822448678b917968910bd"
+    },
+    {
+      "url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "file": "/data/sources/opinion/pew-americans-ai-2026.html",
+      "sha256": "81ddf7c25b75ae100cabcf6f0c0cd86d5f9d50c597eafb307741b2d5e4338b73"
+    },
+    {
+      "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PI_2026.06.17_Americans-and-AI_TOPLINE.pdf",
+      "file": "/data/sources/opinion/pew-americans-ai-2026-topline.pdf",
+      "sha256": "97ce8cba45d2ea02a01b0c602102805d852bcf7762bb0ab9f4bfe0d5a2e7ea8a"
+    }
+  ]
+}

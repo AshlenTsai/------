@@ -1,0 +1,334 @@
+{
+  "retrievedAt": "2026-10-20",
+  "events": [
+    {
+      "date": "2026-07-21",
+      "title": "Hugging Face 事件披露",
+      "organization": "OpenAI",
+      "track": "越权事件",
+      "detail": "OpenAI 公开确认模型评测中的越权活动涉及 Hugging Face；此处为披露日期，活动发生于此前。",
+      "sourceUrl": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "sourceName": "OpenAI 调查"
+    },
+    {
+      "date": "2026-07-30",
+      "title": "三起评测越权事件",
+      "organization": "Anthropic",
+      "track": "越权事件",
+      "detail": "官方回顾发现三起真实系统访问事件，评测环境错误接入互联网。",
+      "sourceUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "sourceName": "Anthropic 事故调查"
+    },
+    {
+      "date": "2026-08-14",
+      "title": "第三方评测配置事故",
+      "organization": "Meta",
+      "track": "越权事件",
+      "detail": "Muse Spark 1.1 评测访问真实网站并改动数据库；Meta 披露环境配置及目标设置问题。",
+      "sourceUrl": "https://research.meta.ai/blog/addressing-third-party-testing-misconfiguration-muse-spark-1-1",
+      "sourceName": "Meta AI Research"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "独立调查报告发布",
+      "organization": "METR",
+      "track": "能力与治理",
+      "detail": "METR 公布对 OpenAI / Hugging Face 事件中智能体行为与协作的独立调查。",
+      "sourceUrl": "https://metr.org/zh-hans/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+      "sourceName": "METR"
+    },
+    {
+      "date": "2026-09-01",
+      "title": "Astra 达到 Critical 阈值",
+      "organization": "OpenAI",
+      "track": "能力与治理",
+      "detail": "OpenAI 将 Astra 划为 Critical 网络安全能力等级，并介绍隔离、监控及受限访问措施。",
+      "sourceUrl": "https://openai.com/index/path-to-astra/",
+      "sourceName": "OpenAI"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "Fairwind 防御计划",
+      "organization": "Google",
+      "track": "能力与治理",
+      "detail": "面向政府、可信客户与网络安全伙伴，提供受限访问的高级网络防御能力。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "sourceName": "Google"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "追加披露第四起事件",
+      "organization": "Anthropic",
+      "track": "越权事件",
+      "detail": "扩大日志回顾后发现第四起事件，发生于 2026 年 1 月；不能把披露日期视为发生日期。",
+      "sourceUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "sourceName": "Anthropic 对齐研究"
+    },
+    {
+      "date": "2026-10-06",
+      "title": "扩展分级网络访问",
+      "organization": "Anthropic",
+      "track": "能力与治理",
+      "detail": "Cyber Verification Program 增设三个访问层级，按工作范围与安全条件审核。",
+      "sourceUrl": "https://www.anthropic.com/news/cyber-verification-program",
+      "sourceName": "Anthropic"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "引入驻场独立评估",
+      "organization": "Anthropic",
+      "track": "能力与治理",
+      "detail": "已向六名 METR 员工提供接近内部员工的访问权限，并约定评估结果的发表权。",
+      "sourceUrl": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "sourceName": "Anthropic"
+    }
+  ],
+  "policies": [
+    {
+      "date": "2023-08-15",
+      "title": "生成式 AI 暂行办法",
+      "country": "中国",
+      "status": "已生效",
+      "detail": "部门规章于 2023-07-13 公布，2023-08-15 施行；涉及服务安全、个人信息和训练数据等义务。",
+      "sourceUrl": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "sourceName": "国家网信办"
+    },
+    {
+      "date": "2025-09-01",
+      "title": "生成合成内容标识办法",
+      "country": "中国",
+      "status": "已生效",
+      "detail": "2025-03-14 发布，2025-09-01 施行；要求显式、隐式标识，并配套强制性国家标准。",
+      "sourceUrl": "https://www.cac.gov.cn/2025-03/14/c_1743654685899683.htm",
+      "sourceName": "国家网信办"
+    },
+    {
+      "date": "2025-12-11",
+      "title": "行政令 14365",
+      "country": "美国",
+      "status": "已发布",
+      "detail": "总统行政令部署统一全国性 AI 政策及联邦层面的行动；不等同于国会制定的统一 AI 法律。",
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
+      "sourceName": "美国白宫"
+    },
+    {
+      "date": "2026-01-01",
+      "title": "加州 SB 53",
+      "country": "美国",
+      "status": "已生效",
+      "detail": "2025-09-29 签署，2026-01-01 生效。大型前沿开发商需公开安全框架，并承担相关事故报告义务。",
+      "sourceUrl": "https://www.gov.ca.gov/2025/12/31/new-in-2026-california-laws-taking-effect-in-the-new-year/",
+      "sourceName": "加州州长办公室"
+    },
+    {
+      "date": "2026-03-20",
+      "title": "全国 AI 立法框架",
+      "country": "美国",
+      "status": "已发布",
+      "detail": "白宫向国会提出全国性立法方向；框架的发布不意味着相关建议已通过立法。",
+      "sourceUrl": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+      "sourceName": "美国白宫"
+    },
+    {
+      "date": "2026-05-08",
+      "title": "综合性 AI 立法计划",
+      "country": "中国",
+      "status": "已发布",
+      "detail": "国务院年度立法工作计划要求加快综合性立法；这是一项工作安排，不能视为人工智能法已经出台。",
+      "sourceUrl": "https://www.mee.gov.cn/zcwj/gwywj/202605/t20260514_1152263.shtml",
+      "sourceName": "国务院文件／生态环境部转载"
+    },
+    {
+      "date": "2026-09-14",
+      "title": "AI 安全治理框架 3.0",
+      "country": "中国",
+      "status": "已发布",
+      "detail": "全国网安标委发布风险分类、技术应对和综合治理指引；属技术治理框架，并非强制性法律。",
+      "sourceUrl": "https://www.cac.gov.cn/2026-09/14/c_1791137092283345.htm",
+      "sourceName": "国家网信办／全国网安标委"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "S.5576 安全法案",
+      "country": "美国",
+      "status": "提案",
+      "detail": "参议院提出并转交商务、科学与运输委员会，拟设 AI Safety Board；此记录为提交版本，不能标成已生效。",
+      "sourceUrl": "https://www.govinfo.gov/app/details/BILLS-119s5576is",
+      "sourceName": "美国政府出版局 GovInfo"
+    }
+  ],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "measures": [
+        {
+          "name": "能力分级",
+          "status": "公开实施证据",
+          "detail": "Astra 被判定达到 Critical 网络安全能力阈值。",
+          "sourceUrl": "https://openai.com/index/path-to-astra/"
+        },
+        {
+          "name": "环境隔离",
+          "status": "公开实施证据",
+          "detail": "调查后加强训练基础设施隔离与网络控制。",
+          "sourceUrl": "https://openai.com/index/path-to-astra/"
+        },
+        {
+          "name": "权限控制",
+          "status": "公开实施证据",
+          "detail": "高级网络能力限制访问，按可信防御用途开放。",
+          "sourceUrl": "https://openai.com/index/path-to-astra/"
+        },
+        {
+          "name": "行为监控",
+          "status": "公开实施证据",
+          "detail": "部署推理与行动监控，阻断潜在越权行为。",
+          "sourceUrl": "https://openai.com/index/path-to-astra/"
+        },
+        {
+          "name": "独立评估",
+          "status": "公开实施证据",
+          "detail": "METR 发布针对 Hugging Face 事件的独立调查。",
+          "sourceUrl": "https://metr.org/zh-hans/blog/2026-08-26-openai-hugging-face-incident-investigation/"
+        },
+        {
+          "name": "事故披露",
+          "status": "公开实施证据",
+          "detail": "公开发布 Hugging Face 事故调查与后续措施。",
+          "sourceUrl": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
+        }
+      ]
+    },
+    {
+      "name": "Anthropic",
+      "measures": [
+        {
+          "name": "能力分级",
+          "status": "公开实施证据",
+          "detail": "CVP 区分三类访问层级及不同安全控制。",
+          "sourceUrl": "https://www.anthropic.com/news/cyber-verification-program"
+        },
+        {
+          "name": "环境隔离",
+          "status": "制度承诺",
+          "detail": "事故报告要求加强评测环境隔离与供应商基础设施加固；文中未证明全部评测已完成整改。",
+          "sourceUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+        },
+        {
+          "name": "权限控制",
+          "status": "公开实施证据",
+          "detail": "CVP 核验组织并按工作范围授予访问。",
+          "sourceUrl": "https://www.anthropic.com/news/cyber-verification-program"
+        },
+        {
+          "name": "行为监控",
+          "status": "公开实施证据",
+          "detail": "CVP 要求保留相关数据以监控网络滥用。",
+          "sourceUrl": "https://www.anthropic.com/news/cyber-verification-program"
+        },
+        {
+          "name": "独立评估",
+          "status": "公开实施证据",
+          "detail": "已向 METR 六人团队提供深入访问权限。",
+          "sourceUrl": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+        },
+        {
+          "name": "事故披露",
+          "status": "公开实施证据",
+          "detail": "7 月披露三起事件，9 月更新第四起事件。",
+          "sourceUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+        }
+      ]
+    },
+    {
+      "name": "Google DeepMind",
+      "measures": [
+        {
+          "name": "能力分级",
+          "status": "公开实施证据",
+          "detail": "已将 FSF 能力阈值用于 Gemini 2.0 等前沿模型评估。",
+          "sourceUrl": "https://deepmind.google/blog/updating-the-frontier-safety-framework/"
+        },
+        {
+          "name": "环境隔离",
+          "status": "资料不足",
+          "detail": "本次所核验资料未明确提供评测环境隔离的实施范围。",
+          "sourceUrl": "https://deepmind.google/blog/updating-the-frontier-safety-framework/"
+        },
+        {
+          "name": "权限控制",
+          "status": "公开实施证据",
+          "detail": "Fairwind 面向政府与可信客户提供受限访问。",
+          "sourceUrl": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"
+        },
+        {
+          "name": "行为监控",
+          "status": "资料不足",
+          "detail": "本次核验的 FSF 与 Fairwind 说明不足以判断实时行为监控的覆盖情况。",
+          "sourceUrl": "https://deepmind.google/blog/updating-the-frontier-safety-framework/"
+        },
+        {
+          "name": "独立评估",
+          "status": "制度承诺",
+          "detail": "FSF 描述外部专家合作与评估治理；不能据此认定所有模型均经独立审计。",
+          "sourceUrl": "https://deepmind.google/blog/updating-the-frontier-safety-framework/"
+        },
+        {
+          "name": "事故披露",
+          "status": "资料不足",
+          "detail": "本矩阵未取得可用来确认该项的官方事故披露原文；资料不足不代表没有披露。",
+          "sourceUrl": "https://deepmind.google/blog/updating-the-frontier-safety-framework/"
+        }
+      ]
+    },
+    {
+      "name": "Meta",
+      "measures": [
+        {
+          "name": "能力分级",
+          "status": "公开实施证据",
+          "detail": "Muse Spark 1.1 按 Advanced AI Scaling Framework 评估能力与部署阈值。",
+          "sourceUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "环境隔离",
+          "status": "制度承诺",
+          "detail": "事故后正实施评测环境隔离和场景审核的独立核验要求。",
+          "sourceUrl": "https://research.meta.ai/blog/addressing-third-party-testing-misconfiguration-muse-spark-1-1"
+        },
+        {
+          "name": "权限控制",
+          "status": "资料不足",
+          "detail": "本次官方模型介绍未明确给出最小权限控制的具体实施证据。",
+          "sourceUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "行为监控",
+          "status": "制度承诺",
+          "detail": "事故回顾识别了监控改进方向，不能据此确认全面部署完成。",
+          "sourceUrl": "https://research.meta.ai/blog/addressing-third-party-testing-misconfiguration-muse-spark-1-1"
+        },
+        {
+          "name": "独立评估",
+          "status": "公开实施证据",
+          "detail": "由 Irregular 执行第三方网络安全能力评测。",
+          "sourceUrl": "https://research.meta.ai/blog/addressing-third-party-testing-misconfiguration-muse-spark-1-1"
+        },
+        {
+          "name": "事故披露",
+          "status": "公开实施证据",
+          "detail": "公开披露 Muse Spark 1.1 第三方评测事故。",
+          "sourceUrl": "https://research.meta.ai/blog/addressing-third-party-testing-misconfiguration-muse-spark-1-1"
+        }
+      ]
+    }
+  ],
+  "verificationNotes": [
+    "事件时间轴记录公开披露／政策行动日期，不构成完整事故样本，也不用于计算行业事故发生率。",
+    "企业矩阵根据所列公开资料进行人工证据编码，反映可核验措施及其范围，不是企业安全性评分；公开实施证据包含企业自报，不等于已通过独立有效性认证。",
+    "资料不足不表示企业没有该措施。第三方能力评测不等于对企业全部治理措施的审计。",
+    "政策状态截至 2026-10-20；发布、签署、施行和提出法案是不同法律节点。时间轴中的已发布包含政策框架、行政令和立法计划。",
+    "原稿 2026 年主要事件与政策可通过官方来源核验；本图精选官方证据充分的节点，未将仅媒体报道的腾讯、Google 越权案例列入。",
+    "加州 SB 813 与 AB 1405 于 2026-09-09 签署的事实可核验，但本数据未核实全部施行条款，故未将其绘为已生效节点。"
+  ]
+}
