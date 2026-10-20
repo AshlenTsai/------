@@ -100,13 +100,13 @@
     },
     {
       "id": "gtig-exploitation",
-      "title": "漏洞在野利用的月均变化",
+      "title": "被利用的漏洞的月均数量",
       "sourceName": "Google Threat Intelligence Group",
       "sourceUrl": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era",
       "date": "2026-09-30",
       "sample": "2025年全年与2026年1—8月，GTIG观测到的实际利用；采用报告公布的月均值",
       "unit": "项 / 月",
-      "note": "零日漏洞是全部被利用漏洞的子集，两个系列不可相加。报告月均数经过舍入；比较区间长度不同，且观测受检测覆盖影响。",
+      "note": "零日漏洞是全部被利用漏洞的子集。报告月均数经过舍入；比较区间长度不同，且观测受检测覆盖影响。",
       "rows": [
         {
           "label": "2025年",
@@ -121,12 +121,12 @@
         {
           "label": "2025年",
           "value": 8.0,
-          "series": "其中：零日漏洞"
+          "series": "零日漏洞"
         },
         {
           "label": "2026年1—8月",
           "value": 11.0,
-          "series": "其中：零日漏洞"
+          "series": "零日漏洞"
         }
       ],
       "localSource": "/data/sources/cyber/gtig.html"

@@ -155,6 +155,87 @@
       "detail": "参议院提出并转交商务、科学与运输委员会，拟设 AI Safety Board；此记录为提交版本，不能标成已生效。",
       "sourceUrl": "https://www.govinfo.gov/app/details/BILLS-119s5576is",
       "sourceName": "美国政府出版局 GovInfo"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "加州独立评估制度",
+      "country": "美国",
+      "status": "已签署",
+      "detail": "SB 813与AB 1405建立独立验证组织及AI审计机构相关制度；签署不等同于所有条款当日适用。",
+      "sourceUrl": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+      "sourceName": "加州州长办公室"
+    },
+    {
+      "date": "2026-03-13",
+      "title": "研究推进 AI 立法",
+      "country": "中国",
+      "status": "立法研究",
+      "detail": "司法部表示加快研究推进人工智能等领域立法，属于立法进程，尚非已出台法律。",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/zwgkztzl/2026nianzhuanti/2026qglh0206/bttd2026310/202603/t20260313_532758.html",
+      "sourceName": "司法部"
+    },
+    {
+      "date": "2026-07-28",
+      "title": "研究制定人工智能法",
+      "country": "中国",
+      "status": "立法研究",
+      "detail": "司法部表示与有关部门加快研究制定人工智能法，不能视为法律已经生效。",
+      "sourceUrl": "https://www.moj.gov.cn/pub/sfbgw/jgsz/jgszjgtj/jgtjfzdyj/fzdyjtjxw/202607/t20260728_537932.html",
+      "sourceName": "司法部"
+    },
+    {
+      "date": "2024-08-01",
+      "title": "AI 法案生效",
+      "country": "欧盟",
+      "status": "已生效 · 分阶段适用",
+      "detail": "建立风险分级法律框架；生效日期不等于全部义务的适用日期。",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "sourceName": "欧盟委员会"
+    },
+    {
+      "date": "2025-02-02",
+      "title": "禁止性规则开始适用",
+      "country": "欧盟",
+      "status": "已适用",
+      "detail": "首批禁止性规则和AI素养义务开始适用；AI素养要求在2026年修订中得到简化。",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "sourceName": "欧盟委员会"
+    },
+    {
+      "date": "2025-07-10",
+      "title": "通用 AI 实践准则",
+      "country": "欧盟",
+      "status": "自愿准则",
+      "detail": "提供透明度、版权和安全与安保合规指引；安全章节面向系统性风险模型，未签署者仍承担法定义务。",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+      "sourceName": "欧盟委员会"
+    },
+    {
+      "date": "2025-08-02",
+      "title": "通用 AI 模型义务",
+      "country": "欧盟",
+      "status": "开始适用 · 存量过渡",
+      "detail": "系统性风险模型提供者须评估与对抗测试、缓解风险、报告严重事件并保障网络安全；存量模型另有过渡期。",
+      "sourceUrl": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-55",
+      "sourceName": "欧盟委员会"
+    },
+    {
+      "date": "2026-07-27",
+      "title": "AI Omnibus 修订",
+      "country": "欧盟",
+      "status": "已生效",
+      "detail": "附件III相关高风险规则延至2027-12-02，附件I产品内嵌高风险规则延至2028-08-02；截至2026-10-20尚未到来。",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force",
+      "sourceName": "欧盟委员会"
+    },
+    {
+      "date": "2026-08-02",
+      "title": "透明度规则与监督执法",
+      "country": "欧盟",
+      "status": "已适用",
+      "detail": "透明度规则开始适用；AI办公室与成员国主管机关承担相应监督执法职责，AI办公室负责通用模型监管。",
+      "sourceUrl": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline",
+      "sourceName": "欧盟委员会"
     }
   ],
   "companies": [
@@ -329,6 +410,7 @@
     "资料不足不表示企业没有该措施。第三方能力评测不等于对企业全部治理措施的审计。",
     "政策状态截至 2026-10-20；发布、签署、施行和提出法案是不同法律节点。时间轴中的已发布包含政策框架、行政令和立法计划。",
     "原稿 2026 年主要事件与政策可通过官方来源核验；本图精选官方证据充分的节点，未将仅媒体报道的腾讯、Google 越权案例列入。",
-    "加州 SB 813 与 AB 1405 于 2026-09-09 签署的事实可核验，但本数据未核实全部施行条款，故未将其绘为已生效节点。"
+    "加州 SB 813 与 AB 1405 于 2026-09-09 签署的事实可核验，但本数据未核实全部施行条款，故未将其绘为已生效节点。",
+    "欧盟资料核验截至2026-10-20；区分法律生效、义务适用、自愿准则和高风险规则未来适用日期。政策侧栏按正文顺序对齐，不表示等比例时间轴。"
   ]
 }

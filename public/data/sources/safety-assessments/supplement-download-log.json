@@ -1,0 +1,43 @@
+[
+  {
+    "id": "assessment-121",
+    "status": 200,
+    "sha256": "0ad81e8b6fd3bd5c32868fd80312d64780cc5b08298af7fc60187bc4b1489c20",
+    "textLength": 12185
+  },
+  {
+    "id": "assessment-122",
+    "status": 200,
+    "sha256": "37df7ab47f5c142891d25a1f351a7b3e9d1e38f5e13b8346ac15ed6470074db0",
+    "textLength": 46236
+  },
+  {
+    "id": "assessment-123",
+    "status": 200,
+    "sha256": "5fe918b740727770d0571684fd8c168190172649d2b2e8b7ca4cacad23b3e027",
+    "textLength": 39542
+  },
+  {
+    "id": "assessment-124",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1/"
+  },
+  {
+    "id": "assessment-125",
+    "status": 200,
+    "sha256": "635f30c2ea83cd2b4a1ef46bb7626e8330b635e826c53a6e77f07b279780ad6d",
+    "textLength": 15910
+  },
+  {
+    "id": "assessment-126",
+    "status": 200,
+    "sha256": "d7df3d6f537f025037f32ebe13198e3ea5500ea3e0967abdcceb80e31262d386",
+    "textLength": 355943
+  },
+  {
+    "id": "assessment-127",
+    "status": 200,
+    "sha256": "f3c5b175d26159b92891b32380515ec1036f4ffe2862e19d7277fd165e0d9663",
+    "textLength": 147300
+  }
+]

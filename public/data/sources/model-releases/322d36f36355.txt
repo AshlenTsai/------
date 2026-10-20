@@ -1,0 +1,90 @@
+Introducing Kimi-Dev:
+A Strong and Open-source Coding LLM for Issue Resolution
+Kimi-Dev Team
+📄 Tech Report (Coming soon...)
+|
+📄 Github
+We introduce Kimi-Dev-72B, our new open-source coding LLM for software engineering tasks. Kimi-Dev-72B achieves a new state-of-the-art on SWE-bench Verified among open-source models.
+Kimi-Dev-72B achieves 60.4% performance on SWE-bench Verified. It surpasses the runner-up, setting a new state-of-the-art result among open-source models.
+Kimi-Dev-72B is optimized via large-scale reinforcement learning. It autonomously patches real repositories in Docker and gains rewards only when the entire test suite passes. This ensures correct and robust solutions, aligning with real-world development standards.
+Kimi-Dev-72B is available for download and deployment on Hugging Face and GitHub. We welcome developers and researchers to explore its capabilities and contribute to development.
+Performance of Open-source Models on SWE-bench Verified.
+Quick Start
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model_name = "moonshotai/Kimi-Dev-72B"
+
+model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype="auto",
+    device_map="auto"
+)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+prompt = "Give me a short introduction to large language model."
+messages = [
+    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "user", "content": prompt}
+]
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True
+)
+model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
+
+generated_ids = model.generate(
+    **model_inputs,
+    max_new_tokens=512
+)
+generated_ids = [
+    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+]
+
+response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+Citation
+@misc{kimi_dev_72b_2025,
+  title        = {Introducing Kimi-Dev: A Strong and Open-source Coding LLM for Issue Resolution},
+  author       = {{Kimi-Dev Team}},
+  year         = {2025},
+  month        = {June},
+  url          = {\url{https://www.moonshot.cn/Kimi-Dev}}
+}
+Downloads last month
+2,138
+Safetensors
+Model size
+73B params
+Tensor type
+BF16
+·
+Chat template
+Files info
+Inference Providers
+NEW
+Featherless AI
+Text Generation
+Examples
+Input a message to start chatting with
+moonshotai/Kimi-Dev-72B
+.
+Send
+View Code
+Snippets
+Compare providers
+Model tree for
+moonshotai/Kimi-Dev-72B
+Base model
+Qwen/Qwen2.5-72B
+Finetuned
+(
+69
+)
+this model
+Finetunes
+2 models
+Quantizations
+23 models
+Spaces using
+moonshotai/Kimi-Dev-72B
+13

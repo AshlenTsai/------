@@ -1,0 +1,367 @@
+QWEN CHAT
+DISCORD
+Introduction
+#
+The evolution of multimodal large models is continually pushing the boundaries of what we believe technology can achieve. From the initial QwenVL to the latest Qwen2.5 VL, we have made progress in enhancing the model’s ability to understand image content. Today, we are excited to introduce a new model, Qwen VLo, a unified multimodal understanding and generation model. This newly upgraded model not only “understands” the world but also generates high-quality recreations based on that understanding, truly bridging the gap between perception and creation. Note that this is a preview version and you can access it through Qwen Chat. You can directly send a prompt like “Generate a picture of a cute cat” to generate an image or upload an image of a cat and ask “Add a cap on the cat’s head” to modify an image. The image generation process is shown below.
+The Creative Process: Turn Your Imagination Into Reality
+As demonstrated in the video showcasing the generative process, Qwen VLo employs a progressive generation method, gradually constructing the entire image from left to right and top to bottom. During this process, the model continuously refines and optimizes its predictions to ensure that the final result is coherent and harmonious. This generative mechanism not only enhances visual quality but also provides users with a more flexible and controllable creative experience.
+From Understanding to Creation: Enhanced Multimodal Generation Capabilities
+#
+Qwen VLo has undergone a comprehensive upgrade in both its original multimodal understanding and generation capabilities. It significantly deepens its comprehension of image content and achieves more accurate and consistent generation results. Below are the core highlights of Qwen VLo:
+More Precise Content Understanding and Recreation
+Previous multimodal models often struggled with semantic inconsistencies during the generation process, such as misinterpreting a car as another object or failing to retain key structural features of the original image. Qwen VLo, equipped with enhanced detail-capturing abilities, maintains a high level of semantic consistency throughout the generation process. For instance, when a user inputs a photo of a car and requests a “color change,” Qwen VLo can accurately identify the car model, preserve its original structure, and naturally transform its color style. The generated result meets expectations while maintaining realism.
+Support for Open-Ended Instruction-Based Editing
+Users can provide creative instructions in natural language, such as “change this painting to a Van Gogh style,” “make this photo look like it’s from the 19th century,” or “add a sunny sky to this image.” Qwen VLo can flexibly respond to these open-ended commands and produce results that align with user expectations. Whether it’s artistic style transfer, scene reconstruction, or detailed touch-ups, the model handles them all with ease. Even traditional visual perception tasks, such as predicting depth maps, segmentation maps, detection maps, and edge information, can be accomplished through simple editing instructions. Furthermore, Qwen VLo can also seamlessly handle more complex instructions — such as modifying objects, editing text, and changing backgrounds — all within a single command.
+Multilingual Instruction Support
+Qwen VLo supports multiple languages, including Chinese and English, breaking down language barriers and providing a unified, convenient interaction experience for global users. Regardless of the language you use, simply describe your needs, and the model will quickly understand and deliver the desired output.
+Demo Cases
+#
+Qwen VLo acts like a human artist, using its understanding to turn imagination into reality. Below are some examples for reference.
+Qwen VLo is capable of directly generating images and modifying them by replacing backgrounds, adding subjects, performing style transfers, and even executing extensive modifications based on open-ended instructions, as well as handling detection and segmentation tasks.
+A cute Shiba Inu
+Next
+User
+生成一个可爱的柴犬
+Translation: Generate a cute Shiba Inu
+Qwen-VLo
+User
+背景改成草原
+Translation: Change the background to a grassland
+Qwen-VLo
+User
+给它带上红色帽子和黑色透明墨镜,帽子上写着“QwenVLo”
+Translation: Put a red hat and black transparent sunglasses on it, with ‘QwenVLo’ written on the hat
+Qwen-VLo
+User
+变成吉卜力风格
+Translation: Switch to Ghibli style
+Qwen-VLo
+User
+变成3d Q版风格
+Translation: Switch to 3D Q-version style
+Qwen-VLo
+User
+把它放到水晶球里
+Translation: Place it inside a crystal ball
+Qwen-VLo
+User
+桌面上摆着这个水晶球，生成以一个人的第一视角在公园的圆形咖啡桌上在笔记本上画画
+Translation: Place this crystal ball on a desk and generate an image from a first-person perspective of someone drawing on a notebook placed on a round coffee table in a park
+Qwen-VLo
+User
+用蓝色的蒙版检测框框出图中的笔
+Translation: Use a blue mask to detect and frame the pen in the picture
+Qwen-VLo
+User
+用粉色的mask分割出图中的狗狗边缘
+Translation: Use a pink mask to segment the edge of the dog in the picture
+Qwen-VLo
+Qwen VLo can reinterpret and recreate based on its understanding, allowing for greater flexibility in style changes and migrations, such as transforming cartoons into realistic images or turning figures into balloons, among other creative outputs.
+Style Conversion
+Next
+User
+变成真实照片
+Translation: Turn into a real photo
+Qwen-VLo
+User
+背景换成艾弗尔铁塔
+Translation: Change the background to the Eiffel Tower
+Qwen-VLo
+User
+变成气球飘到空中
+Translation: Turn into a balloon floating in the air
+Qwen-VLo
+User
+把西瓜换成榴莲
+Translation: Replace the watermelon with durian
+Qwen-VLo
+Style Conversion
+Next
+User
+Convert the couple in the photo into a minimalist flat illustration style Q-version sticker, retaining the facial features, with thick white borders, figures extending beyond the circular area, the circular area filled with a solid color, transparent background, and an overall cute style.
+Qwen-VLo
+User
+Convert the couple in the photo into a detailed, exquisite, and adorable 3D rendered collectible figurine, placed inside a cozy and romantic display box decorated with light cream and soft golden accents, while preserving the characteristics of the snowy scene and the figures’ poses.
+Qwen-VLo
+User
+Add the text “Happy Wedding”
+Qwen-VLo
+Style Conversion
+Next
+User
+变成吉卜力风格
+Translation: Turn into Ghibli style
+Qwen-VLo
+User
+变成海贼王画风
+Translation: Turn into One Piece art style
+Qwen-VLo
+User
+变成龙珠画风
+Translation: Turn into Dragon Ball art style
+Qwen-VLo
+User
+变成海绵宝宝风格
+Translation: Turn into SpongeBob style
+Qwen-VLo
+User
+变成我的世界里的角色
+Translation: Turn into a character from Minecraft
+Qwen-VLo
+User
+变成像素画风格
+Translation: Turn into pixel art style
+Qwen-VLo
+Style Conversion
+Next
+User
+将照片中的猫转换为皮克斯 3D 风格，保持蓝眼睛和白橙色毛发特征，背景为红色树叶的秋日氛围。
+Translation: Transform the cat in the photo into Pixar 3D style, maintaining the features of blue eyes and white-orange fur, with the autumn atmosphere of red leaves in the background.
+Qwen-VLo
+Style Conversion
+Next
+User
+将迈阿密夜景的繁华城市天际线转换为果冻质感（布丁造型）的特殊材质建模风格，主题为现代都市，添加透明果冻层叠加的效果和微妙的弹性物理模拟。
+Translation: Transform the bustling city skyline of Miami’s night view into a special material modeling style with a jelly-like texture (pudding shape), with the theme of modern city. Add the effect of transparent jelly layer superimposition and subtle elastic physical simulation.
+Qwen-VLo
+Style Conversion
+Next
+User
+将照片中的女性主体转换为细致精美的3D渲染收藏摆件，装置在浅奶油色与柔和金色装饰的温馨展示盒中，保持优雅姿态与服饰细节，采用萌趣可爱的风格表现。
+Translation: Convert the female subject in the photo to a detailed and exquisite 3D rendered collectible figure, displayed in a warm and cozy display box with a shallow cream color and soft golden decoration, maintaining an elegant pose and clothing details, presented in a cute and adorable style.
+Qwen-VLo
+Style Conversion
+Next
+User
+将铁王座转换为Jellycat毛绒玩具风格，保持剑刃纹理细节，采用柔和的毛绒材质渲染。
+Translation: Transform the Iron Throne into the Jellycat plush toy style, retain the texture details of the sword blade, and use soft plush material for rendering.
+Qwen-VLo
+Style Conversion
+Next
+User
+生成一条可爱的锦鲤，背景是西湖雷峰塔
+Translation: Generate a cute koi with the Leifeng Pagoda in West Lake as the background
+Qwen-VLo
+User
+把图片转化为乐高人偶风格，模块化积木造型，保持鱼的廓形，采用简洁的背景突出主体，添加柔光渲染效果
+Translation: Transform the picture into a Lego figure style, with modular building block shapes, maintain the outline of the fish, use a simple background to highlight the main subject, and add soft light rendering effects
+Qwen-VLo
+Style Conversion
+Next
+User
+将照片中的红色跑车转换为细致精美的3D渲染收藏摆件，装置在浅奶油色与柔和金色装饰的粉彩展示盒中，保持跑车的红色条纹特征，采用萌趣可爱风格。
+Translation: Transform the red sports car in the photo into a detailed and exquisite 3D rendered collectible ornament, installed in a pastel display box decorated with light cream and soft gold, maintaining the red stripe feature of the sports car and adopting a cute and playful style.
+Qwen-VLo
+User
+把图中的跑车变成毛绒玩具
+Translation: Turn the car in the picture into a plush toy.
+Qwen-VLo
+User
+再把跑车变成奶油布丁风格的
+Translation: Turn the car into a cream pudding style.
+Qwen-VLo
+The model’s advanced capabilities in image and instruction comprehension enable it to better interpret complex commands, incorporating multiple operations and modifications in a single instruction. This allows for the completion of multi-step tasks in one go, such as creating posters or combining objects.
+Complex Image Prompt
+Next
+User
+Generate a photo in which a man wearing a black hat is reading a newspaper on the subway, next to him is a beautiful young woman wearing red sunglasses, and there’s also a Husky dog. The subway window shows the Statue of Liberty, and the subway station sign displays ‘Qwen VLo’.
+(翻译：生成照片，图中男人带着黑帽子在地铁上看报纸，旁边是一个美丽的带红色墨镜年轻女性，还有一只哈士奇，地铁的窗外是自由女神像，地铁的站牌显示“Qwen VLo”)
+Qwen-VLo
+Complex Image Prompt
+Next
+User
+now generate a POV of a person drawing this diagram in their notebook, at a round cafe table in park
+Qwen-VLo
+User
+now show the same scene with a smug young Isaac Newton sitting at the table, with a prism, demonstrating the experiment, without the notebook in view
+Qwen-VLo
+Poster Your Cat
+Next
+User
+生成一只黑色的小猫
+Translation: Generate a black kitten
+Qwen-VLo
+User
+生成一个以这只小黑猫为主体的广角巨幅摄影，主角小黑猫骄傲地站在中间，戴着一顶鲜红色的帽子，为它可爱的外表增添了一丝奇思妙想。在它的左边，动物们成群结队，老虎、狮子、猴子、鹿和天上的飞鸟，它们的眼睛闪烁着凶猛的光芒，散发出一种不可战胜的气势。在右边是一只外星人，还有一个发出耀眼的深蓝色光的飞碟。飞碟发出眩目的光束，与动物大军形成鲜明对比。广角镜头捕捉到了壮观的场景，突出了小猫的勇敢和双方之间的紧张关系。
+Translation: Generate a wide-angle large-scale photograph with this little black cat as the main subject. The protagonist, the little black cat, stands proudly in the middle, wearing a bright red hat, adding a touch of ingenuity to its cute appearance. On its left, there are groups of animals, tigers, lions, monkeys, deer and birds in the sky. Their eyes sparkle with fierce light and exude an invincible momentum. On the right is an alien and a flying saucer emitting dazzling deep blue light. The flying saucer emitted dazzling beams of light, in sharp contrast to the army of animals. The wide-angle lens captured the spectacular scene, highlighting the kitten’s bravery and the tension between the two sides.
+Qwen-VLo
+Poster Generation
+Next
+User
+生成一个关于这个咖啡的宣传海报，咖啡罐是主体，放在木质桌面上，有一种自然复古感。咖啡罐打开，上方悬着一个正在向下倒水的手冲壶，咖啡向外泼溅，散发出袅袅热气。主色调用深棕/咖色（象征咖啡）搭配奶白/浅金（象征奶泡），标题是奶泡风格的手写体“一杯咖啡，唤醒你的清晨”
+Translation: Create a promotional poster for this coffee. The main subject is a coffee jar placed on a wooden tabletop, giving a natural and vintage feel. The jar is open, with a hand-pouring kettle suspended above it, pouring water downward. Coffee beans are splashing out and steam is rising. The color scheme features deep brown/sepia (symbolizing coffee) paired with creamy white/light gold (representing milk foam). The title is in milk foam-style handwriting: ‘A Cup of Coffee to Wake Up Your Morning.’
+Qwen-VLo
+User
+Set the object in the image as the main visual focus, placing it centrally in the frame. The background should have a dark blue tone. The desk lamp is turned on, with light gradually diffusing outward, creating a warm orange-yellow halo effect. In front of the lamp base, place a dark wood desk surface with a few pages of an open magazine and a pair of sunglasses scattered on it. The overall style leans towards a vintage modern aesthetic, with strong contrasts in light and shadow. The color scheme creates tension between dark blue and orange. The title should be placed in the upper right corner of the image, with the text: “Illuminating not just the desk, but an attitude.”
+翻译：将图像中的主体设为视觉焦点，置于画面中央。背景采用深蓝色调。台灯处于开启状态，光线逐渐向外扩散，营造出温暖的橙黄色光晕效果。在灯座前方，放置深色木制桌面，桌面上散落着几页打开的杂志和一副太阳镜。整体风格偏向复古现代风，光影对比强烈。色彩搭配上，深蓝色与橙色形成张力。标题位于图像右上角，文字为：“Illuminating not just the desk, but an attitude.”（照明不仅是书桌，更是一种态度。）
+Qwen-VLo
+User
+一、核心视觉元素
+主体强化
+保留高清苹果主体（占比40%-50%画面）
+增加苹果切面展示：横向剖面（5片星形果核）+纵向剖面（果肉纤维特写）
+水晶质感：在苹果表面添加1-2滴写实水珠（直径约苹果1/8高度）
+自然生态元素
+动态飘落的苹果花花瓣（3-5片，浅粉色渐变）
+蜜蜂停留特写（透明翅膀动态效果）
+老树根局部肌理（右下角虚化处理）
+二、信息架构系统
+标题层级
+主标题（24pt）：「咬一口阳光的味道」
+副标题（14pt）：「来自海拔1200米的冰川矿物土壤」
+Qwen-VLo
+In addition to image editing and re-creation, Qwen VLo can also perform annotations on existing information, such as detection, segmentation, edge detection, and more.
+Perception and Localization
+Next
+User
+生成摆满水果的桌面
+Translation: Generate a table full of fruits
+Qwen-VLo
+User
+预测边缘检测图
+Translation: Predict an edge detection map
+Qwen-VLo
+User
+用红色mask分割图中香蕉的边缘
+Translation: Use a red mask to segment the edges of the banana in the image.
+Qwen-VLo
+Select Remove Add
+Next
+User
+生成一张凌乱的书桌，上面堆满了各种物品。一边是书本、笔记本和文具胡乱堆叠，新旧笔记交错，笔帽、橡皮等文具散落一旁。另一边电子产品如手机、平板和电脑“各占一方”，充电线杂乱缠绕。
+Translation: Generate a messy desk, which is piled up with all kinds of items. On one side, books, notebooks and stationery are randomly piled up, with new and old notes interwoven, and pen caps, erasers and other stationery are scattered around. On the other side, electronic products such as mobile phones, tablets and computers each occupy their own space, with charging cables tangled up in a mess.
+Qwen-VLo
+User
+用红色的框标示出图中的手机
+Translation: Mark the mobile phone in the picture with a red box
+Qwen-VLo
+User
+擦除这个手机
+Translation: Erase this mobile phone
+Qwen-VLo
+User
+在桌面上添加一杯咖啡
+Translation: Add a cup of coffee on the desk
+Qwen-VLo
+User
+将这张图变成边缘检测图
+Translation: Convert this picture into an edge detection picture
+Qwen-VLo
+Qwen VLo supports the understanding and generation of multiple input images. (The function of multiple image inputs has not yet been officially launched, so stay tuned.)
+Multiple image input
+Next
+User
+把这些洗浴用品，放到这个红色的篮子里面
+Translation: Put these bathing products into this red basket.
+Qwen-VLo
+Moreover, besides supporting tasks that involve both text and image inputs, Qwen VLo also supports direct text-to-image generation, including general images as well as bilingual (Chinese and English) posters.
+Text to Image
+Next
+User
+Epic anime artwork of a wizard atop a mountain at night casting a cosmic spell into the dark sky that says “Qwen VLo!” made out of colorful energy'
+Qwen-VLo
+Text to Image
+Next
+User
+Fisheye lens, an orange cat wearing sunglasses, a scarf, and fuzzy ear muffs stands on the snow smiling while taking a selfie. In the background are continuous snow-capped mountains, and a small yellow rubber duck toy peeks out from its backpack.
+Qwen-VLo
+Text to Image
+Next
+User
+米开朗基罗头像画面凹版印刷，黑白图片，精致的线条细致线条刻画细节，细致的细节，白色背景，高清画质。
+Qwen-VLo
+Text to Image
+Next
+User
+A lone astronaut floats inside a vast space station, painting swirling galaxies onto a massive canvas that hangs weightlessly in the air. Their paintbrush leaves behind trails of cosmic dust, and their suit is stained with nebula-colored hues. Their helmet is off, revealing eyes filled with the reflection of distant planets. Outside the glass window, a black hole looms, twisting light into mesmerizing patterns.
+Qwen-VLo
+Text to Image
+Next
+User
+Typographic art, a road, a road with a text “2025”, a tiny silhouette of a man waving, a tiny man dragging a suitcase, soft focus effect, new Chinese style, ink lines, wet ink smudges, dark red sprinkled with gold foil background, commercial illustration, rock color, the title is centered with a large handwritten graffiti “A New Beginning”, impact, scribbled handwriting, artistic composition
+Qwen-VLo
+Text to Image
+Next
+User
+国风海报设计，文字排版艺术，一条路，道路劲头涂鸦“2025”，一个极小的小人剪影挥手，一个极小的人拖着行李箱，柔焦效果，新中式，水墨线条，湿墨晕染，暗红色洒金箔背景，商业插画，岩彩，标题居中手写大大的涂鸦“新的开始”，冲击力，潦草字迹，艺术构图
+Qwen-VLo
+Text to Image
+Next
+User
+国风绘画，电影海报，意境，写意，设计感，画面下方是小小的一个骑马奔跑的唐朝官员剪影，红色背景上隐约可见的荔枝纹理，穿插几片绿叶，狂草书法字“长安”，排版设计
+Qwen-VLo
+Text to Image
+Next
+User
+Crayon scraper painting, large color blocks, smudges, freehand brushwork, on a golden hill, a father and his daughter are running, slanted, the sky is a deep and dark dreamy star track, serif font headline “Father’s Day”.
+Qwen-VLo
+Qwen VLo supports image generation with dynamic aspect ratio, and can easily handle elongated formats with aspect ratios as extreme as 4:1 or 1:3. (The feature for generating images with extreme aspect ratios is not yet officially launched—stay tuned for its release.)
+Text to Image
+Next
+User
+动漫插画；水彩手绘；前景是草坡，草坡上有个人在奔跑，动态感，然后是厚重的白云；蓝色背景；颜色层次多渐变；过渡自然和谐
+Translation: Anime illustration; watercolor hand-drawn style; the foreground features a grassy hill where a person is running, conveying a sense of motion. Behind are thick, billowing clouds; blue background; multi-layered color gradients with smooth and harmonious transitions.
+Qwen-VLo
+Text to Image
+Next
+User
+大海中快速行驶微小的船，光学调色风格，鸟瞰大图，彩虹渐变海平面，一半海水一半油画，国家地理照片，8K分辨率，蜡笔涂抹艺术，互动艺术品
+Translation: A tiny boat swiftly sailing across the vast ocean, optical color grading style, aerial view, rainbow gradient horizon, half sea and half oil painting texture, National Geographic photo style, 8K resolution, crayon brushstroke art, interactive artwork, no watermark or logo.
+Qwen-VLo
+Text to Image
+Next
+User
+丛林时尚 标题“Qwen VLo”，flowers，这是一幅植物插画，前景描绘了盛开的仙人掌。背景中充满了各种植物，包括沙漠植物和一些栖息在其中的小鸟。这种设计适合自然主题的封面或横幅
+Translation: Jungle Chic, titled “Qwen VLo”, flowers. This is a botanical illustration where the foreground depicts blooming cacti. The background is filled with various plants, including desert flora and small birds inhabiting them. This design is suitable for nature-themed covers or banners.
+Qwen-VLo
+Text to Image
+Next
+User
+这是一幅充满禅意的金箔彩画，细腻地描绘了一位渔翁静立于芦苇丛中的场景。画面中，微风轻拂，芦苇摇曳，光影交错之间展现出强烈的对比效果。明亮的部分以金箔点缀，闪耀着温暖而神圣的光辉，而暗部则通过深邃的阴影营造出神秘与宁静的氛围。整体画面传递出一种超然物外的空灵之感，仿佛将观者带入一个远离尘世喧嚣、唯有自然与内心对话的静谧世界。
+Translation: This is a Zen-inspired colorful gold-leaf painting that delicately depicts an old fisherman standing quietly among reeds. In the scene, a gentle breeze sways the reeds, creating a play of light and shadow that reveals strong contrast. Bright areas are accented with gold leaf, glowing with warm and sacred radiance, while darker parts use deep shadows to evoke a sense of mystery and tranquility. The overall image conveys a transcendent ethereal quality, as if drawing viewers into a serene world far removed from worldly noise — a place of quiet communion between nature and the inner self.
+Qwen-VLo
+Text to Image
+Next
+User
+一幅壮丽的自然风景画，展现巍峨的雪山耸立于远方，山峰覆盖着洁白的积雪，反射出耀眼的光芒。雪山脚下是一片辽阔的草原，有一个人在骑马，绿草如茵，点缀着五彩斑斓的野花。一条蜿蜒的河流从草原中穿过，河水清澈见底，在阳光下泛起粼粼波光。天空湛蓝，漂浮着几缕白云，与远处的雪山相映成趣。整个画面充满宁静与宏伟的气息，让人感受到大自然的壮美与生命力。超高清细节，广角视角，写实风格，光影效果强烈，8K分辨率。
+Translation: A magnificent natural landscape painting showcasing majestic snow-capped mountains standing in the distance, their peaks covered in pure white snow reflecting dazzling light. At the foot of the mountains lies a vast grassland where a rider gallops across the terrain—lush green meadows dotted with vibrant wildflowers. A winding river flows through the plains, its crystal-clear waters shimmering under the sunlight. The sky is a brilliant blue, scattered with a few drifting white clouds that harmonize beautifully with the distant snowy peaks. The entire scene exudes a sense of serenity and grandeur, evoking the awe-inspiring beauty and vitality of nature. Ultra-high-definition details, wide-angle perspective, realistic style, intense lighting effects, 8K resolution.
+Qwen-VLo
+As a unified understanding and generative model, Qwen VLo can also reanalyze and understand the content it generates. For example, it can identify the breeds of dogs and cats within the generated images.
+Generation and Understanding
+Next
+User
+Generate a puppy and a kitten.
+Qwen-VLo
+User
+What breed of cat and dog is this?
+Qwen-VLo
+The image shows a puppy and a kitten interacting in a cozy indoor setting. Let’s identify the breeds:
+Dog:
+#
+The puppy appears to be a
+Beagle
+or a Beagle mix. Key characteristics include:
+Tri-color coat (brown, white, and black).
+Floppy ears.
+Compact body structure.
+Expressive eyes and a friendly demeanor.
+Cat:
+#
+The kitten appears to be a
+Tabby cat
+. Key characteristics include:
+Striped or spotted fur pattern, which is typical of tabby cats.
+A mix of brown, black, and white fur, which is common in tabby patterns.
+Both animals are young and appear to be very playful and curious, which is typical behavior for puppies and kittens. The interaction between them suggests a friendly and affectionate relationship, which is often seen when different species bond early in life.
+How to Use
+#
+Qwen VLo uses dynamic resolution training, supporting dynamic resolution generation. Both input and output allow for images of arbitrary resolutions and aspect ratios. This means users are no longer constrained by fixed formats and can generate images tailored to different scenarios, whether it’s posters, illustrations, web banners, or social media covers.
+Additionally, Qwen VLo introduces an innovative generative mechanism: a progressive top-to-bottom, left-to-right generation process.
+This mechanism not only improves generation efficiency but is particularly suited for tasks requiring fine control, such as generating long paragraphs of text. For example, when designing advertisements or comic panels with extensive text, Qwen VLo generates content progressively, allowing users to observe and adjust the process in real-time for optimal creative results.
+Limitations
+#
+Qwen VLo is still in the preview stage, and there are many shortcomings. During the generation process, there may be issues such as inaccuracies, inconsistencies with the original image, non-compliance with instructions, and instability in recognizing and understanding the intent of the generated images. We appreciate your understanding. We will continue to iterate and improve the stability and robustness of the model.
+Next Steps: Express Ideas Through Images, Foster Understanding Through Generation
+#
+As multimodal large models increasingly gain the ability to handle bidirectional text and visual inputs and outputs, we are opening up new avenues for expression and interaction. In the future, models will not only answer questions with text but also convey ideas and meanings through images. For example, generating diagrams, adding auxiliary lines, or annotating key areas will provide users with more diverse communication tools.
+Moreover, multimodal models with generative capabilities offer new ways to supervise and refine their understanding. By generating intermediate results like segmentation maps or detection maps, the model can verify its own comprehension and further improve its performance. This is a direction we will continue to explore and develop in the future.

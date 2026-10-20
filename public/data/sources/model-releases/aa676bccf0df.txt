@@ -1,0 +1,80 @@
+Bard becomes Gemini: Try Ultra 1.0 and a new mobile app today
+Feb 08, 2024
+|
+x.com
+Facebook
+LinkedIn
+Mail
+Copy link
+Bard is now known as Gemini, and we’re rolling out a mobile app and Gemini Advanced with Ultra 1.0.
+Sissie Hsiao
+Vice President and General Manager, Gemini experiences (formerly known as Bard) and Google Assistant
+Share
+x.com
+Facebook
+LinkedIn
+Mail
+Copy link
+Since we
+launched Bard
+last year, people all over the world have used it to collaborate with AI in a completely new way — to prepare for job interviews,
+debug code
+, brainstorm new business ideas or, as we announced last week,
+create captivating images
+.
+Our mission with Bard has always been to give you direct access to our AI models, and
+Gemini
+represents our most capable family of models. To reflect this, Bard will now simply be known as Gemini.
+You can already chat with
+Gemini
+with our Pro 1.0 model in over 40 languages and more than 230 countries and territories. And now, we’re bringing you two new experiences — Gemini Advanced and a mobile app — to help you easily collaborate with the best of Google AI.
+Access our most capable AI model with Gemini Advanced
+Today we’re launching
+Gemini Advanced
+— a new experience that gives you access to Ultra 1.0, our largest and most capable state-of-the-art AI model. In blind evaluations with our third-party raters, Gemini Advanced with Ultra 1.0 is now the most preferred chatbot compared to leading alternatives.
+With our Ultra 1.0 model, Gemini Advanced is far more capable at highly complex tasks like coding, logical reasoning, following nuanced instructions and collaborating on creative projects. Gemini Advanced not only allows you to have longer, more detailed conversations; it also better understands the context from your previous prompts. For example:
+Gemini Advanced can be your personal tutor — creating step-by-step instructions, sample quizzes or back-and-forth discussions tailored to your learning style.
+It can help you with more advanced coding scenarios, serving as a sounding board for ideas and helping you evaluate different coding approaches.
+It can help digital creators go from idea to creation by generating fresh content, analyzing recent trends and brainstorming improved ways to grow their audiences.
+This first version of Gemini Advanced reflects our current advances in AI reasoning and will continue to improve. As we add new and exclusive features, Gemini Advanced users will have access to expanded multimodal capabilities, more interactive coding features, deeper data analysis capabilities and more. Gemini Advanced is available today in more than
+150 countries and territories
+in English, and we'll expand it to more languages over time.
+Gemini Advanced is available as part of our brand new
+Google One AI Premium Plan
+for $19.99/month, starting with a
+two-month trial
+at no cost. This plan gives you the best of Google AI and our latest advancements, along with all the benefits of the existing
+Google One Premium plan
+, such as 2TB of storage. In addition, AI Premium subscribers will soon be able to use Gemini in Gmail, Docs, Slides, Sheets and more (formerly known as Duet AI).
+We continue to take a bold and responsible approach to bringing this technology to the world. And, to mitigate issues like unsafe content or bias, we’ve built safety into our products in accordance with our
+AI Principles
+. Before launching Gemini Advanced, we conducted extensive trust and safety checks, including external red-teaming. We further refined the underlying model using fine-tuning and reinforcement learning, based on human feedback. You can find more detail in our updated
+Gemini Technical Report
+.
+Easily use Gemini on your phone
+We’ve heard that you want an easier way to access Gemini on your phone. So today we’re starting to roll out a new mobile experience for Gemini and Gemini Advanced with a new app on
+Android
+and in the
+Google app on iOS
+.
+With Gemini on your phone, you can type, talk or add an image for all kinds of help while you’re on the go: You can take a picture of your flat tire and ask for instructions, generate a custom image for your dinner party invitation or ask for help writing a difficult text message. It’s an important first step in building a true AI assistant — one that is conversational, multimodal and helpful.
+Android
+On Android, Gemini is a new kind of assistant that uses generative AI to collaborate with you and help you get things done.
+If you download the Gemini app or opt in through Google Assistant, you'll be able to access it from the app or anywhere else you normally activate Google Assistant — hitting the power button or corner swiping on select phones, or saying “Hey Google.” This will enable a new overlay experience that offers easy access to Gemini as well as contextual help right on your screen — so you can, for instance, generate a caption for a picture you've just taken or ask questions about an article you're reading. Many Google Assistant voice features will be available through the Gemini app — including setting timers, making calls and controlling your smart home devices — and we’re working to
+support
+more in the future.
+iOS
+On iOS, we’ll roll out access to Gemini right from the Google app in the coming weeks. Just tap the Gemini toggle and chat with Gemini to supercharge your creativity, create custom images, get help writing social posts and even plan a date night right from the Google app. We can’t wait for you to try it.
+Gemini is rolling out on Android and iOS phones in the U.S. in English starting today, and will be fully available in the coming weeks. Starting next week, you’ll be able to access it in more locations in English, and in Japanese and Korean, with more countries and languages coming soon.
+Try out the latest updates — and share your feedback to help us make your experience even better.
+Get the latest news from Google in your inbox
+Sign up for our newsletters with product updates, event information, special offers, and more.
+Done. Just one step more.
+Check your inbox to confirm your subscription.
+You can also subscribe with a
+different email address
+.
+Your information will be used in accordance with
+Google's privacy policy.
+You may opt out at any time.
+Posted in:

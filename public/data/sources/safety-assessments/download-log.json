@@ -1,0 +1,537 @@
+[
+  {
+    "id": "assessment-001",
+    "status": 200,
+    "sha256": "c4daec1a23516259e7fe4182a41f205be4b25f8aad2c87533921ce1a009060ad",
+    "textLength": 21724
+  },
+  {
+    "id": "assessment-002",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-live-1-1/gpt-live-1-1.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-003",
+    "status": 200,
+    "sha256": "63e19276146bc146f1a14a2534360b9712641918f617ca432ef1443991f4edce",
+    "textLength": 24243
+  },
+  {
+    "id": "assessment-004",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-6-october/gpt-6-october.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-005",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-6-1-sol/gpt-6-1-sol.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-006",
+    "status": 200,
+    "sha256": "c40541597ac3c461d71a914c922d43b200b468e41434b699fdd11c9a8761c56f",
+    "textLength": 38458
+  },
+  {
+    "id": "assessment-007",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /chatgpt-images-2-5/chatgpt-images-2-5.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-008",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-6-astra/gpt-6-astra.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-009",
+    "status": 200,
+    "sha256": "3f1a61ee2b4c3fe909dcc0fdc651baf4954e8225c44bc48af0b5cde207d02482",
+    "textLength": 12680
+  },
+  {
+    "id": "assessment-010",
+    "status": 200,
+    "sha256": "1fbb3ab6d7c572720e05d501eab8f11052b32db8d5936e66802c5c49b2261f4f",
+    "textLength": 46843
+  },
+  {
+    "id": "assessment-011",
+    "status": 200,
+    "sha256": "0434a3126526f8475bd94fcf0d9388eca14e426d406b5f662cc558526508a874",
+    "textLength": 16733
+  },
+  {
+    "id": "assessment-012",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-5-6-august-update/gpt-5-6-august-update.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-013",
+    "status": 200,
+    "sha256": "068d432a70abc12787453c7424cd54452d38fcaebb498fa1c7f6d4b41658659f",
+    "textLength": 35246
+  },
+  {
+    "id": "assessment-014",
+    "status": 200,
+    "sha256": "cd25634e0c8a3960d47dadfe6f49eefd3c12f6f62ad0dfbdf1cb4c96b5b5ade9",
+    "textLength": 270137
+  },
+  {
+    "id": "assessment-015",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-5-6/gpt-5-6.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-016",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-live/gpt-live.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-017",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-5-6-preview/gpt-5-6-preview.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-018",
+    "status": 200,
+    "sha256": "3a26d0689c7862af548efb5fbb43cc9f33f25264ae914124ea93a601b9f53332",
+    "textLength": 63523
+  },
+  {
+    "id": "assessment-019",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-rosalind-5-5/gpt-rosalind-5-5.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-020",
+    "status": 200,
+    "sha256": "1b760ea7770828e223daaa966a547529b4b1398a7ac44b97992488fab740133a",
+    "textLength": 416726
+  },
+  {
+    "id": "assessment-021",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-5-5-instant/gpt-5-5-instant.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-022",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-5-5/gpt-5-5.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-023",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /chatgpt-images-2-0/chatgpt-images-2-0.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-024",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-5-4-thinking/gpt-5-4-thinking.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-025",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-5-3-instant/gpt-5-3-instant.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-026",
+    "status": "failed",
+    "error": "HTTPSConnectionPool(host='deploymentsafety.openai.com', port=443): Max retries exceeded with url: /gpt-5-3-codex/gpt-5-3-codex.pdf (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  },
+  {
+    "id": "assessment-027",
+    "status": 200,
+    "sha256": "d5dbaab6996c02ad6ff28b032ce5a9c7582e59af09b5d1bc0975cf0235535da9",
+    "textLength": 281694
+  },
+  {
+    "id": "assessment-028",
+    "status": 200,
+    "sha256": "89cfd6a6d3aa6148eaf23f4a53006950ee7746009f381237c62920c720725785",
+    "textLength": 283547
+  },
+  {
+    "id": "assessment-029",
+    "status": 200,
+    "sha256": "7311c9c6bbb16d012f1c12c7418b05949fcf7ae3e30d2c40f22050074b2a7378",
+    "textLength": 531130
+  },
+  {
+    "id": "assessment-030",
+    "status": 200,
+    "sha256": "b0d59edc7a60eef32a879c13d713cce60c3fefd7e6b5183afdc8b835af3c8c39",
+    "textLength": 478695
+  },
+  {
+    "id": "assessment-031",
+    "status": 200,
+    "sha256": "0950dae1ba6b341e4f1a009e535e0f025625efeca21bd043a9a5ae148a3f2e6b",
+    "textLength": 423513
+  },
+  {
+    "id": "assessment-032",
+    "status": 200,
+    "sha256": "33573adb9f1871b903f79b77d7755a44cc20bb913ef48ac9000ddb090e41f7ed",
+    "textLength": 238427
+  },
+  {
+    "id": "assessment-033",
+    "status": 200,
+    "sha256": "0df5d061b6688c2d5839476620d66960011cb69043185dbed87ed1f68ab76d8f",
+    "textLength": 535058
+  },
+  {
+    "id": "assessment-034",
+    "status": 200,
+    "sha256": "f95d413845ad8624f384ba026963f2bad2158f10f2626575bb45e823e3c2e0ca",
+    "textLength": 710297
+  },
+  {
+    "id": "assessment-035",
+    "status": 200,
+    "sha256": "a7729a0e5eb61dc6818f553ae3c27ab774411cd5ab4ed7f414456d74a05c26d2",
+    "textLength": 429829
+  },
+  {
+    "id": "assessment-036",
+    "status": 200,
+    "sha256": "55f6ed1c0735ec1b5b14d99c91794fb759ac4647edc64381123b68be89fd3225",
+    "textLength": 594716
+  },
+  {
+    "id": "assessment-037",
+    "status": 200,
+    "sha256": "672339ab327e8798578b3559e8489561db5ad25e81b427de4e306393108e90b6",
+    "textLength": 198161
+  },
+  {
+    "id": "assessment-038",
+    "status": 200,
+    "sha256": "4db67c6b6aea0a87e7f8a784b83fc05a0f1a61a3e87615fe7956e3486b951b3c",
+    "textLength": 373903
+  },
+  {
+    "id": "assessment-039",
+    "status": 200,
+    "sha256": "33be92efcb58f901d9d2c17e61bf277afbd514a1ac70a642f21e918c21ca25a8",
+    "textLength": 333370
+  },
+  {
+    "id": "assessment-040",
+    "status": 200,
+    "sha256": "1b9ae5f4f66a65c1b37a031179af3dba35959471a3a5d195e4fe700b87558141",
+    "textLength": 88851
+  },
+  {
+    "id": "assessment-041",
+    "status": 200,
+    "sha256": "d5d1ce28fea101ae3b201a5d4da100090a5d6b73246f7da820cafd7dbb11100e",
+    "textLength": 327043
+  },
+  {
+    "id": "assessment-042",
+    "status": 200,
+    "sha256": "b2b5beba3ed386a58de760e664f5c98b90a6ce1275c7ee66da8beb70e106e0f2",
+    "textLength": 45301
+  },
+  {
+    "id": "assessment-043",
+    "status": 200,
+    "sha256": "c358464289e24283fc9d5613d2a676fd8aaba510f1449bcedae01a74d8232ab4",
+    "textLength": 296986
+  },
+  {
+    "id": "assessment-044",
+    "status": 200,
+    "sha256": "82947a46fc2d1b9a1d69501ef973fc3c5b328b703b9a17bd8a143c2672f8a1a6",
+    "textLength": 114886
+  },
+  {
+    "id": "assessment-045",
+    "status": 200,
+    "sha256": "5425dde49b649916000e38fb86c4721cfe31a8bdfe30bbb98e875fa3d654804c",
+    "textLength": 35687
+  },
+  {
+    "id": "assessment-046",
+    "status": 200,
+    "sha256": "ac396c7f155dcbfb33ceb342b48647e330ca518c01c7f508001d6aad93257a03",
+    "textLength": 18810
+  },
+  {
+    "id": "assessment-047",
+    "status": 200,
+    "sha256": "88ae851f53c3034d436816164ce49a876b333fa9b550fb7ef29838182b59ba7d",
+    "textLength": 144373
+  },
+  {
+    "id": "assessment-048",
+    "status": 200,
+    "sha256": "48cda59721bd7dbda8a5de1c8e498253ebad52214bb3661f68dbef3f490eb66b",
+    "textLength": 36973
+  },
+  {
+    "id": "assessment-049",
+    "status": 200,
+    "sha256": "ca3677e1b83e255aa1296d432d374378154f230f3c296b32ee67540d571b7004",
+    "textLength": 172423
+  },
+  {
+    "id": "assessment-050",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-4v-system-card/"
+  },
+  {
+    "id": "assessment-051",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/dall-e-3-system-card/"
+  },
+  {
+    "id": "assessment-052",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-4o-system-card/"
+  },
+  {
+    "id": "assessment-053",
+    "status": 200,
+    "sha256": "badc23682ab6717ee4451a8a994728b4959594be5bcfc146479dbcca309d6178",
+    "textLength": 102335
+  },
+  {
+    "id": "assessment-054",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/openai-o1-system-card/"
+  },
+  {
+    "id": "assessment-055",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/sora-system-card/"
+  },
+  {
+    "id": "assessment-056",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/operator-system-card/"
+  },
+  {
+    "id": "assessment-057",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/o3-mini-system-card/"
+  },
+  {
+    "id": "assessment-058",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/deep-research-system-card/"
+  },
+  {
+    "id": "assessment-059",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-4-5-system-card/"
+  },
+  {
+    "id": "assessment-060",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/o3-o4-mini-system-card/"
+  },
+  {
+    "id": "assessment-061",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-4-1/"
+  },
+  {
+    "id": "assessment-062",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/chatgpt-agent-system-card/"
+  },
+  {
+    "id": "assessment-063",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-oss-model-card/"
+  },
+  {
+    "id": "assessment-064",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-5-system-card/"
+  },
+  {
+    "id": "assessment-065",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-5-codex-system-card/"
+  },
+  {
+    "id": "assessment-066",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/sora-2-system-card/"
+  },
+  {
+    "id": "assessment-067",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-5-1-system-card/"
+  },
+  {
+    "id": "assessment-068",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://openai.com/index/gpt-5-2-system-card/"
+  },
+  {
+    "id": "assessment-069",
+    "status": 200,
+    "sha256": "2e663675ae36ad12adb2f5a05281bac2747ecf8d23d92bedd9f937a89fee7136",
+    "textLength": 88208
+  },
+  {
+    "id": "assessment-070",
+    "status": 200,
+    "sha256": "1df284ce95f783002074bfe8f21d47c646b396ceb1736ea3ec0ea212fc070d91",
+    "textLength": 260551
+  },
+  {
+    "id": "assessment-071",
+    "status": 200,
+    "sha256": "05ed05d2d76c420b6af4a1afe6e1dec99939ccf62c5a0c0a258b09cbe1889346",
+    "textLength": 153541
+  },
+  {
+    "id": "assessment-072",
+    "status": 200,
+    "sha256": "0a9371e99e54671d2eed83baf5c71f33611bff00901c6e2ced03f311d34a5a0e",
+    "textLength": 19123
+  },
+  {
+    "id": "assessment-073",
+    "status": 200,
+    "sha256": "a37da4be5eb00d97ee0017cadf54c55e8aca84c715fa7d0981d3f2bc13b763ef",
+    "textLength": 19421
+  },
+  {
+    "id": "assessment-074",
+    "status": 200,
+    "sha256": "cdc06052012c47654cfa49dc41a766cdb8801c4dfd469bee6d42774b058beb78",
+    "textLength": 25399
+  },
+  {
+    "id": "assessment-075",
+    "status": 200,
+    "sha256": "1bad06e0e2feadf6a195fcce4d6a2f7bca48f05b7a25a71f18c2baa88d292adf",
+    "textLength": 17348
+  },
+  {
+    "id": "assessment-076",
+    "status": 200,
+    "sha256": "a1739083c8a496ca0c121d90b98659a6aa7e36fcc0092581db35ef99736d104f",
+    "textLength": 20664
+  },
+  {
+    "id": "assessment-077",
+    "status": 200,
+    "sha256": "54068c0d9570d94dfc63c08247707b8c48045a79b5bbe865af709af95ee14415",
+    "textLength": 23814
+  },
+  {
+    "id": "assessment-078",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://data.x.ai/2025-08-28-grok-code-fast-1-model-card.pdf"
+  },
+  {
+    "id": "assessment-079",
+    "status": 200,
+    "sha256": "0b9080d64e74ac882c0deb3d0d9dd13140367d52b14b5f252cce8bfb4868751d",
+    "textLength": 20250
+  },
+  {
+    "id": "assessment-080",
+    "status": 200,
+    "sha256": "8ca95b27851b09c335fa2abe9b84cec5848195a5914eec7fb0b635ba2d8fe4fe",
+    "textLength": 222130
+  },
+  {
+    "id": "assessment-081",
+    "status": 200,
+    "sha256": "abcd3b8e4b54721ff2d2323204f7b2ad9212b0ff6c8ed77725657526a5418b13",
+    "textLength": 422889
+  },
+  {
+    "id": "assessment-082",
+    "status": 200,
+    "sha256": "9be2b427133468d443ff3a6411287a6f64759ed1e9cdd9a07f07486f11b00591",
+    "textLength": 112601
+  },
+  {
+    "id": "assessment-083",
+    "status": 200,
+    "sha256": "f149f9c09aa8b46ce6a740a255a99b7cc2317ac5b065989339919b7e6c329c9b",
+    "textLength": 109200
+  },
+  {
+    "id": "assessment-084",
+    "status": 200,
+    "sha256": "812a3fd645c80725354de9d831a6785503007a60681461407f64e97305fa9330",
+    "textLength": 150221
+  },
+  {
+    "id": "assessment-085",
+    "status": 200,
+    "sha256": "b191b0a365a64b4ab2791d117069ed17a2933d03554a662ced58b37df52018f4",
+    "textLength": 256009
+  },
+  {
+    "id": "assessment-086",
+    "status": 200,
+    "sha256": "0f0449ec4441377409e8232fc615c450795d03b97107676adbf5a0d6d4f64e4e",
+    "textLength": 114480
+  },
+  {
+    "id": "assessment-087",
+    "status": 200,
+    "sha256": "9bd2df43c71c80d58fcc22b34d266934b2b1d82a541e38f1a18d8c37b66c0444",
+    "textLength": 108679
+  },
+  {
+    "id": "assessment-088",
+    "status": 200,
+    "sha256": "86fb82a63ced501f0c3f4f404c0c6fa88a7a6cfac17aae81fd1a8f455998067c",
+    "textLength": 188112
+  },
+  {
+    "id": "assessment-089",
+    "status": 200,
+    "sha256": "5d4a9c3f6da9e9fa18a444bc3a663271dcf5ada36cc4c5dfe607a041619be798",
+    "textLength": 166720
+  },
+  {
+    "id": "assessment-090",
+    "status": 200,
+    "sha256": "32d7276673eec39636207cfedd54f8275220b219e6b2ea74d6e33169a19df64d",
+    "textLength": 84931
+  },
+  {
+    "id": "assessment-091",
+    "status": 200,
+    "sha256": "73b3292bead3ac8896679d3ac8be87439756faf356566cbda3ccc8a3dc7d79d3",
+    "textLength": 94943
+  },
+  {
+    "id": "assessment-092",
+    "status": 200,
+    "sha256": "84a5e2b1fa04bb774bf12ae606d1e6d9dd2147ed2ebe78a4cfeb91ba380ffdd5",
+    "textLength": 116090
+  },
+  {
+    "id": "assessment-093",
+    "status": 200,
+    "sha256": "cdaafe84e614c44e639cba702a686b0a1caf0bd3e49d9155ad5e8f13256a422d",
+    "textLength": 67513
+  },
+  {
+    "id": "assessment-094",
+    "status": 200,
+    "sha256": "b5eec92371521f580779dc450261728091cc4a004cc5862a0204efab478d5b07",
+    "textLength": 84965
+  },
+  {
+    "id": "assessment-095",
+    "status": 200,
+    "sha256": "e20742ff36e08dc361de6973f7f72ad38e107edf8fd92d2a777a8428fc9b8f0e",
+    "textLength": 136892
+  }
+]

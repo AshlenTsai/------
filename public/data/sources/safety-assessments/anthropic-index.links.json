@@ -1,0 +1,81 @@
+{
+  "rows": [
+    "Model | Date | System card",
+    "Claude Haiku 5.5 | October 2026 | Read system card",
+    "Claude Sonnet 5.5 | September 2026 | Read system card",
+    "Claude Opus 5.5 | September 2026 | Read system card",
+    "Claude Fable 5.1 and Mythos 5.1 | September 2026 | Read system card",
+    "Claude Opus 5 | July 2026 | Read system card",
+    "Claude Sonnet 5 | June 2026 | Read system card",
+    "Claude Opus 4.8 | May 2026 | Read system card",
+    "Claude Fable 5 and Mythos 5 | June 2026 | Read system card",
+    "Claude Opus 4.7 | April 2026 | Read system card",
+    "Mythos Preview | April 2026 | Read system card",
+    "Claude Sonnet 4.6 | February 2026 | Read system card",
+    "Claude Opus 4.6 | February 2026 | Read system card",
+    "Claude Opus 4.5 | November 2025 | Read system card",
+    "Claude Haiku 4.5 | October 2025 | Read system card",
+    "Claude Sonnet 4.5 | September 2025 | Read system card",
+    "Claude Opus 4.1 | August 2025 | Read system card",
+    "Claude Sonnet 4 and Opus 4 | May 2025 | Read system card",
+    "Claude Sonnet 3.7 | February 2025 | Read system card",
+    "Claude Haiku 3.5 and Sonnet 3.5  (new) | October 2024 | Read system card",
+    "Claude Sonnet 3.5 | June 2024 | Read system card",
+    "Claude 3 | March 2024 | Read system card",
+    "Claude 2 | July 2023 | Read system card"
+  ],
+  "links": [
+    {
+      "text": "Read system card",
+      "url": "https://www.anthropic.com/claude-haiku-5-5-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://www.anthropic.com/claude-opus-5-5-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://anthropic.com/claude-opus-5-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://anthropic.com/claude-sonnet-5-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://anthropic.com/claude-opus-4-8-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://anthropic.com/claude-fable-5-mythos-5-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://anthropic.com/claude-opus-4-7-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://www.anthropic.com/claude-mythos-preview-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "http://anthropic.com/claude-sonnet-4-6-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://anthropic.com/claude-opus-4-6-system-card"
+    },
+    {
+      "text": "Read system card",
+      "url": "https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf"
+    }
+  ]
+}

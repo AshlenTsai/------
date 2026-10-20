@@ -1,0 +1,764 @@
+[
+  {
+    "id": "assessment-001",
+    "title": "Muse Spark Open Model Card",
+    "decision": "included",
+    "reason": "公布拒绝行为、网络与生化风险评估结果"
+  },
+  {
+    "id": "assessment-002",
+    "title": "GPT-Live-1.1 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-003",
+    "title": "Muse Wonder Model Card",
+    "decision": "included",
+    "reason": "公布灾难性风险域评估及剩余风险结论"
+  },
+  {
+    "id": "assessment-004",
+    "title": "GPT-6 Sol and GPT-6 Luna: October 2026 update",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-005",
+    "title": "Addendum to GPT-6 Astra System Card: GPT-6.1 Sol",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-006",
+    "title": "Model Card: Grok 4.7",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-007",
+    "title": "ChatGPT Images 2.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-008",
+    "title": "GPT-6 Astra System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-009",
+    "title": "GLM-5.3 model card",
+    "decision": "included",
+    "reason": "公布 CyberGym、ExploitGym 与 ExploitBench 危险网络能力结果，不表示防护措施完善"
+  },
+  {
+    "id": "assessment-010",
+    "title": "Model Card: Grok 4.6",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-011",
+    "title": "Muse Glimmer 30B Model Card",
+    "decision": "included",
+    "reason": "公布生物风险基准结果与风险结论"
+  },
+  {
+    "id": "assessment-012",
+    "title": "GPT-5.6 — August Updates",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-013",
+    "title": "Model Card: Grok 4.5",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-014",
+    "title": "Muse Spark 1.1 Evaluation Report",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-015",
+    "title": "GPT-5.6 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-016",
+    "title": "GPT-Live System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-017",
+    "title": "GPT-5.6 Preview System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-018",
+    "title": "Muse Spark Contemplating Safety & Preparedness Report",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-019",
+    "title": "GPT-Rosalind-5.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-020",
+    "title": "Muse Spark Safety & Preparedness Report",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-021",
+    "title": "GPT-5.5 Instant System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-022",
+    "title": "GPT-5.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-023",
+    "title": "ChatGPT Images 2.0 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-024",
+    "title": "GPT-5.4 Thinking System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-025",
+    "title": "GPT-5.3 Instant System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-026",
+    "title": "GPT-5.3-Codex System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-027",
+    "title": "Claude Haiku 5.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-028",
+    "title": "Claude Sonnet 5.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-029",
+    "title": "Claude Opus 5.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-030",
+    "title": "Claude Fable 5.1 and Mythos 5.1 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-031",
+    "title": "Claude Opus 5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-032",
+    "title": "Claude Sonnet 5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-033",
+    "title": "Claude Opus 4.8 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-034",
+    "title": "Claude Fable 5 and Mythos 5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-035",
+    "title": "Claude Opus 4.7 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-036",
+    "title": "Mythos Preview System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-037",
+    "title": "Claude Sonnet 4.6 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-038",
+    "title": "Claude Opus 4.6 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-039",
+    "title": "Claude Opus 4.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-040",
+    "title": "Claude Haiku 4.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-041",
+    "title": "Claude Sonnet 4.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-042",
+    "title": "Claude Opus 4.1 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-043",
+    "title": "Claude Sonnet 4 and Opus 4 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-044",
+    "title": "Claude Sonnet 3.7 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-045",
+    "title": "Claude Haiku 3.5 and Sonnet 3.5  (new) System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-046",
+    "title": "Claude Sonnet 3.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-047",
+    "title": "Claude 3 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-048",
+    "title": "Claude 2 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-049",
+    "title": "GPT-4 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-050",
+    "title": "GPT-4V System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-051",
+    "title": "DALL-E 3 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-052",
+    "title": "GPT-4o System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-053",
+    "title": "o1-preview System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-054",
+    "title": "o1 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-055",
+    "title": "Sora System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-056",
+    "title": "Operator System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-057",
+    "title": "o3-mini System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-058",
+    "title": "Deep Research System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-059",
+    "title": "GPT-4.5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-060",
+    "title": "o3 and o4-mini System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-061",
+    "title": "GPT-4.1 Safety Evaluations",
+    "decision": "excluded",
+    "reason": "普通能力介绍页不计入"
+  },
+  {
+    "id": "assessment-062",
+    "title": "ChatGPT agent System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-063",
+    "title": "gpt-oss Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-064",
+    "title": "GPT-5 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-065",
+    "title": "GPT-5-Codex System Card",
+    "decision": "excluded",
+    "reason": "失效候选地址，使用记录 121"
+  },
+  {
+    "id": "assessment-066",
+    "title": "Sora 2 System Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-067",
+    "title": "GPT-5.1 System Card",
+    "decision": "excluded",
+    "reason": "失效候选地址，使用记录 124"
+  },
+  {
+    "id": "assessment-068",
+    "title": "GPT-5.2 System Card",
+    "decision": "excluded",
+    "reason": "失效候选地址，使用记录 122"
+  },
+  {
+    "id": "assessment-069",
+    "title": "Llama Technical Report",
+    "decision": "included",
+    "reason": "公布毒性和偏见基准结果"
+  },
+  {
+    "id": "assessment-070",
+    "title": "Llama 2 Technical Report",
+    "decision": "included",
+    "reason": "公布有害性、拒绝与红队结果"
+  },
+  {
+    "id": "assessment-071",
+    "title": "Code Llama Technical Report",
+    "decision": "included",
+    "reason": "公布毒性、安全代码和红队评估结果"
+  },
+  {
+    "id": "assessment-072",
+    "title": "Llama 3 Model Card",
+    "decision": "included",
+    "reason": "Cyber Security 段公布相对安全结论"
+  },
+  {
+    "id": "assessment-073",
+    "title": "Llama 3.1 Model Card",
+    "decision": "excluded",
+    "reason": "方法说明不单计，具体结果纳入记录 126 技术报告"
+  },
+  {
+    "id": "assessment-074",
+    "title": "Llama 3.2 Model Card",
+    "decision": "excluded",
+    "reason": "未核实到新增具体安全结果"
+  },
+  {
+    "id": "assessment-075",
+    "title": "Llama 3.3 Model Card",
+    "decision": "excluded",
+    "reason": "未核实到新增具体安全结果"
+  },
+  {
+    "id": "assessment-076",
+    "title": "Llama 4 Model Card",
+    "decision": "included",
+    "reason": "公布网络攻击使能等风险评估结论"
+  },
+  {
+    "id": "assessment-077",
+    "title": "Grok 4 Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-078",
+    "title": "Grok Code Fast 1 Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-079",
+    "title": "Grok 4 Fast Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-080",
+    "title": "Gemini 1.0 Technical Report",
+    "decision": "excluded",
+    "reason": "采用初始版本记录 127，避免将更新版倒填至 2023 年"
+  },
+  {
+    "id": "assessment-081",
+    "title": "Gemini 1.5 Technical Report",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-082",
+    "title": "DeepSeek LLM Technical Report",
+    "decision": "included",
+    "reason": "第 5.4 节、表 10 公布安全回答数量"
+  },
+  {
+    "id": "assessment-083",
+    "title": "DeepSeek-V2 Technical Report",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-084",
+    "title": "DeepSeek-V3 Technical Report",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-085",
+    "title": "DeepSeek-R1 Technical Report",
+    "decision": "included",
+    "reason": "扩展版附录 D.3 公布安全、越狱及多语言评估，不倒填到最初版本"
+  },
+  {
+    "id": "assessment-086",
+    "title": "Kimi K2 Technical Report",
+    "decision": "included",
+    "reason": "第 4.3 节公布安全红队测试结果"
+  },
+  {
+    "id": "assessment-087",
+    "title": "Kimi K2.5 Technical Report",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-088",
+    "title": "Kimi K3 Technical Report",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-089",
+    "title": "Qwen Technical Report",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-090",
+    "title": "Qwen2 Technical Report",
+    "decision": "included",
+    "reason": "表 14 公布多语言测试各风险类别的有害回答比例"
+  },
+  {
+    "id": "assessment-091",
+    "title": "Qwen2.5 Technical Report",
+    "decision": "excluded",
+    "reason": "安全训练说明不作为评估结果"
+  },
+  {
+    "id": "assessment-092",
+    "title": "Qwen3 Technical Report",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-093",
+    "title": "ChatGLM Technical Report",
+    "decision": "included",
+    "reason": "表 10 公布 GLM-4 SafetyBench 七类结果"
+  },
+  {
+    "id": "assessment-094",
+    "title": "GLM-4.5 Technical Report",
+    "decision": "included",
+    "reason": "Safety 章节公布 SafetyBench 分项及总分 89.87"
+  },
+  {
+    "id": "assessment-095",
+    "title": "GLM-5 Technical Report",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-096",
+    "title": "Gemini 4 Argon Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-097",
+    "title": "Nano Banana 2.1 Model Card",
+    "decision": "included",
+    "reason": "Human Red Teaming Results 公布儿童与内容安全测试结论"
+  },
+  {
+    "id": "assessment-098",
+    "title": "Gemini 3.8 Audio (Live, Live Extended Thinking, Flash TTS, Flash-Lite TTS) Model Card",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-099",
+    "title": "Gemini 3.8 Flash Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-100",
+    "title": "Gemini Omni Flash Model Card",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-101",
+    "title": "Gemini 3.5 Audio (Live Translate, Transcribe, Transcribe Live) Model Card",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-102",
+    "title": "Gemini 3.7 Flash Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-103",
+    "title": "Gemini 3.6 Flash Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-104",
+    "title": "Gemini 3.5 Flash-Lite Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-105",
+    "title": "Gemini 3.1 Flash-Lite Image Model Card",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-106",
+    "title": "Gemini 3.5 Flash Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-107",
+    "title": "Gemini 3.1 Flash Audio (Flash Live, TTS) Model Card",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-108",
+    "title": "Gemini 3.1 Flash-Lite Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-109",
+    "title": "Gemini 3.1 Flash Image Model Card",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-110",
+    "title": "Gemini 3.1 Pro Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-111",
+    "title": "Gemini 3 Flash Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-112",
+    "title": "Gemini 3 Pro Image Model Card",
+    "decision": "excluded",
+    "reason": "未核实到本模型的独立安全结果，仅有方法说明、普通能力结果或对母模型结果的引用"
+  },
+  {
+    "id": "assessment-113",
+    "title": "Gemini 3 Pro Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-114",
+    "title": "Gemini 2.5 Computer Use Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-115",
+    "title": "Gemini 2.5 Deep Think Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-116",
+    "title": "Gemini 2.5 Flash-Lite Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-117",
+    "title": "Gemini 2.5 Flash and Gemini 2.5 Flash Image Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-118",
+    "title": "Gemini 2.5 Pro Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-119",
+    "title": "Gemini 2.0 Flash Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-120",
+    "title": "Gemini 2.0 Flash-Lite Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-121",
+    "title": "GPT-5-Codex System Card Addendum",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-122",
+    "title": "GPT-5.2 System Card Update",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-123",
+    "title": "GPT-5.2-Codex System Card Addendum",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-124",
+    "title": "GPT-5.1 System Card Addendum",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-125",
+    "title": "Grok 4.1 Model Card",
+    "decision": "included",
+    "reason": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果"
+  },
+  {
+    "id": "assessment-126",
+    "title": "The Llama 3 Herd of Models",
+    "decision": "included",
+    "reason": "安全章节公布 Llama 3 模型评估结果"
+  },
+  {
+    "id": "assessment-127",
+    "title": "Gemini 1.0 Technical Report (initial version)",
+    "decision": "included",
+    "reason": "初始报告责任与安全部分公布评估结果"
+  }
+]
