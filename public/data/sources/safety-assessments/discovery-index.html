@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>systemcards.org — AI model documentation index</title>
+<link rel="icon" type="image/svg+xml" href="./favicon.svg?v=ce4656a266">
+<link rel="stylesheet" href="./style.css?v=7285ecd5de">
+</head>
+<body>
+<header class="masthead">
+  <div>
+    <h1>systemcards.org</h1>
+  </div>
+  <nav>
+    <a href="./search.html">Full-text search</a>
+    <a href="./about.html">About</a>
+<a href="./analysis.html">Analysis</a><a href="https://github.com/DouwMarx/cardtrack">GitHub</a>  </nav>
+</header>
+
+<section class="controls" aria-label="filters">
+  <input id="q" type="search" placeholder="Filter by title, model, publisher, or year…"
+         autocomplete="off" spellcheck="false">
+  <details class="msel" id="f-publisher">
+    <summary>publisher: all</summary><div class="msel-panel"></div>
+  </details>
+  <details class="msel" id="f-doctype">
+    <summary>type: all</summary><div class="msel-panel"></div>
+  </details>
+  <select id="f-independent">
+    <option value="">source: all</option>
+    <option value="1">independent</option>
+    <option value="0">first-party</option>
+  </select>
+  <select id="f-safety">
+    <option value="">safety evals: all</option>
+    <option value="1">has safety evals</option>
+    <option value="0">no safety evals</option>
+  </select>
+  <details class="msel" id="f-risk">
+    <summary>risk: all</summary><div class="msel-panel"></div>
+  </details>
+  <details class="msel" id="f-openness">
+    <summary>openness: all</summary><div class="msel-panel"></div>
+  </details>
+  <span class="utilities">
+    <button id="clear-filters" type="button" class="utility" title="Reset all filters">Clear filters</button>
+    <button id="export" type="button" class="utility" title="CSV of the current filtered view">Export CSV</button>
+    <details class="columns-toggle utility">
+      <summary>Columns</summary>
+      <div id="column-boxes"></div>
+    </details>
+  </span>
+</section>
+
+<p id="count" class="count" aria-live="polite">Loading…</p>
+
+<div class="table-wrap">
+  <table id="tbl">
+    <thead><tr id="tbl-head"></tr></thead>
+    <tbody id="tbl-body"></tbody>
+  </table>
+</div>
+
+<footer>
+  <p>Metadata filter searches identity fields only; for content questions use
+     <a href="./search.html">full-text search</a>. Data updated 2026-10-20T06:21:32Z ·
+     365 documents ·
+     <a href="https://github.com/DouwMarx/cardtrack/issues/new?labels=missing-doc&title=%5Bmissing-doc%5D">report a missing document</a>  </p>
+</footer>
+<script src="./msel.js?v=21207b61f9"></script>
+<script src="./app.js?v=f859b2f941"></script>
+</body>
+</html>

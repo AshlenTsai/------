@@ -1,0 +1,1050 @@
+[
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4-research/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/gpt-4v-system-card/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/changelog",
+    "status": "cached",
+    "localText": "49e8d0577a5e.txt",
+    "characters": 48547,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/introducing-chatgpt-pro/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/sora-is-here/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-oss/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/introducing-upgrades-to-codex/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-1/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-2/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/gpt-5-5-instant/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-rosalind/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-rosalind-5-5/gpt-rosalind-5-5.pdf",
+    "status": "failed",
+    "error": "SSLError",
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-live/gpt-live.pdf",
+    "status": "failed",
+    "error": "SSLError",
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-live-1-1/gpt-live-1-1.pdf",
+    "status": "failed",
+    "error": "SSLError",
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+    "status": 403,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/news/introducing-claude",
+    "status": "cached",
+    "localText": "f5041642fb21.txt",
+    "characters": 6288,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-2",
+    "status": "cached",
+    "localText": "39071a9443e5.txt",
+    "characters": 5946,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2",
+    "status": "cached",
+    "localText": "9023d5a56ff8.txt",
+    "characters": 2181,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-2-1",
+    "status": "cached",
+    "localText": "013fa77665db.txt",
+    "characters": 6251,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "status": "cached",
+    "localText": "a2cf0d0271ac.txt",
+    "characters": 10966,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+    "status": "cached",
+    "localText": "9e4ef9c155b6.txt",
+    "characters": 7896,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "status": "cached",
+    "localText": "4182359e79e6.txt",
+    "characters": 87984,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/glasswing",
+    "status": "cached",
+    "localText": "b0e284183065.txt",
+    "characters": 21016,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/news/fable-mythos-access",
+    "status": "cached",
+    "localText": "001317287cdd.txt",
+    "characters": 5596,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "status": "cached",
+    "localText": "e7232d52f37f.txt",
+    "characters": 35150,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+    "status": "cached",
+    "localText": "3db09fede330.txt",
+    "characters": 4985,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/meta-llama/llama-models",
+    "status": "cached",
+    "localText": "821b8326a21d.txt",
+    "characters": 7865,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/meta-llama/codellama",
+    "status": "cached",
+    "localText": "6a51c5afee4d.txt",
+    "characters": 6960,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/",
+    "status": "cached",
+    "localText": "c1f41116b232.txt",
+    "characters": 416726,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://ai.meta.com/static-resource/muse-spark-contemplating-safety-and-preparedness-report/",
+    "status": "cached",
+    "localText": "0c89d5a63f28.txt",
+    "characters": 63523,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report",
+    "status": "cached",
+    "localText": "d7df237a9950.txt",
+    "characters": 270137,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://research.meta.ai/static/muse-spark-1-2-methodology",
+    "status": 200,
+    "localText": "e3b57f72f95e.txt",
+    "characters": 7285,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+    "status": "cached",
+    "localText": "1b4f9a603eeb.txt",
+    "characters": 16733,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://research.meta.ai/static/muse-spark-1-3-multimodal-evaluation-methodology",
+    "status": 200,
+    "localText": "9254f7e239bb.txt",
+    "characters": 7767,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://research.meta.ai/static/muse-wonder-model-card",
+    "status": "cached",
+    "localText": "bb9ca0996ffc.txt",
+    "characters": 24243,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+    "status": "cached",
+    "localText": "0ca06b6fd094.txt",
+    "characters": 21724,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok",
+    "status": 200,
+    "localText": "a0ce7971cea6.txt",
+    "characters": 9820,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-1.5",
+    "status": 200,
+    "localText": "70816c1ecd15.txt",
+    "characters": 3531,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-1.5v",
+    "status": 200,
+    "localText": "4c41a6f462e8.txt",
+    "characters": 3985,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-2",
+    "status": 200,
+    "localText": "1572648d0de9.txt",
+    "characters": 6357,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-image-generation-release",
+    "status": 200,
+    "localText": "d92fdc93d4b2.txt",
+    "characters": 3306,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-3",
+    "status": 200,
+    "localText": "9e8c6430d834.txt",
+    "characters": 15580,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-4",
+    "status": 200,
+    "localText": "c6d3e7bfa462.txt",
+    "characters": 9347,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-code-fast-1",
+    "status": 200,
+    "localText": "0b44bb6c5632.txt",
+    "characters": 6735,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-4-fast",
+    "status": 200,
+    "localText": "0c4dec44a25e.txt",
+    "characters": 9238,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://x.ai/news/grok-4-1",
+    "status": 200,
+    "localText": "3ba15a3903f4.txt",
+    "characters": 13657,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://docs.x.ai/developers/release-notes",
+    "status": 200,
+    "localText": "2b950d5a745e.txt",
+    "characters": 15337,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://blog.google/technology/ai/google-gemini-ai/",
+    "status": 200,
+    "localText": "03f55ab55d35.txt",
+    "characters": 17064,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://blog.google/products/gemini/bard-gemini-advanced-app/",
+    "status": 200,
+    "localText": "aa676bccf0df.txt",
+    "characters": 6242,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://ai.google.dev/gemini-api/docs/changelog",
+    "status": 200,
+    "localText": "a24fd97eb3d0.txt",
+    "characters": 43707,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://blog.google/products/gemini/gemini-2-5-deep-think/",
+    "status": 200,
+    "localText": "0b8e2cb84638.txt",
+    "characters": 6041,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/",
+    "status": 200,
+    "localText": "d0f5ca5d8a30.txt",
+    "characters": 9450,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+    "status": 200,
+    "localText": "ed9684c19c61.txt",
+    "characters": 9628,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+    "status": 200,
+    "localText": "b7aa038abbc1.txt",
+    "characters": 13268,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Audio-Model-Card.pdf",
+    "status": 200,
+    "localText": "7a21e7d503d5.txt",
+    "characters": 10712,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://storage.googleapis.com/deepmind-media/gemini-robotics/Gemini-Robotics-2-Safety.pdf",
+    "status": 200,
+    "localText": "5fb0d5296b93.txt",
+    "characters": 50113,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-Robotics-On-Device-2-Model-Card.pdf",
+    "status": 200,
+    "localText": "40a4e49c66c2.txt",
+    "characters": 6219,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber",
+    "status": 200,
+    "localText": "969044f63ea6.txt",
+    "characters": 6646,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+    "status": 200,
+    "localText": "5eb2aa71a90a.txt",
+    "characters": 5235,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-Coder",
+    "status": 200,
+    "localText": "c238729f5fa7.txt",
+    "characters": 18047,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-LLM",
+    "status": 200,
+    "localText": "1f4195949f61.txt",
+    "characters": 17407,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-MoE",
+    "status": 200,
+    "localText": "feaea46dca89.txt",
+    "characters": 8812,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-Math",
+    "status": 200,
+    "localText": "9274ca4e46de.txt",
+    "characters": 7214,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V1.5",
+    "status": 200,
+    "localText": "bd6fac10e242.txt",
+    "characters": 4649,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-VL",
+    "status": 200,
+    "localText": "dab396f0ed0f.txt",
+    "characters": 5528,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://api-docs.deepseek.com/zh-cn/updates/",
+    "status": 200,
+    "localText": "289eaaa56b94.txt",
+    "characters": 8981,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-VL2",
+    "status": 200,
+    "localText": "16d591dac3c4.txt",
+    "characters": 12757,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://api-docs.deepseek.com/news/news1120",
+    "status": 200,
+    "localText": "ea823ed75f72.txt",
+    "characters": 517,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/Janus",
+    "status": 200,
+    "localText": "f5f013c9dea7.txt",
+    "characters": 22398,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2",
+    "status": 200,
+    "localText": "f78db5bf0927.txt",
+    "characters": 6183,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+    "status": 200,
+    "localText": "2d89f19eb4a9.txt",
+    "characters": 4973,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-Math-V2",
+    "status": 200,
+    "localText": "53f90b7cf1d4.txt",
+    "characters": 2985,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/deepseek-ai/DeepSeek-OCR-2",
+    "status": 200,
+    "localText": "dd8fec5d2d86.txt",
+    "characters": 3046,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://platform.moonshot.cn/blog/posts/changelog",
+    "status": 200,
+    "localText": "142d1251b4da.txt",
+    "characters": 2131,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/MoonshotAI/Kimi-k1.5",
+    "status": 200,
+    "localText": "bce0d5cb8fa4.txt",
+    "characters": 2284,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/MoonshotAI/Kimi-VL",
+    "status": 200,
+    "localText": "dd120b87b8c0.txt",
+    "characters": 14356,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-Dev-72B",
+    "status": 200,
+    "localText": "322d36f36355.txt",
+    "characters": 2631,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/MoonshotAI/Kimi-K2",
+    "status": 200,
+    "localText": "9a02b17dd09c.txt",
+    "characters": 12322,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+    "status": 200,
+    "localText": "b47ca20cc743.txt",
+    "characters": 14367,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/MoonshotAI/Kimi-Linear",
+    "status": 200,
+    "localText": "34ad1e9f1588.txt",
+    "characters": 4494,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+    "status": 200,
+    "localText": "c7e1a5f4be3b.txt",
+    "characters": 40054,
+    "textUrl": "https://huggingface.co/moonshotai/Kimi-K2.5/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+    "status": 200,
+    "localText": "47aa9921cc40.txt",
+    "characters": 29312,
+    "textUrl": "https://huggingface.co/moonshotai/Kimi-K2.6/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+    "status": 200,
+    "localText": "9c6b3767dab8.txt",
+    "characters": 15052,
+    "textUrl": "https://huggingface.co/moonshotai/Kimi-K2.7-Code/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/moonshotai/Kimi-K3",
+    "status": 200,
+    "localText": "e7129e9021b6.txt",
+    "characters": 45181,
+    "textUrl": "https://huggingface.co/moonshotai/Kimi-K3/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen",
+    "status": 200,
+    "localText": "29909675cb7f.txt",
+    "characters": 53447,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen-VL",
+    "status": 200,
+    "localText": "2d3546f0b6e5.txt",
+    "characters": 32367,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen-Audio",
+    "status": 200,
+    "localText": "ac74ae0dfee3.txt",
+    "characters": 12943,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3",
+    "status": 200,
+    "localText": "28b22aa6ebfd.txt",
+    "characters": 20154,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2-vl/",
+    "status": 200,
+    "localText": "72d4a57e9c16.txt",
+    "characters": 26115,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2-audio/",
+    "status": 200,
+    "localText": "9f35f00f9f9c.txt",
+    "characters": 14454,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2-math/",
+    "status": 200,
+    "localText": "87da1fca7f57.txt",
+    "characters": 31060,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2.5/",
+    "status": 200,
+    "localText": "e8f0a037900e.txt",
+    "characters": 13177,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2.5-turbo/",
+    "status": 200,
+    "localText": "ecac5d71389f.txt",
+    "characters": 16964,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwq-32b-preview/",
+    "status": 200,
+    "localText": "14a855188533.txt",
+    "characters": 21424,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qvq-72b-preview/",
+    "status": 200,
+    "localText": "a86c7dcbe163.txt",
+    "characters": 26115,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen3/",
+    "status": 200,
+    "localText": "3e4a3f3b3d83.txt",
+    "characters": 15970,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2.5-vl/",
+    "status": 200,
+    "localText": "dc21f366b638.txt",
+    "characters": 33673,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2.5-max/",
+    "status": 200,
+    "localText": "8c485019ad8d.txt",
+    "characters": 4210,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen2.5-omni/",
+    "status": 200,
+    "localText": "de4ffd746276.txt",
+    "characters": 3915,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen-vlo/",
+    "status": 200,
+    "localText": "e648dc904af5.txt",
+    "characters": 23096,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen3-coder/",
+    "status": 200,
+    "localText": "2a92eb28562d.txt",
+    "characters": 7577,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen-mt/",
+    "status": 200,
+    "localText": "613f0908caf5.txt",
+    "characters": 10342,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen-image/",
+    "status": 200,
+    "localText": "6d2ef0c477ac.txt",
+    "characters": 9451,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwenlm.github.io/blog/qwen-image-edit/",
+    "status": 200,
+    "localText": "f9ac3a3f0e10.txt",
+    "characters": 5814,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3-Next",
+    "status": 200,
+    "localText": "65afdc34c498.txt",
+    "characters": 10664,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3-Omni",
+    "status": 200,
+    "localText": "ebe00f996743.txt",
+    "characters": 45838,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3-VL",
+    "status": 200,
+    "localText": "88d1db358c01.txt",
+    "characters": 41305,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://qwen.ai/blog?id=72071a922385147be2ca81cdfaa50035db6e85d0",
+    "status": 200,
+    "localText": "aacc83691811.txt",
+    "characters": 4,
+    "verification": "web-primary-verified",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3-TTS",
+    "status": 200,
+    "localText": "b3aad6dab892.txt",
+    "characters": 28025,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3-ASR",
+    "status": 200,
+    "localText": "4bad56b5b58c.txt",
+    "characters": 28640,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/QwenLM/Qwen3-Coder",
+    "status": 200,
+    "localText": "e8531607e923.txt",
+    "characters": 15613,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B",
+    "status": 200,
+    "localText": "60272c750377.txt",
+    "characters": 94777,
+    "textUrl": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+    "status": 200,
+    "localText": "5cf19ea05a01.txt",
+    "characters": 64541,
+    "textUrl": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "status": 200,
+    "localText": "ca26bca182f6.txt",
+    "characters": 64985,
+    "textUrl": "https://huggingface.co/Qwen/Qwen3.8-27B/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "status": 200,
+    "localText": "eb79656c925c.txt",
+    "characters": 65144,
+    "textUrl": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.25611",
+    "status": 200,
+    "localText": "732c714b3da6.txt",
+    "characters": 4749,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "status": 200,
+    "localText": "3cc50d035623.txt",
+    "characters": 3881,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+    "status": 200,
+    "localText": "722c176a9e44.txt",
+    "characters": 11151,
+    "textUrl": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B",
+    "status": 200,
+    "localText": "8fa15b72d360.txt",
+    "characters": 44278,
+    "textUrl": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/zai-org/ChatGLM-6B",
+    "status": 200,
+    "localText": "43580550839f.txt",
+    "characters": 11816,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/zai-org/ChatGLM2-6B",
+    "status": 200,
+    "localText": "be29e9683e76.txt",
+    "characters": 11113,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/zai-org/ChatGLM3",
+    "status": 200,
+    "localText": "2cd832d265e6.txt",
+    "characters": 10503,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/zai-org/GLM-4",
+    "status": 200,
+    "localText": "26214de827aa.txt",
+    "characters": 13735,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/zai-org/GLM-4-Voice",
+    "status": 200,
+    "localText": "141ae1481ae9.txt",
+    "characters": 3442,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/zai-org/GLM-4.5",
+    "status": 200,
+    "localText": "b4f8cc49d5d2.txt",
+    "characters": 13464,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://docs.z.ai/release-notes/new-released",
+    "status": 200,
+    "localText": "9156c37fb1c2.txt",
+    "characters": 4408,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://github.com/zai-org/GLM-V",
+    "status": 200,
+    "localText": "49deb106e825.txt",
+    "characters": 14482,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://huggingface.co/zai-org/GLM-4.7-Flash",
+    "status": 200,
+    "localText": "30fbd905f19a.txt",
+    "characters": 8156,
+    "textUrl": "https://huggingface.co/zai-org/GLM-4.7-Flash/raw/main/README.md",
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "url": "https://arxiv.org/abs/2604.26752",
+    "status": 200,
+    "localText": "31d1fa1a3d40.txt",
+    "characters": 5416,
+    "verification": "downloaded-primary",
+    "checkedAt": "2026-10-20"
+  }
+]

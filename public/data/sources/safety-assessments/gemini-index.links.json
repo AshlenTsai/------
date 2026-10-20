@@ -1,0 +1,206 @@
+{
+  "rows": [
+    "Model card | Published or updated date | Link to model card",
+    "Gemini 4 Argon | Updated 13 October 2026 | View model card",
+    "Nano Banana 2.1 | Updated 6 October 2026 | View model card",
+    "Gemini 3.8 Audio (Live, Live Extended Thinking, Flash TTS, Flash-Lite TTS) | Updated 24 September 2026 | View model card",
+    "Gemini 3.8 Flash | Updated 2 September 2026 | View model card",
+    "Gemini Omni Flash | Updated 27 August 2026 | View model card",
+    "Gemini 3.5 Audio (Live Translate, Transcribe, Transcribe Live) | Updated 26 August 2026 | View model card",
+    "Gemini 3.7 Flash | Updated 13 August 2026 | View model card",
+    "Gemini 3.6 Flash | Updated 21 July 2026 | View model card",
+    "Gemini 3.5 Flash-Lite | Updated 21 July 2026 | View model card",
+    "Gemini 3.1 Flash-Lite Image | Updated 30 June 2026 | View model card",
+    "Gemini 3.5 Flash | Updated 19 May 2026 | View model card",
+    "Gemini 3.1 Flash Audio (Flash Live, TTS) | Updated 15 April 2026 | View model card",
+    "Gemini 3.1 Flash-Lite | Updated 3 March 2026 | View model card",
+    "Gemini 3.1 Flash Image | Updated 26 February 2026 | View model card",
+    "Gemini 3.1 Pro | Updated 19 February 2026 | View model card",
+    "Gemini 3 Flash | Updated 17 December 2025 | View model card",
+    "Gemini 3 Pro Image | Updated 20 November 2025 | View model card",
+    "Gemini 3 Pro | Updated 18 November 2025 | View model card",
+    "Gemini 2.5 Computer Use | Updated 7 October 2025 | View model card",
+    "Gemini 2.5 Deep Think | Updated 1 August 2025 | View model card",
+    "Gemini 2.5 Flash-Lite | Updated 26 September 2025 | View model card",
+    "Gemini 2.5 Flash and Gemini 2.5 Flash Image | Updated 26 September 2025 | View model card",
+    "Gemini 2.5 Pro | Updated 27 June 2025 | View model card",
+    "Gemini 2.0 Flash | Updated 15 April 2025 | View model card",
+    "Gemini 2.0 Flash-Lite | Updated 10 April 2025 | View model card",
+    "Gemini 1.5 | View model card",
+    "Gemini 1.0 | View model card",
+    "Model card | Published or updated date | Link to model card",
+    "Lyria 3.5 | Updated 29 July 2026 | View model card",
+    "Veo 3.1 Lite | Updated 8 April 2026 | View model card",
+    "Lyria 3 | Updated 18 February 2026 | View model card",
+    "Veo 3 | Updated 13 January 2026 | View model card",
+    "Imagen 4 | Updated 20 May 2025 | View model card",
+    "Model card | Published or updated date | Link to model card",
+    "Gemini Robotics-ER 2 | Updated 30 July 2026 | View model card",
+    "Gemini Robotics On-Device 2 | Updated 30 July 2026 | View model card",
+    "Gemini Robotics-ER 1.6 | Updated 20 April 2026 | View model card",
+    "Gemini Robotics 1.5 | Updated 25 September 2025 | View model card",
+    "Gemini Robotics On-Device | Updated 1 July 2025 | View model card",
+    "Model card | Published or updated date | Link to model card",
+    "EmbeddingGemma 2 | Updated 6 October 2026 | View model card",
+    "DiffusionGemma | Updated 10 June 2026 | View model card",
+    "Gemma 4 | Updated 2 April 2026 | View model card",
+    "FunctionGemma | Updated 14 January 2026 | View model card",
+    "EmbeddingGemma | Updated 25 September 2025 | View model card",
+    "Gemma 3 | Updated 14 August 2025 | View model card",
+    "Gemma 3n | Updated 17 June 2025 | View model card",
+    "ShieldGemma 2 | Updated 17 June 2025 | View model card",
+    "Gemma 2 | Updated 25 February 2025 | View model card",
+    "Gemma 1 | Updated 25 February 2025 | View model card",
+    "CodeGemma | Updated 25 February 2025 | View model card",
+    "PaliGemma 2 | Updated 25 February 2025 | View model card",
+    "PaliGemma 1 | Updated 25 February 2025 | View model card",
+    "RecurrentGemma | Updated 25 February 2025 | View model card",
+    "ShieldGemma 1 | Updated 25 February 2025 | View model card"
+  ],
+  "links": [
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-4-argon/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-8-audio/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-omni-flash/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-5-audio/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-7-flash/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-6-flash/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash-lite/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite-image/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-audio/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-image/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-flash/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-pro-image/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-pro/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Computer-Use-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Lite-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/lyria-3-5/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/veo-3-1-lite/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/lyria-3/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Veo-3-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Imagen-4-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-robotics-er-2/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-robotics-on-device-2/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://deepmind.google/models/model-cards/gemini-robotics-er-1-6/"
+    },
+    {
+      "text": "View model card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-Robotics-On-Device-Model-Card.pdf"
+    },
+    {
+      "text": "View model card",
+      "url": "https://ai.google.dev/gemma/docs/paligemma/model-card-2"
+    },
+    {
+      "text": "View model card",
+      "url": "https://ai.google.dev/gemma/docs/paligemma/model-card"
+    }
+  ]
+}

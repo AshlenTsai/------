@@ -1,0 +1,359 @@
+Computer Science > Computer Vision and Pattern Recognition
+arXiv:2604.26752
+(cs)
+[Submitted on 29 Apr 2026 (
+v1
+), last revised 12 May 2026 (this version, v3)]
+Title:
+GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents
+Authors:
+GLM-V Team
+:
+Wenyi Hong
+,
+Xiaotao Gu
+,
+Ziyang Pan
+,
+Zhen Yang
+,
+Yuting Wang
+,
+Yue Wang
+,
+Yuanchang Yue
+,
+Yu Wang
+,
+Yanling Wang
+,
+Yan Wang
+,
+Xijun Liu
+,
+Wenmeng Yu
+,
+Weihan Wang
+,
+Wei Li
+,
+Shuaiqi Duan
+,
+Sheng Yang
+,
+Ruiliang Lv
+,
+Mingdao Liu
+,
+Lihang Pan
+,
+Ke Ning
+,
+Junhui Ji
+,
+Jinjiang Wang
+,
+Jing Chen
+,
+Jiazheng Xu
+,
+Jiale Zhu
+,
+Jiale Cheng
+,
+Ji Qi
+,
+Guobing Gan
+,
+Guo Wang
+,
+Cong Yao
+,
+Zijun Dou
+,
+Zihao Zhou
+,
+Zihan Wang
+,
+Zhiqi Ge
+,
+Zhijie Li
+,
+Zhenyu Hou
+,
+Zhao Xue
+,
+Zehui Wang
+,
+Zehan Qi
+,
+Zehai He
+,
+Yutao Zhang
+,
+Yusen Liu
+,
+Yukuo Cen
+,
+Yuchen Li
+,
+Yuan Wang
+,
+Yu Yang
+,
+Yongbin Liu
+,
+Yijian Lu
+,
+Yifan Xu
+,
+Yanzi Wang
+,
+Yanxiao Zhao
+,
+Yanfeng Wang
+,
+Yadong Xue
+,
+Yabo Xu
+,
+Xinyu Zhang
+,
+Xinyu Liu
+,
+Xiao Liu
+,
+Wenyi Zhao
+,
+Wenkai Li
+,
+Tianyu Tong
+,
+Tianshu Zhang
+,
+Shudan Zhang
+,
+Shengdong Yan
+,
+Qinkai Zheng
+,
+Mingde Xu
+,
+Licheng Bao
+,
+lat Long long
+,
+Jiaxing Xu
+,
+Jiaxin Fan
+,
+Jiawen Qian
+,
+Jiali Chen
+,
+Jiahui Lin
+,
+Jiadai Sun
+,
+Haozhi Zheng
+,
+Haoran Wang
+,
+Haochen Li
+,
+Hanyu Lai
+,
+Han Xu
+,
+Fan Yang
+,
+Dan Zhang
+,
+Da Yin
+,
+Chuangxin Zhao
+,
+Chengcheng Wu
+,
+Boyan Shi
+,
+Bowen Lv
+,
+Bowei Jia
+,
+Bo Li
+,
+Bin Chen
+,
+Baoxu Wang
+,
+Peng Zhang
+,
+Debing Liu
+,
+Bin Xu
+,
+Juanzi Li
+,
+Minlie Huang
+,
+Yuxiao Dong
+,
+Jie Tang
+View a PDF of the paper titled GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents, by GLM-V Team: Wenyi Hong and 95 other authors
+View PDF
+HTML (experimental)
+Abstract:
+We present GLM-5V-Turbo, a step toward native foundation models for multimodal agents. As foundation models are increasingly deployed in real environments, agentic capability depends not only on language reasoning, but also on the ability to perceive, interpret, and act over heterogeneous contexts such as images, videos, webpages, documents, GUIs. GLM-5V-Turbo is built around this objective: multimodal perception is integrated as a core component of reasoning, planning, tool use, and execution, rather than as an auxiliary interface to a language model. This report summarizes the main improvements behind GLM-5V-Turbo across model design, multimodal training, reinforcement learning, toolchain expansion, and integration with agent frameworks. These developments lead to strong performance in multimodal coding, visual tool use, and framework-based agentic tasks, while preserving competitive text-only coding capability. More importantly, our development process offers practical insights for building multimodal agents, highlighting the central role of multimodal perception, hierarchical optimization, and reliable end-to-end verification.
+Subjects:
+Computer Vision and Pattern Recognition (cs.CV)
+Cite as:
+arXiv:2604.26752
+[cs.CV]
+(or
+arXiv:2604.26752v3
+[cs.CV]
+for this version)
+https://doi.org/10.48550/arXiv.2604.26752
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Wenyi Hong [
+view email
+]
+[v1]
+Wed, 29 Apr 2026 14:49:37 UTC (18,650 KB)
+[v2]
+Wed, 6 May 2026 16:03:04 UTC (18,651 KB)
+[v3]
+Tue, 12 May 2026 15:07:13 UTC (18,651 KB)
+Full-text links:
+Access Paper:
+View a PDF of the paper titled GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents, by GLM-V Team: Wenyi Hong and 95 other authors
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+cs.CV
+< prev
+|
+next >
+new
+|
+recent
+|
+2026-04
+Change to browse by:
+cs
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+export BibTeX citation
+Loading...
+BibTeX formatted citation
+×
+loading...
+Data provided by:
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer
+(
+What is the Explorer?
+)
+Connected Papers Toggle
+Connected Papers
+(
+What is Connected Papers?
+)
+Litmaps Toggle
+Litmaps
+(
+What is Litmaps?
+)
+scite.ai Toggle
+scite Smart Citations
+(
+What are Smart Citations?
+)
+Code, Data, Media
+Code, Data and Media Associated with this Article
+alphaXiv Toggle
+alphaXiv
+(
+What is alphaXiv?
+)
+Links to Code Toggle
+CatalyzeX Code Finder for Papers
+(
+What is CatalyzeX?
+)
+DagsHub Toggle
+DagsHub
+(
+What is DagsHub?
+)
+GotitPub Toggle
+Gotit.pub
+(
+What is GotitPub?
+)
+Huggingface Toggle
+Hugging Face
+(
+What is Huggingface?
+)
+ScienceCast Toggle
+ScienceCast
+(
+What is ScienceCast?
+)
+Demos
+Demos
+Replicate Toggle
+Replicate
+(
+What is Replicate?
+)
+Spaces Toggle
+Hugging Face Spaces
+(
+What is Spaces?
+)
+Spaces Toggle
+TXYZ.AI
+(
+What is TXYZ.AI?
+)
+Related Papers
+Recommenders and Search Tools
+Link to Influence Flower
+Influence Flower
+(
+What are Influence Flowers?
+)
+Core recommender toggle
+CORE Recommender
+(
+What is CORE?
+)
+Author
+Venue
+Institution
+Topic
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community?
+Learn more about arXivLabs
+.
+Which authors of this paper are endorsers?
+|
+Disable MathJax
+(
+What is MathJax?
+)

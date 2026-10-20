@@ -1,0 +1,1018 @@
+[
+  {
+    "brand": "Meta",
+    "title": "Muse Spark Open Model Card",
+    "date": "2026-10-15",
+    "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-001"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-Live-1.1 System Card",
+    "date": "2026-10-15",
+    "url": "https://deploymentsafety.openai.com/gpt-live-1-1/gpt-live-1-1.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-002"
+  },
+  {
+    "brand": "Meta",
+    "title": "Muse Wonder Model Card",
+    "date": "2026-10-12",
+    "url": "https://research.meta.ai/static/muse-wonder-model-card",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-003"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-6 Sol and GPT-6 Luna: October 2026 update",
+    "date": "2026-10-07",
+    "url": "https://deploymentsafety.openai.com/gpt-6-october/gpt-6-october.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-004"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "Addendum to GPT-6 Astra System Card: GPT-6.1 Sol",
+    "date": "2026-09-29",
+    "url": "https://deploymentsafety.openai.com/gpt-6-1-sol/gpt-6-1-sol.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-005"
+  },
+  {
+    "brand": "Grok",
+    "title": "Model Card: Grok 4.7",
+    "date": "2026-09-21",
+    "url": "https://media.x.ai/v1/website/card4p7-3a96f40b.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-006"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "ChatGPT Images 2.5 System Card",
+    "date": "2026-09-08",
+    "url": "https://deploymentsafety.openai.com/chatgpt-images-2-5/chatgpt-images-2-5.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-007"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-6 Astra System Card",
+    "date": "2026-09-03",
+    "url": "https://deploymentsafety.openai.com/gpt-6-astra/gpt-6-astra.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-008"
+  },
+  {
+    "brand": "GLM",
+    "title": "GLM-5.3 model card",
+    "date": "2026-08-28",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-009"
+  },
+  {
+    "brand": "Grok",
+    "title": "Model Card: Grok 4.6",
+    "date": "2026-08-12",
+    "url": "https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-010"
+  },
+  {
+    "brand": "Meta",
+    "title": "Muse Glimmer 30B Model Card",
+    "date": "2026-08-10",
+    "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-011"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.6 — August Updates",
+    "date": "2026-08-06",
+    "url": "https://deploymentsafety.openai.com/gpt-5-6-august-update/gpt-5-6-august-update.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-012"
+  },
+  {
+    "brand": "Grok",
+    "title": "Model Card: Grok 4.5",
+    "date": "2026-07-14",
+    "url": "https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-013"
+  },
+  {
+    "brand": "Meta",
+    "title": "Muse Spark 1.1 Evaluation Report",
+    "date": "2026-07-09",
+    "url": "https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-014"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.6 System Card",
+    "date": "2026-07-09",
+    "url": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-015"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-Live System Card",
+    "date": "2026-07-08",
+    "url": "https://deploymentsafety.openai.com/gpt-live/gpt-live.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-016"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.6 Preview System Card",
+    "date": "2026-06-26",
+    "url": "https://deploymentsafety.openai.com/gpt-5-6-preview/gpt-5-6-preview.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-017"
+  },
+  {
+    "brand": "Meta",
+    "title": "Muse Spark Contemplating Safety & Preparedness Report",
+    "date": "2026-06-03",
+    "url": "https://ai.meta.com/static-resource/muse-spark-contemplating-safety-and-preparedness-report/",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-018"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-Rosalind-5.5 System Card",
+    "date": "2026-06-03",
+    "url": "https://deploymentsafety.openai.com/gpt-rosalind-5-5/gpt-rosalind-5-5.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-019"
+  },
+  {
+    "brand": "Meta",
+    "title": "Muse Spark Safety & Preparedness Report",
+    "date": "2026-05-26",
+    "url": "https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-020"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.5 Instant System Card",
+    "date": "2026-05-05",
+    "url": "https://deploymentsafety.openai.com/gpt-5-5-instant/gpt-5-5-instant.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-021"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.5 System Card",
+    "date": "2026-04-23",
+    "url": "https://deploymentsafety.openai.com/gpt-5-5/gpt-5-5.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-022"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "ChatGPT Images 2.0 System Card",
+    "date": "2026-04-21",
+    "url": "https://deploymentsafety.openai.com/chatgpt-images-2-0/chatgpt-images-2-0.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-023"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.4 Thinking System Card",
+    "date": "2026-03-05",
+    "url": "https://deploymentsafety.openai.com/gpt-5-4-thinking/gpt-5-4-thinking.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-024"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.3 Instant System Card",
+    "date": "2026-03-03",
+    "url": "https://deploymentsafety.openai.com/gpt-5-3-instant/gpt-5-3-instant.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-025"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.3-Codex System Card",
+    "date": "2026-02-05",
+    "url": "https://deploymentsafety.openai.com/gpt-5-3-codex/gpt-5-3-codex.pdf",
+    "discovery": "https://systemcards.org/",
+    "id": "assessment-026"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Haiku 5.5 System Card",
+    "date": "2026-10",
+    "url": "https://www.anthropic.com/claude-haiku-5-5-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-027"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Sonnet 5.5 System Card",
+    "date": "2026-09",
+    "url": "https://www.anthropic.com/claude-sonnet-5-5-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-028"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Opus 5.5 System Card",
+    "date": "2026-09",
+    "url": "https://www.anthropic.com/claude-opus-5-5-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-029"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Fable 5.1 and Mythos 5.1 System Card",
+    "date": "2026-09",
+    "url": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-030"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Opus 5 System Card",
+    "date": "2026-07",
+    "url": "https://anthropic.com/claude-opus-5-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-031"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Sonnet 5 System Card",
+    "date": "2026-06",
+    "url": "https://anthropic.com/claude-sonnet-5-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-032"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Opus 4.8 System Card",
+    "date": "2026-05",
+    "url": "https://anthropic.com/claude-opus-4-8-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-033"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Fable 5 and Mythos 5 System Card",
+    "date": "2026-06",
+    "url": "https://anthropic.com/claude-fable-5-mythos-5-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-034"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Opus 4.7 System Card",
+    "date": "2026-04",
+    "url": "https://anthropic.com/claude-opus-4-7-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-035"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Mythos Preview System Card",
+    "date": "2026-04",
+    "url": "https://www.anthropic.com/claude-mythos-preview-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-036"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Sonnet 4.6 System Card",
+    "date": "2026-02",
+    "url": "http://anthropic.com/claude-sonnet-4-6-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-037"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Opus 4.6 System Card",
+    "date": "2026-02",
+    "url": "https://anthropic.com/claude-opus-4-6-system-card",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-038"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Opus 4.5 System Card",
+    "date": "2025-11",
+    "url": "https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-039"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Haiku 4.5 System Card",
+    "date": "2025-10",
+    "url": "https://www-cdn.anthropic.com/7aad69bf12627d42234e01ee7c36305dc2f6a970.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-040"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Sonnet 4.5 System Card",
+    "date": "2025-09",
+    "url": "https://www-cdn.anthropic.com/963373e433e489a87a10c823c52a0a013e9172dd.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-041"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Opus 4.1 System Card",
+    "date": "2025-08",
+    "url": "https://www-cdn.anthropic.com/9fa30625273bafdf5af82c93719d7ca606485a16.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-042"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Sonnet 4 and Opus 4 System Card",
+    "date": "2025-05",
+    "url": "https://www-cdn.anthropic.com/07b2a3f9902ee19fe39a36ca638e5ae987bc64dd.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-043"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Sonnet 3.7 System Card",
+    "date": "2025-02",
+    "url": "https://www-cdn.anthropic.com/9ff93dfa8f445c932415d335c88852ef47f1201e.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-044"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Haiku 3.5 and Sonnet 3.5  (new) System Card",
+    "date": "2024-10",
+    "url": "https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-045"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude Sonnet 3.5 System Card",
+    "date": "2024-06",
+    "url": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-046"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude 3 System Card",
+    "date": "2024-03",
+    "url": "https://www-cdn.anthropic.com/c6a80a657af445f40e31afac050f3bf76d3b1404.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-047"
+  },
+  {
+    "brand": "Anthropic",
+    "title": "Claude 2 System Card",
+    "date": "2023-07",
+    "url": "https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf",
+    "discovery": "https://www.anthropic.com/system-cards",
+    "id": "assessment-048"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-4 System Card",
+    "date": "2023-03",
+    "url": "https://cdn.openai.com/papers/gpt-4-system-card.pdf",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-049"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-4V System Card",
+    "date": "2023-09",
+    "url": "https://openai.com/index/gpt-4v-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-050"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "DALL-E 3 System Card",
+    "date": "2023-10",
+    "url": "https://openai.com/index/dall-e-3-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-051"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-4o System Card",
+    "date": "2024-08",
+    "url": "https://openai.com/index/gpt-4o-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-052"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "o1-preview System Card",
+    "date": "2024-09",
+    "url": "https://cdn.openai.com/o1-system-card-20240917.pdf",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-053"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "o1 System Card",
+    "date": "2024-12",
+    "url": "https://openai.com/index/openai-o1-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-054"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "Sora System Card",
+    "date": "2024-12",
+    "url": "https://openai.com/index/sora-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-055"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "Operator System Card",
+    "date": "2025-01",
+    "url": "https://openai.com/index/operator-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-056"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "o3-mini System Card",
+    "date": "2025-01",
+    "url": "https://openai.com/index/o3-mini-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-057"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "Deep Research System Card",
+    "date": "2025-02",
+    "url": "https://openai.com/index/deep-research-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-058"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-4.5 System Card",
+    "date": "2025-02",
+    "url": "https://openai.com/index/gpt-4-5-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-059"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "o3 and o4-mini System Card",
+    "date": "2025-04",
+    "url": "https://openai.com/index/o3-o4-mini-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-060"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-4.1 Safety Evaluations",
+    "date": "2025-05",
+    "url": "https://openai.com/index/gpt-4-1/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-061"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "ChatGPT agent System Card",
+    "date": "2025-07",
+    "url": "https://openai.com/index/chatgpt-agent-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-062"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "gpt-oss Model Card",
+    "date": "2025-08",
+    "url": "https://openai.com/index/gpt-oss-model-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-063"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5 System Card",
+    "date": "2025-08",
+    "url": "https://openai.com/index/gpt-5-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-064"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5-Codex System Card",
+    "date": "2025-09",
+    "url": "https://openai.com/index/gpt-5-codex-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-065"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "Sora 2 System Card",
+    "date": "2025-09",
+    "url": "https://openai.com/index/sora-2-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-066"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.1 System Card",
+    "date": "2025-11",
+    "url": "https://openai.com/index/gpt-5-1-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-067"
+  },
+  {
+    "brand": "OpenAI",
+    "title": "GPT-5.2 System Card",
+    "date": "2025-12",
+    "url": "https://openai.com/index/gpt-5-2-system-card/",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-068"
+  },
+  {
+    "brand": "Meta",
+    "title": "Llama Technical Report",
+    "date": "2023-02",
+    "url": "https://arxiv.org/pdf/2302.13971",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-069"
+  },
+  {
+    "brand": "Meta",
+    "title": "Llama 2 Technical Report",
+    "date": "2023-07",
+    "url": "https://arxiv.org/pdf/2307.09288",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-070"
+  },
+  {
+    "brand": "Meta",
+    "title": "Code Llama Technical Report",
+    "date": "2023-08",
+    "url": "https://arxiv.org/pdf/2308.12950",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-071"
+  },
+  {
+    "brand": "Meta",
+    "title": "Llama 3 Model Card",
+    "date": "2024-04",
+    "url": "https://raw.githubusercontent.com/meta-llama/llama3/main/MODEL_CARD.md",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-072"
+  },
+  {
+    "brand": "Meta",
+    "title": "Llama 3.1 Model Card",
+    "date": "2024-07",
+    "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_1/MODEL_CARD.md",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-073"
+  },
+  {
+    "brand": "Meta",
+    "title": "Llama 3.2 Model Card",
+    "date": "2024-09",
+    "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_2/MODEL_CARD.md",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-074"
+  },
+  {
+    "brand": "Meta",
+    "title": "Llama 3.3 Model Card",
+    "date": "2024-12",
+    "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama3_3/MODEL_CARD.md",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-075"
+  },
+  {
+    "brand": "Meta",
+    "title": "Llama 4 Model Card",
+    "date": "2025-04",
+    "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-076"
+  },
+  {
+    "brand": "Grok",
+    "title": "Grok 4 Model Card",
+    "date": "2025-08",
+    "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-077"
+  },
+  {
+    "brand": "Grok",
+    "title": "Grok Code Fast 1 Model Card",
+    "date": "2025-08",
+    "url": "https://data.x.ai/2025-08-28-grok-code-fast-1-model-card.pdf",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-078"
+  },
+  {
+    "brand": "Grok",
+    "title": "Grok 4 Fast Model Card",
+    "date": "2025-09",
+    "url": "https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-079"
+  },
+  {
+    "brand": "Gemini",
+    "title": "Gemini 1.0 Technical Report",
+    "date": "2023-12",
+    "url": "https://arxiv.org/pdf/2312.11805",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-080"
+  },
+  {
+    "brand": "Gemini",
+    "title": "Gemini 1.5 Technical Report",
+    "date": "2024-03",
+    "url": "https://arxiv.org/pdf/2403.05530",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-081"
+  },
+  {
+    "brand": "DeepSeek",
+    "title": "DeepSeek LLM Technical Report",
+    "date": "2024-01",
+    "url": "https://arxiv.org/pdf/2401.02954",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-082"
+  },
+  {
+    "brand": "DeepSeek",
+    "title": "DeepSeek-V2 Technical Report",
+    "date": "2024-05",
+    "url": "https://arxiv.org/pdf/2405.04434",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-083"
+  },
+  {
+    "brand": "DeepSeek",
+    "title": "DeepSeek-V3 Technical Report",
+    "date": "2024-12",
+    "url": "https://arxiv.org/pdf/2412.19437",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-084"
+  },
+  {
+    "brand": "DeepSeek",
+    "title": "DeepSeek-R1 Technical Report",
+    "date": "2025-01",
+    "url": "https://arxiv.org/pdf/2501.12948",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-085"
+  },
+  {
+    "brand": "Kimi",
+    "title": "Kimi K2 Technical Report",
+    "date": "2025-07",
+    "url": "https://raw.githubusercontent.com/MoonshotAI/Kimi-K2/main/tech_report.pdf",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-086"
+  },
+  {
+    "brand": "Kimi",
+    "title": "Kimi K2.5 Technical Report",
+    "date": "2026-02",
+    "url": "https://raw.githubusercontent.com/MoonshotAI/Kimi-K2.5/master/tech_report.pdf",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-087"
+  },
+  {
+    "brand": "Kimi",
+    "title": "Kimi K3 Technical Report",
+    "date": "2026-07",
+    "url": "https://raw.githubusercontent.com/MoonshotAI/Kimi-K3/main/k3_tech_report.pdf",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-088"
+  },
+  {
+    "brand": "Qwen",
+    "title": "Qwen Technical Report",
+    "date": "2023-09",
+    "url": "https://arxiv.org/pdf/2309.16609",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-089"
+  },
+  {
+    "brand": "Qwen",
+    "title": "Qwen2 Technical Report",
+    "date": "2024-07",
+    "url": "https://arxiv.org/pdf/2407.10671",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-090"
+  },
+  {
+    "brand": "Qwen",
+    "title": "Qwen2.5 Technical Report",
+    "date": "2024-12",
+    "url": "https://arxiv.org/pdf/2412.15115",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-091"
+  },
+  {
+    "brand": "Qwen",
+    "title": "Qwen3 Technical Report",
+    "date": "2025-05",
+    "url": "https://arxiv.org/pdf/2505.09388",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-092"
+  },
+  {
+    "brand": "GLM",
+    "title": "ChatGLM Technical Report",
+    "date": "2024-06",
+    "url": "https://arxiv.org/pdf/2406.12793",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-093"
+  },
+  {
+    "brand": "GLM",
+    "title": "GLM-4.5 Technical Report",
+    "date": "2025-08",
+    "url": "https://arxiv.org/pdf/2508.06471",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-094"
+  },
+  {
+    "brand": "GLM",
+    "title": "GLM-5 Technical Report",
+    "date": "2026-02",
+    "url": "https://arxiv.org/pdf/2602.15763",
+    "discovery": "人工检索候选，须核验正文",
+    "id": "assessment-095"
+  },
+  {
+    "id": "assessment-096",
+    "brand": "Gemini",
+    "title": "Gemini 4 Argon Model Card",
+    "date": "2026-10-13",
+    "url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-097",
+    "brand": "Gemini",
+    "title": "Nano Banana 2.1 Model Card",
+    "date": "2026-10-06",
+    "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-098",
+    "brand": "Gemini",
+    "title": "Gemini 3.8 Audio (Live, Live Extended Thinking, Flash TTS, Flash-Lite TTS) Model Card",
+    "date": "2026-09-24",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-8-audio/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-099",
+    "brand": "Gemini",
+    "title": "Gemini 3.8 Flash Model Card",
+    "date": "2026-09-02",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-100",
+    "brand": "Gemini",
+    "title": "Gemini Omni Flash Model Card",
+    "date": "2026-08-27",
+    "url": "https://deepmind.google/models/model-cards/gemini-omni-flash/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-101",
+    "brand": "Gemini",
+    "title": "Gemini 3.5 Audio (Live Translate, Transcribe, Transcribe Live) Model Card",
+    "date": "2026-08-26",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-5-audio/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-102",
+    "brand": "Gemini",
+    "title": "Gemini 3.7 Flash Model Card",
+    "date": "2026-08-13",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-103",
+    "brand": "Gemini",
+    "title": "Gemini 3.6 Flash Model Card",
+    "date": "2026-07-21",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-6-flash/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-104",
+    "brand": "Gemini",
+    "title": "Gemini 3.5 Flash-Lite Model Card",
+    "date": "2026-07-21",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash-lite/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-105",
+    "brand": "Gemini",
+    "title": "Gemini 3.1 Flash-Lite Image Model Card",
+    "date": "2026-06-30",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite-image/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-106",
+    "brand": "Gemini",
+    "title": "Gemini 3.5 Flash Model Card",
+    "date": "2026-05-19",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-107",
+    "brand": "Gemini",
+    "title": "Gemini 3.1 Flash Audio (Flash Live, TTS) Model Card",
+    "date": "2026-04-15",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-audio/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-108",
+    "brand": "Gemini",
+    "title": "Gemini 3.1 Flash-Lite Model Card",
+    "date": "2026-03-03",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-109",
+    "brand": "Gemini",
+    "title": "Gemini 3.1 Flash Image Model Card",
+    "date": "2026-02-26",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-image/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-110",
+    "brand": "Gemini",
+    "title": "Gemini 3.1 Pro Model Card",
+    "date": "2026-02-19",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-111",
+    "brand": "Gemini",
+    "title": "Gemini 3 Flash Model Card",
+    "date": "2025-12-17",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-flash/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-112",
+    "brand": "Gemini",
+    "title": "Gemini 3 Pro Image Model Card",
+    "date": "2025-11-20",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-pro-image/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-113",
+    "brand": "Gemini",
+    "title": "Gemini 3 Pro Model Card",
+    "date": "2025-11-18",
+    "url": "https://deepmind.google/models/model-cards/gemini-3-pro/",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-114",
+    "brand": "Gemini",
+    "title": "Gemini 2.5 Computer Use Model Card",
+    "date": "2025-10-07",
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Computer-Use-Model-Card.pdf",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-115",
+    "brand": "Gemini",
+    "title": "Gemini 2.5 Deep Think Model Card",
+    "date": "2025-08-01",
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-116",
+    "brand": "Gemini",
+    "title": "Gemini 2.5 Flash-Lite Model Card",
+    "date": "2025-09-26",
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-117",
+    "brand": "Gemini",
+    "title": "Gemini 2.5 Flash and Gemini 2.5 Flash Image Model Card",
+    "date": "2025-09-26",
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Model-Card.pdf",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-118",
+    "brand": "Gemini",
+    "title": "Gemini 2.5 Pro Model Card",
+    "date": "2025-06-27",
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-119",
+    "brand": "Gemini",
+    "title": "Gemini 2.0 Flash Model Card",
+    "date": "2025-04-15",
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-120",
+    "brand": "Gemini",
+    "title": "Gemini 2.0 Flash-Lite Model Card",
+    "date": "2025-04-10",
+    "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Lite-Model-Card.pdf",
+    "discovery": "https://deepmind.google/models/model-cards/"
+  },
+  {
+    "id": "assessment-121",
+    "brand": "OpenAI",
+    "title": "GPT-5-Codex System Card Addendum",
+    "date": "2025-09",
+    "url": "https://cdn.openai.com/pdf/97cc5669-7a25-4e63-b15f-5fd5bdc4d149/gpt-5-codex-system-card.pdf",
+    "discovery": "官方链接或作者技术报告"
+  },
+  {
+    "id": "assessment-122",
+    "brand": "OpenAI",
+    "title": "GPT-5.2 System Card Update",
+    "date": "2025-12",
+    "url": "https://cdn.openai.com/pdf/3a4153c8-c748-4b71-8e31-aecbde944f8d/oai_5_2_system-card.pdf",
+    "discovery": "官方链接或作者技术报告"
+  },
+  {
+    "id": "assessment-123",
+    "brand": "OpenAI",
+    "title": "GPT-5.2-Codex System Card Addendum",
+    "date": "2025-12",
+    "url": "https://cdn.openai.com/pdf/ac7c37ae-7f4c-4442-b741-2eabdeaf77e0/oai_5_2_Codex.pdf",
+    "discovery": "官方链接或作者技术报告"
+  },
+  {
+    "id": "assessment-124",
+    "brand": "OpenAI",
+    "title": "GPT-5.1 System Card Addendum",
+    "date": "2025-11",
+    "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1/",
+    "discovery": "官方链接或作者技术报告"
+  },
+  {
+    "id": "assessment-125",
+    "brand": "Grok",
+    "title": "Grok 4.1 Model Card",
+    "date": "2025-11",
+    "url": "https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf",
+    "discovery": "官方链接或作者技术报告"
+  },
+  {
+    "id": "assessment-126",
+    "brand": "Meta",
+    "title": "The Llama 3 Herd of Models",
+    "date": "2024-07",
+    "url": "https://arxiv.org/pdf/2407.21783v1",
+    "discovery": "官方链接或作者技术报告"
+  },
+  {
+    "id": "assessment-127",
+    "brand": "Gemini",
+    "title": "Gemini 1.0 Technical Report (initial version)",
+    "date": "2023-12",
+    "url": "https://arxiv.org/pdf/2312.11805v1",
+    "discovery": "官方链接或作者技术报告"
+  }
+]

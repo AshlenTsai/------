@@ -1,0 +1,3163 @@
+{
+  "title": "九品牌模型的公开安全评估",
+  "start": "2023-01-01",
+  "end": "2026-10-20",
+  "brands": [
+    "OpenAI",
+    "Anthropic",
+    "Meta",
+    "Grok",
+    "Gemini",
+    "DeepSeek",
+    "Kimi",
+    "Qwen",
+    "GLM"
+  ],
+  "years": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "unit": "份已核实文档",
+  "note": "柱长表示已核实安全评估报告份数，右侧为“报告份数 / 模型发布数”。报告按文档公开年份计数，修订与镜像不重复；模型按主要命名版本首次公开年份（含预览）计数，不拆参数规模、量化版或日期快照，同名正式版与别名不重计。两项均为已核实清单数量，0 表示未收录；一份报告可覆盖多个模型，不能据此计算披露率或判断安全水平。2026 年截至 10 月 20 日。",
+  "records": [
+    {
+      "id": "assessment-049",
+      "brand": "OpenAI",
+      "title": "GPT-4 System Card",
+      "date": "2023-03",
+      "url": "https://cdn.openai.com/papers/gpt-4-system-card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-049.txt"
+    },
+    {
+      "id": "assessment-050",
+      "brand": "OpenAI",
+      "title": "GPT-4V System Card",
+      "date": "2023-09",
+      "url": "https://openai.com/index/gpt-4v-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-051",
+      "brand": "OpenAI",
+      "title": "DALL-E 3 System Card",
+      "date": "2023-10",
+      "url": "https://openai.com/index/dall-e-3-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-052",
+      "brand": "OpenAI",
+      "title": "GPT-4o System Card",
+      "date": "2024-08",
+      "url": "https://openai.com/index/gpt-4o-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-053",
+      "brand": "OpenAI",
+      "title": "o1-preview System Card",
+      "date": "2024-09",
+      "url": "https://cdn.openai.com/o1-system-card-20240917.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-053.txt"
+    },
+    {
+      "id": "assessment-054",
+      "brand": "OpenAI",
+      "title": "o1 System Card",
+      "date": "2024-12",
+      "url": "https://openai.com/index/openai-o1-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-055",
+      "brand": "OpenAI",
+      "title": "Sora System Card",
+      "date": "2024-12",
+      "url": "https://openai.com/index/sora-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-056",
+      "brand": "OpenAI",
+      "title": "Operator System Card",
+      "date": "2025-01",
+      "url": "https://openai.com/index/operator-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-057",
+      "brand": "OpenAI",
+      "title": "o3-mini System Card",
+      "date": "2025-01",
+      "url": "https://openai.com/index/o3-mini-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-058",
+      "brand": "OpenAI",
+      "title": "Deep Research System Card",
+      "date": "2025-02",
+      "url": "https://openai.com/index/deep-research-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-059",
+      "brand": "OpenAI",
+      "title": "GPT-4.5 System Card",
+      "date": "2025-02",
+      "url": "https://openai.com/index/gpt-4-5-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-060",
+      "brand": "OpenAI",
+      "title": "o3 and o4-mini System Card",
+      "date": "2025-04",
+      "url": "https://openai.com/index/o3-o4-mini-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-062",
+      "brand": "OpenAI",
+      "title": "ChatGPT agent System Card",
+      "date": "2025-07",
+      "url": "https://openai.com/index/chatgpt-agent-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-063",
+      "brand": "OpenAI",
+      "title": "gpt-oss Model Card",
+      "date": "2025-08",
+      "url": "https://openai.com/index/gpt-oss-model-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-064",
+      "brand": "OpenAI",
+      "title": "GPT-5 System Card",
+      "date": "2025-08",
+      "url": "https://openai.com/index/gpt-5-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-066",
+      "brand": "OpenAI",
+      "title": "Sora 2 System Card",
+      "date": "2025-09",
+      "url": "https://openai.com/index/sora-2-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-121",
+      "brand": "OpenAI",
+      "title": "GPT-5-Codex System Card Addendum",
+      "date": "2025-09",
+      "url": "https://cdn.openai.com/pdf/97cc5669-7a25-4e63-b15f-5fd5bdc4d149/gpt-5-codex-system-card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-121.txt"
+    },
+    {
+      "id": "assessment-124",
+      "brand": "OpenAI",
+      "title": "GPT-5.1 System Card Addendum",
+      "date": "2025-11",
+      "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-122",
+      "brand": "OpenAI",
+      "title": "GPT-5.2 System Card Update",
+      "date": "2025-12",
+      "url": "https://cdn.openai.com/pdf/3a4153c8-c748-4b71-8e31-aecbde944f8d/oai_5_2_system-card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-122.txt"
+    },
+    {
+      "id": "assessment-123",
+      "brand": "OpenAI",
+      "title": "GPT-5.2-Codex System Card Addendum",
+      "date": "2025-12",
+      "url": "https://cdn.openai.com/pdf/ac7c37ae-7f4c-4442-b741-2eabdeaf77e0/oai_5_2_Codex.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-123.txt"
+    },
+    {
+      "id": "assessment-026",
+      "brand": "OpenAI",
+      "title": "GPT-5.3-Codex System Card",
+      "date": "2026-02-05",
+      "url": "https://deploymentsafety.openai.com/gpt-5-3-codex",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-025",
+      "brand": "OpenAI",
+      "title": "GPT-5.3 Instant System Card",
+      "date": "2026-03-03",
+      "url": "https://deploymentsafety.openai.com/gpt-5-3-instant",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-024",
+      "brand": "OpenAI",
+      "title": "GPT-5.4 Thinking System Card",
+      "date": "2026-03-05",
+      "url": "https://deploymentsafety.openai.com/gpt-5-4-thinking",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-023",
+      "brand": "OpenAI",
+      "title": "ChatGPT Images 2.0 System Card",
+      "date": "2026-04-21",
+      "url": "https://deploymentsafety.openai.com/chatgpt-images-2-0",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-022",
+      "brand": "OpenAI",
+      "title": "GPT-5.5 System Card",
+      "date": "2026-04-23",
+      "url": "https://openai.com/index/gpt-5-5-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-021",
+      "brand": "OpenAI",
+      "title": "GPT-5.5 Instant System Card",
+      "date": "2026-05-05",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-019",
+      "brand": "OpenAI",
+      "title": "GPT-Rosalind-5.5 System Card",
+      "date": "2026-06-03",
+      "url": "https://deploymentsafety.openai.com/gpt-rosalind-5-5",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-017",
+      "brand": "OpenAI",
+      "title": "GPT-5.6 Preview System Card",
+      "date": "2026-06-26",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-016",
+      "brand": "OpenAI",
+      "title": "GPT-Live System Card",
+      "date": "2026-07-08",
+      "url": "https://deploymentsafety.openai.com/gpt-live",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-015",
+      "brand": "OpenAI",
+      "title": "GPT-5.6 System Card",
+      "date": "2026-07-09",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-012",
+      "brand": "OpenAI",
+      "title": "GPT-5.6 — August Updates",
+      "date": "2026-08-06",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6-august-update",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-008",
+      "brand": "OpenAI",
+      "title": "GPT-6 Astra System Card",
+      "date": "2026-09-03",
+      "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-007",
+      "brand": "OpenAI",
+      "title": "ChatGPT Images 2.5 System Card",
+      "date": "2026-09-08",
+      "url": "https://deploymentsafety.openai.com/chatgpt-images-2-5",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-005",
+      "brand": "OpenAI",
+      "title": "Addendum to GPT-6 Astra System Card: GPT-6.1 Sol",
+      "date": "2026-09-29",
+      "url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-004",
+      "brand": "OpenAI",
+      "title": "GPT-6 Sol and GPT-6 Luna: October 2026 update",
+      "date": "2026-10-07",
+      "url": "https://deploymentsafety.openai.com/gpt-6-october",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-002",
+      "brand": "OpenAI",
+      "title": "GPT-Live-1.1 System Card",
+      "date": "2026-10-15",
+      "url": "https://deploymentsafety.openai.com/gpt-live-1-1",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-048",
+      "brand": "Anthropic",
+      "title": "Claude 2 System Card",
+      "date": "2023-07",
+      "url": "https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-048.txt"
+    },
+    {
+      "id": "assessment-047",
+      "brand": "Anthropic",
+      "title": "Claude 3 System Card",
+      "date": "2024-03",
+      "url": "https://www-cdn.anthropic.com/c6a80a657af445f40e31afac050f3bf76d3b1404.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-047.txt"
+    },
+    {
+      "id": "assessment-046",
+      "brand": "Anthropic",
+      "title": "Claude Sonnet 3.5 System Card",
+      "date": "2024-06",
+      "url": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-046.txt"
+    },
+    {
+      "id": "assessment-045",
+      "brand": "Anthropic",
+      "title": "Claude Haiku 3.5 and Sonnet 3.5  (new) System Card",
+      "date": "2024-10",
+      "url": "https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-045.txt"
+    },
+    {
+      "id": "assessment-044",
+      "brand": "Anthropic",
+      "title": "Claude Sonnet 3.7 System Card",
+      "date": "2025-02",
+      "url": "https://www-cdn.anthropic.com/9ff93dfa8f445c932415d335c88852ef47f1201e.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-044.txt"
+    },
+    {
+      "id": "assessment-043",
+      "brand": "Anthropic",
+      "title": "Claude Sonnet 4 and Opus 4 System Card",
+      "date": "2025-05",
+      "url": "https://www-cdn.anthropic.com/07b2a3f9902ee19fe39a36ca638e5ae987bc64dd.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-043.txt"
+    },
+    {
+      "id": "assessment-042",
+      "brand": "Anthropic",
+      "title": "Claude Opus 4.1 System Card",
+      "date": "2025-08",
+      "url": "https://www-cdn.anthropic.com/9fa30625273bafdf5af82c93719d7ca606485a16.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-042.txt"
+    },
+    {
+      "id": "assessment-041",
+      "brand": "Anthropic",
+      "title": "Claude Sonnet 4.5 System Card",
+      "date": "2025-09",
+      "url": "https://www-cdn.anthropic.com/963373e433e489a87a10c823c52a0a013e9172dd.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-041.txt"
+    },
+    {
+      "id": "assessment-040",
+      "brand": "Anthropic",
+      "title": "Claude Haiku 4.5 System Card",
+      "date": "2025-10",
+      "url": "https://www-cdn.anthropic.com/7aad69bf12627d42234e01ee7c36305dc2f6a970.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-040.txt"
+    },
+    {
+      "id": "assessment-039",
+      "brand": "Anthropic",
+      "title": "Claude Opus 4.5 System Card",
+      "date": "2025-11",
+      "url": "https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-039.txt"
+    },
+    {
+      "id": "assessment-037",
+      "brand": "Anthropic",
+      "title": "Claude Sonnet 4.6 System Card",
+      "date": "2026-02",
+      "url": "http://anthropic.com/claude-sonnet-4-6-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-037.txt"
+    },
+    {
+      "id": "assessment-038",
+      "brand": "Anthropic",
+      "title": "Claude Opus 4.6 System Card",
+      "date": "2026-02",
+      "url": "https://anthropic.com/claude-opus-4-6-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-038.txt"
+    },
+    {
+      "id": "assessment-035",
+      "brand": "Anthropic",
+      "title": "Claude Opus 4.7 System Card",
+      "date": "2026-04",
+      "url": "https://anthropic.com/claude-opus-4-7-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-035.txt"
+    },
+    {
+      "id": "assessment-036",
+      "brand": "Anthropic",
+      "title": "Mythos Preview System Card",
+      "date": "2026-04",
+      "url": "https://www.anthropic.com/claude-mythos-preview-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-036.txt"
+    },
+    {
+      "id": "assessment-033",
+      "brand": "Anthropic",
+      "title": "Claude Opus 4.8 System Card",
+      "date": "2026-05",
+      "url": "https://anthropic.com/claude-opus-4-8-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-033.txt"
+    },
+    {
+      "id": "assessment-032",
+      "brand": "Anthropic",
+      "title": "Claude Sonnet 5 System Card",
+      "date": "2026-06",
+      "url": "https://anthropic.com/claude-sonnet-5-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-032.txt"
+    },
+    {
+      "id": "assessment-034",
+      "brand": "Anthropic",
+      "title": "Claude Fable 5 and Mythos 5 System Card",
+      "date": "2026-06",
+      "url": "https://anthropic.com/claude-fable-5-mythos-5-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-034.txt"
+    },
+    {
+      "id": "assessment-031",
+      "brand": "Anthropic",
+      "title": "Claude Opus 5 System Card",
+      "date": "2026-07",
+      "url": "https://anthropic.com/claude-opus-5-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-031.txt"
+    },
+    {
+      "id": "assessment-028",
+      "brand": "Anthropic",
+      "title": "Claude Sonnet 5.5 System Card",
+      "date": "2026-09",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-028.txt"
+    },
+    {
+      "id": "assessment-029",
+      "brand": "Anthropic",
+      "title": "Claude Opus 5.5 System Card",
+      "date": "2026-09",
+      "url": "https://www.anthropic.com/claude-opus-5-5-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-029.txt"
+    },
+    {
+      "id": "assessment-030",
+      "brand": "Anthropic",
+      "title": "Claude Fable 5.1 and Mythos 5.1 System Card",
+      "date": "2026-09",
+      "url": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-030.txt"
+    },
+    {
+      "id": "assessment-027",
+      "brand": "Anthropic",
+      "title": "Claude Haiku 5.5 System Card",
+      "date": "2026-10",
+      "url": "https://www.anthropic.com/claude-haiku-5-5-system-card",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-027.txt"
+    },
+    {
+      "id": "assessment-069",
+      "brand": "Meta",
+      "title": "Llama Technical Report",
+      "date": "2023-02",
+      "url": "https://arxiv.org/pdf/2302.13971",
+      "evidence": "公布毒性和偏见基准结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-069.txt"
+    },
+    {
+      "id": "assessment-070",
+      "brand": "Meta",
+      "title": "Llama 2 Technical Report",
+      "date": "2023-07",
+      "url": "https://arxiv.org/pdf/2307.09288",
+      "evidence": "公布有害性、拒绝与红队结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-070.txt"
+    },
+    {
+      "id": "assessment-071",
+      "brand": "Meta",
+      "title": "Code Llama Technical Report",
+      "date": "2023-08",
+      "url": "https://arxiv.org/pdf/2308.12950",
+      "evidence": "公布毒性、安全代码和红队评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-071.txt"
+    },
+    {
+      "id": "assessment-072",
+      "brand": "Meta",
+      "title": "Llama 3 Model Card",
+      "date": "2024-04",
+      "url": "https://raw.githubusercontent.com/meta-llama/llama3/main/MODEL_CARD.md",
+      "evidence": "Cyber Security 段公布相对安全结论",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-072.txt"
+    },
+    {
+      "id": "assessment-126",
+      "brand": "Meta",
+      "title": "The Llama 3 Herd of Models",
+      "date": "2024-07",
+      "url": "https://arxiv.org/pdf/2407.21783v1",
+      "evidence": "安全章节公布 Llama 3 模型评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-126.txt"
+    },
+    {
+      "id": "assessment-076",
+      "brand": "Meta",
+      "title": "Llama 4 Model Card",
+      "date": "2025-04",
+      "url": "https://raw.githubusercontent.com/meta-llama/llama-models/main/models/llama4/MODEL_CARD.md",
+      "evidence": "公布网络攻击使能等风险评估结论",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-076.txt"
+    },
+    {
+      "id": "assessment-020",
+      "brand": "Meta",
+      "title": "Muse Spark Safety & Preparedness Report",
+      "date": "2026-05-26",
+      "url": "https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-020.txt"
+    },
+    {
+      "id": "assessment-018",
+      "brand": "Meta",
+      "title": "Muse Spark Contemplating Safety & Preparedness Report",
+      "date": "2026-06-03",
+      "url": "https://ai.meta.com/static-resource/muse-spark-contemplating-safety-and-preparedness-report/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-018.txt"
+    },
+    {
+      "id": "assessment-014",
+      "brand": "Meta",
+      "title": "Muse Spark 1.1 Evaluation Report",
+      "date": "2026-07-09",
+      "url": "https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-014.txt"
+    },
+    {
+      "id": "assessment-011",
+      "brand": "Meta",
+      "title": "Muse Glimmer 30B Model Card",
+      "date": "2026-08-10",
+      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "evidence": "公布生物风险基准结果与风险结论",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-011.txt"
+    },
+    {
+      "id": "assessment-003",
+      "brand": "Meta",
+      "title": "Muse Wonder Model Card",
+      "date": "2026-10-12",
+      "url": "https://research.meta.ai/static/muse-wonder-model-card",
+      "evidence": "公布灾难性风险域评估及剩余风险结论",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-003.txt"
+    },
+    {
+      "id": "assessment-001",
+      "brand": "Meta",
+      "title": "Muse Spark Open Model Card",
+      "date": "2026-10-15",
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "evidence": "公布拒绝行为、网络与生化风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-001.txt"
+    },
+    {
+      "id": "assessment-077",
+      "brand": "Grok",
+      "title": "Grok 4 Model Card",
+      "date": "2025-08",
+      "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-077.txt"
+    },
+    {
+      "id": "assessment-078",
+      "brand": "Grok",
+      "title": "Grok Code Fast 1 Model Card",
+      "date": "2025-08",
+      "url": "https://data.x.ai/2025-08-26-grok-code-fast-1-model-card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "web-primary-verified",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计"
+    },
+    {
+      "id": "assessment-079",
+      "brand": "Grok",
+      "title": "Grok 4 Fast Model Card",
+      "date": "2025-09",
+      "url": "https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-079.txt"
+    },
+    {
+      "id": "assessment-125",
+      "brand": "Grok",
+      "title": "Grok 4.1 Model Card",
+      "date": "2025-11",
+      "url": "https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-125.txt"
+    },
+    {
+      "id": "assessment-013",
+      "brand": "Grok",
+      "title": "Model Card: Grok 4.5",
+      "date": "2026-07-14",
+      "url": "https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-013.txt"
+    },
+    {
+      "id": "assessment-010",
+      "brand": "Grok",
+      "title": "Model Card: Grok 4.6",
+      "date": "2026-08-12",
+      "url": "https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-010.txt"
+    },
+    {
+      "id": "assessment-006",
+      "brand": "Grok",
+      "title": "Model Card: Grok 4.7",
+      "date": "2026-09-21",
+      "url": "https://media.x.ai/v1/website/card4p7-3a96f40b.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-006.txt"
+    },
+    {
+      "id": "assessment-127",
+      "brand": "Gemini",
+      "title": "Gemini 1.0 Technical Report (initial version)",
+      "date": "2023-12",
+      "url": "https://arxiv.org/pdf/2312.11805v1",
+      "evidence": "初始报告责任与安全部分公布评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-127.txt"
+    },
+    {
+      "id": "assessment-081",
+      "brand": "Gemini",
+      "title": "Gemini 1.5 Technical Report",
+      "date": "2024-03",
+      "url": "https://arxiv.org/pdf/2403.05530",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-081.txt"
+    },
+    {
+      "id": "assessment-120",
+      "brand": "Gemini",
+      "title": "Gemini 2.0 Flash-Lite Model Card",
+      "date": "2025-04-10",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Lite-Model-Card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-120.txt"
+    },
+    {
+      "id": "assessment-119",
+      "brand": "Gemini",
+      "title": "Gemini 2.0 Flash Model Card",
+      "date": "2025-04-15",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-119.txt"
+    },
+    {
+      "id": "assessment-118",
+      "brand": "Gemini",
+      "title": "Gemini 2.5 Pro Model Card",
+      "date": "2025-06-27",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-118.txt"
+    },
+    {
+      "id": "assessment-115",
+      "brand": "Gemini",
+      "title": "Gemini 2.5 Deep Think Model Card",
+      "date": "2025-08-01",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-115.txt"
+    },
+    {
+      "id": "assessment-116",
+      "brand": "Gemini",
+      "title": "Gemini 2.5 Flash-Lite Model Card",
+      "date": "2025-09-26",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-116.txt"
+    },
+    {
+      "id": "assessment-117",
+      "brand": "Gemini",
+      "title": "Gemini 2.5 Flash and Gemini 2.5 Flash Image Model Card",
+      "date": "2025-09-26",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Model-Card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-117.txt"
+    },
+    {
+      "id": "assessment-114",
+      "brand": "Gemini",
+      "title": "Gemini 2.5 Computer Use Model Card",
+      "date": "2025-10-07",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Computer-Use-Model-Card.pdf",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-114.txt"
+    },
+    {
+      "id": "assessment-113",
+      "brand": "Gemini",
+      "title": "Gemini 3 Pro Model Card",
+      "date": "2025-11-18",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-pro/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-113.txt"
+    },
+    {
+      "id": "assessment-111",
+      "brand": "Gemini",
+      "title": "Gemini 3 Flash Model Card",
+      "date": "2025-12-17",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-flash/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-111.txt"
+    },
+    {
+      "id": "assessment-110",
+      "brand": "Gemini",
+      "title": "Gemini 3.1 Pro Model Card",
+      "date": "2026-02-19",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-110.txt"
+    },
+    {
+      "id": "assessment-108",
+      "brand": "Gemini",
+      "title": "Gemini 3.1 Flash-Lite Model Card",
+      "date": "2026-03-03",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-108.txt"
+    },
+    {
+      "id": "assessment-106",
+      "brand": "Gemini",
+      "title": "Gemini 3.5 Flash Model Card",
+      "date": "2026-05-19",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-106.txt"
+    },
+    {
+      "id": "assessment-103",
+      "brand": "Gemini",
+      "title": "Gemini 3.6 Flash Model Card",
+      "date": "2026-07-21",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-6-flash/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-103.txt"
+    },
+    {
+      "id": "assessment-104",
+      "brand": "Gemini",
+      "title": "Gemini 3.5 Flash-Lite Model Card",
+      "date": "2026-07-21",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash-lite/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-104.txt"
+    },
+    {
+      "id": "assessment-102",
+      "brand": "Gemini",
+      "title": "Gemini 3.7 Flash Model Card",
+      "date": "2026-08-13",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-102.txt"
+    },
+    {
+      "id": "assessment-099",
+      "brand": "Gemini",
+      "title": "Gemini 3.8 Flash Model Card",
+      "date": "2026-09-02",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-099.txt"
+    },
+    {
+      "id": "assessment-097",
+      "brand": "Gemini",
+      "title": "Nano Banana 2.1 Model Card",
+      "date": "2026-10-06",
+      "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+      "evidence": "Human Red Teaming Results 公布儿童与内容安全测试结论",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-097.txt"
+    },
+    {
+      "id": "assessment-096",
+      "brand": "Gemini",
+      "title": "Gemini 4 Argon Model Card",
+      "date": "2026-10-13",
+      "url": "https://deepmind.google/models/model-cards/gemini-4-argon/",
+      "evidence": "一手系统卡、模型卡或技术报告公开内容安全、对齐或前沿风险评估结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-096.txt"
+    },
+    {
+      "id": "assessment-082",
+      "brand": "DeepSeek",
+      "title": "DeepSeek LLM Technical Report",
+      "date": "2024-01",
+      "url": "https://arxiv.org/pdf/2401.02954",
+      "evidence": "第 5.4 节、表 10 公布安全回答数量",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-082.txt"
+    },
+    {
+      "id": "assessment-085",
+      "brand": "DeepSeek",
+      "title": "DeepSeek-R1 Technical Report",
+      "date": "2025-09",
+      "url": "https://arxiv.org/pdf/2501.12948",
+      "evidence": "扩展版附录 D.3 公布安全、越狱及多语言评估，不倒填到最初版本",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-085.txt"
+    },
+    {
+      "id": "assessment-086",
+      "brand": "Kimi",
+      "title": "Kimi K2 Technical Report",
+      "date": "2025-07",
+      "url": "https://raw.githubusercontent.com/MoonshotAI/Kimi-K2/main/tech_report.pdf",
+      "evidence": "第 4.3 节公布安全红队测试结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-086.txt"
+    },
+    {
+      "id": "assessment-090",
+      "brand": "Qwen",
+      "title": "Qwen2 Technical Report",
+      "date": "2024-07",
+      "url": "https://arxiv.org/pdf/2407.10671",
+      "evidence": "表 14 公布多语言测试各风险类别的有害回答比例",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-090.txt"
+    },
+    {
+      "id": "assessment-093",
+      "brand": "GLM",
+      "title": "ChatGLM Technical Report",
+      "date": "2024-06",
+      "url": "https://arxiv.org/pdf/2406.12793",
+      "evidence": "表 10 公布 GLM-4 SafetyBench 七类结果",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-093.txt"
+    },
+    {
+      "id": "assessment-094",
+      "brand": "GLM",
+      "title": "GLM-4.5 Technical Report",
+      "date": "2025-08",
+      "url": "https://arxiv.org/pdf/2508.06471",
+      "evidence": "Safety 章节公布 SafetyBench 分项及总分 89.87",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-094.txt"
+    },
+    {
+      "id": "assessment-009",
+      "brand": "GLM",
+      "title": "GLM-5.3 model card",
+      "date": "2026-08-28",
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "evidence": "公布 CyberGym、ExploitGym 与 ExploitBench 危险网络能力结果，不表示防护措施完善",
+      "verification": "downloaded-primary",
+      "dateBasis": "按所核验报告版本或官方目录公开/更新日期的年份统计",
+      "localText": "/data/sources/safety-assessments/assessment-009.txt"
+    }
+  ],
+  "modelReleases": [
+    {
+      "brand": "OpenAI",
+      "name": "DALL-E 3",
+      "year": 2023,
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-3.5 Turbo",
+      "year": 2023,
+      "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4",
+      "year": 2023,
+      "url": "https://openai.com/index/gpt-4-research/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4 Turbo",
+      "year": 2023,
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4V",
+      "year": 2023,
+      "url": "https://openai.com/index/gpt-4v-system-card/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "TTS-1",
+      "year": 2023,
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "TTS-1 HD",
+      "year": 2023,
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "Whisper large-v3",
+      "year": 2023,
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o",
+      "year": 2024,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o Realtime",
+      "year": 2024,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o mini",
+      "year": 2024,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o mini Realtime",
+      "year": 2024,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "Sora",
+      "year": 2024,
+      "url": "https://openai.com/index/sora-is-here/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o1",
+      "year": 2024,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o1-mini",
+      "year": 2024,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o1-pro",
+      "year": 2024,
+      "url": "https://openai.com/index/introducing-chatgpt-pro/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "Codex mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "Computer Use Preview",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT Image 1",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT Image 1 mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT Image 1.5",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4.1",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4.1 mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4.1 nano",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4.5",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o Search",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o Transcribe",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o mini Search",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o mini TTS",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-4o mini Transcribe",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5 Pro",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5 mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5 nano",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5-Codex",
+      "year": 2025,
+      "url": "https://openai.com/index/introducing-upgrades-to-codex/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.1",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.1 Instant",
+      "year": 2025,
+      "url": "https://openai.com/index/gpt-5-1/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.1-Codex",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.1-Codex Max",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.1-Codex mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.2",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.2 Instant",
+      "year": 2025,
+      "url": "https://openai.com/index/introducing-gpt-5-2/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.2 Pro",
+      "year": 2025,
+      "url": "https://openai.com/index/introducing-gpt-5-2/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.2-Codex",
+      "year": 2025,
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Audio",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Audio mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Realtime",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Realtime mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "Sora 2",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "Sora 2 Pro",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "gpt-oss",
+      "year": 2025,
+      "url": "https://openai.com/index/introducing-gpt-oss/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o3",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o3-deep-research",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o3-mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o3-pro",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o4-mini",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "o4-mini-deep-research",
+      "year": 2025,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT Image 2",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT Image 2.5 Flare",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT Image 2.5 Sunburst",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT Live Transcribe",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT Transcribe",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.3 Instant",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.3-Codex",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.3-Codex-Spark",
+      "year": 2026,
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.4",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.4 Pro",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.4 mini",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.4 nano",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.4-Cyber",
+      "year": 2026,
+      "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.5",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.5 Instant",
+      "year": 2026,
+      "url": "https://openai.com/index/gpt-5-5-instant/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.5 Pro",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.5-Cyber",
+      "year": 2026,
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.6 Luna",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.6 Sol",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.6 Terra",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-5.6-Cyber",
+      "year": 2026,
+      "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-6 Astra",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-6 Luna",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-6 Sol",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-6.1 Sol",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Audio 1.5",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Live-1",
+      "year": 2026,
+      "url": "https://deploymentsafety.openai.com/gpt-live/gpt-live.pdf"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Live-1 mini",
+      "year": 2026,
+      "url": "https://deploymentsafety.openai.com/gpt-live/gpt-live.pdf"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Live-1.1",
+      "year": 2026,
+      "url": "https://deploymentsafety.openai.com/gpt-live-1-1/gpt-live-1-1.pdf"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Live-1.1 Quip",
+      "year": 2026,
+      "url": "https://deploymentsafety.openai.com/gpt-live-1-1/gpt-live-1-1.pdf"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Realtime 1.5",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Realtime 2",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Realtime 2.1",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Realtime 2.1 mini",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Realtime Translate",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Realtime Whisper",
+      "year": 2026,
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Rosalind",
+      "year": 2026,
+      "url": "https://openai.com/index/introducing-gpt-rosalind/"
+    },
+    {
+      "brand": "OpenAI",
+      "name": "GPT-Rosalind-5.5",
+      "year": 2026,
+      "url": "https://deploymentsafety.openai.com/gpt-rosalind-5-5/gpt-rosalind-5-5.pdf"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 1",
+      "year": 2023,
+      "url": "https://www.anthropic.com/news/introducing-claude"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 2",
+      "year": 2023,
+      "url": "https://www.anthropic.com/news/claude-2"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 2.1",
+      "year": 2023,
+      "url": "https://www.anthropic.com/news/claude-2-1"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Instant 1",
+      "year": 2023,
+      "url": "https://www.anthropic.com/news/introducing-claude"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Instant 1.2",
+      "year": 2023,
+      "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 3 Haiku",
+      "year": 2024,
+      "url": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 3 Opus",
+      "year": 2024,
+      "url": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 3 Sonnet",
+      "year": 2024,
+      "url": "https://www.anthropic.com/news/claude-3-family"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 3.5 Haiku",
+      "year": 2024,
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 3.5 Sonnet",
+      "year": 2024,
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude 3.7 Sonnet",
+      "year": 2025,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Haiku 4.5",
+      "year": 2025,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Opus 4",
+      "year": 2025,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Opus 4.1",
+      "year": 2025,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Opus 4.5",
+      "year": 2025,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Sonnet 4",
+      "year": 2025,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Sonnet 4.5",
+      "year": 2025,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Fable 5",
+      "year": 2026,
+      "url": "https://www.anthropic.com/news/fable-mythos-access"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Fable 5.1",
+      "year": 2026,
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Haiku 5.5",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Mythos 5",
+      "year": 2026,
+      "url": "https://www.anthropic.com/news/fable-mythos-access"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Mythos 5.1",
+      "year": 2026,
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Mythos Preview",
+      "year": 2026,
+      "url": "https://www.anthropic.com/glasswing"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Opus 4.6",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Opus 4.7",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Opus 4.8",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Opus 5",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Opus 5.5",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Sonnet 4.6",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Sonnet 5",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Anthropic",
+      "name": "Claude Sonnet 5.5",
+      "year": 2026,
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "brand": "Meta",
+      "name": "Code Llama",
+      "year": 2023,
+      "url": "https://github.com/meta-llama/codellama"
+    },
+    {
+      "brand": "Meta",
+      "name": "Code Llama Python",
+      "year": 2023,
+      "url": "https://github.com/meta-llama/codellama"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama",
+      "year": 2023,
+      "url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama 2",
+      "year": 2023,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama 3",
+      "year": 2024,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama 3.1",
+      "year": 2024,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama 3.2",
+      "year": 2024,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama 3.2 Vision",
+      "year": 2024,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama 3.3",
+      "year": 2024,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama 4 Maverick",
+      "year": 2025,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "brand": "Meta",
+      "name": "Llama 4 Scout",
+      "year": 2025,
+      "url": "https://github.com/meta-llama/llama-models"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Code",
+      "year": 2026,
+      "url": "https://research.meta.ai/static/muse-spark-1-2-methodology"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Glimmer",
+      "year": 2026,
+      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Spark",
+      "year": 2026,
+      "url": "https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Spark 1.1",
+      "year": 2026,
+      "url": "https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Spark 1.2",
+      "year": 2026,
+      "url": "https://research.meta.ai/static/muse-spark-1-2-methodology"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Spark 1.3",
+      "year": 2026,
+      "url": "https://research.meta.ai/static/muse-spark-1-3-multimodal-evaluation-methodology"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Spark Contemplating",
+      "year": 2026,
+      "url": "https://ai.meta.com/static-resource/muse-spark-contemplating-safety-and-preparedness-report/"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Spark Open",
+      "year": 2026,
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+    },
+    {
+      "brand": "Meta",
+      "name": "Muse Wonder",
+      "year": 2026,
+      "url": "https://research.meta.ai/static/muse-wonder-model-card"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok-1",
+      "year": 2023,
+      "url": "https://x.ai/news/grok"
+    },
+    {
+      "brand": "Grok",
+      "name": "Aurora",
+      "year": 2024,
+      "url": "https://x.ai/news/grok-image-generation-release"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok-1.5",
+      "year": 2024,
+      "url": "https://x.ai/news/grok-1.5"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok-1.5V",
+      "year": 2024,
+      "url": "https://x.ai/news/grok-1.5v"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok-2",
+      "year": 2024,
+      "url": "https://x.ai/news/grok-2"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok-2 mini",
+      "year": 2024,
+      "url": "https://x.ai/news/grok-2"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 3",
+      "year": 2025,
+      "url": "https://x.ai/news/grok-3"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 3 mini",
+      "year": 2025,
+      "url": "https://x.ai/news/grok-3"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4",
+      "year": 2025,
+      "url": "https://x.ai/news/grok-4"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4 Fast",
+      "year": 2025,
+      "url": "https://x.ai/news/grok-4-fast"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4.1",
+      "year": 2025,
+      "url": "https://x.ai/news/grok-4-1"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4.1 Fast",
+      "year": 2025,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Code Fast 1",
+      "year": 2025,
+      "url": "https://x.ai/news/grok-code-fast-1"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4.20",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4.20 Multi-agent",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4.5",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4.6",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok 4.7",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Build 0.1",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Imagine Image",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Imagine Image 2.0",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Imagine Video",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Imagine Video 1.5",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Voice 1.0",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Voice 2.0",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Voice 3.0",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Voice Transcribe 1.0",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Grok",
+      "name": "Grok Voice Transcribe 2.0",
+      "year": 2026,
+      "url": "https://docs.x.ai/developers/release-notes"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 1.0 Nano",
+      "year": 2023,
+      "url": "https://blog.google/technology/ai/google-gemini-ai/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 1.0 Pro",
+      "year": 2023,
+      "url": "https://blog.google/technology/ai/google-gemini-ai/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 1.0 Ultra",
+      "year": 2024,
+      "url": "https://blog.google/products/gemini/bard-gemini-advanced-app/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 1.5 Flash",
+      "year": 2024,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 1.5 Pro",
+      "year": 2024,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.0 Flash",
+      "year": 2024,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.0 Flash Thinking",
+      "year": 2024,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.0 Flash Image",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.0 Flash Live",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.0 Flash-Lite",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.0 Pro",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Computer Use",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Deep Think",
+      "year": 2025,
+      "url": "https://blog.google/products/gemini/gemini-2-5-deep-think/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Flash",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Flash Image",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Flash Native Audio",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Flash Native Audio Thinking",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Flash TTS",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Flash-Lite",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Pro",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 2.5 Pro TTS",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3 Flash",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3 Pro",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3 Pro Image",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics",
+      "year": 2025,
+      "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics 1.5",
+      "year": 2025,
+      "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics On-Device",
+      "year": 2025,
+      "url": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics-ER",
+      "year": 2025,
+      "url": "https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics-ER 1.5",
+      "year": 2025,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.1 Flash Image",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.1 Flash Live",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.1 Flash TTS",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.1 Flash-Lite",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.1 Flash-Lite Image",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.1 Pro",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.5 Flash",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.5 Flash Cyber",
+      "year": 2026,
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.5 Flash-Lite",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.5 Live Translate",
+      "year": 2026,
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Audio-Model-Card.pdf"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.5 Transcribe",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.5 Transcribe Live",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.6 Flash",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.7 Flash",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.8 Flash",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.8 Flash Cyber",
+      "year": 2026,
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.8 Flash TTS",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.8 Flash-Lite TTS",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.8 Live",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 3.8 Live Extended Thinking",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini 4 Argon",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Omni 1.1 Flash",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Omni Flash",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics 2",
+      "year": 2026,
+      "url": "https://storage.googleapis.com/deepmind-media/gemini-robotics/Gemini-Robotics-2-Safety.pdf"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics On-Device 2",
+      "year": 2026,
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-Robotics-On-Device-2-Model-Card.pdf"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics-ER 1.6",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Gemini Robotics-ER 2",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "Gemini",
+      "name": "Nano Banana 2.1",
+      "year": 2026,
+      "url": "https://ai.google.dev/gemini-api/docs/changelog"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek Coder",
+      "year": 2023,
+      "url": "https://github.com/deepseek-ai/DeepSeek-Coder"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek LLM",
+      "year": 2023,
+      "url": "https://github.com/deepseek-ai/DeepSeek-LLM"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek Coder V2",
+      "year": 2024,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek Math",
+      "year": 2024,
+      "url": "https://github.com/deepseek-ai/DeepSeek-Math"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek MoE",
+      "year": 2024,
+      "url": "https://github.com/deepseek-ai/DeepSeek-MoE"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek Prover",
+      "year": 2024,
+      "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V1.5"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek Prover V1.5",
+      "year": 2024,
+      "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V1.5"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek R1-Lite",
+      "year": 2024,
+      "url": "https://api-docs.deepseek.com/news/news1120"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V2",
+      "year": 2024,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V2.5",
+      "year": 2024,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V3",
+      "year": 2024,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek VL",
+      "year": 2024,
+      "url": "https://github.com/deepseek-ai/DeepSeek-VL"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek VL2",
+      "year": 2024,
+      "url": "https://github.com/deepseek-ai/DeepSeek-VL2"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "Janus",
+      "year": 2024,
+      "url": "https://github.com/deepseek-ai/Janus"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "JanusFlow",
+      "year": 2024,
+      "url": "https://github.com/deepseek-ai/Janus"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek Math V2",
+      "year": 2025,
+      "url": "https://github.com/deepseek-ai/DeepSeek-Math-V2"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek OCR",
+      "year": 2025,
+      "url": "https://github.com/deepseek-ai/DeepSeek-OCR"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek Prover V2",
+      "year": 2025,
+      "url": "https://github.com/deepseek-ai/DeepSeek-Prover-V2"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek R1",
+      "year": 2025,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V3.1",
+      "year": 2025,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V3.1 Terminus",
+      "year": 2025,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V3.2",
+      "year": 2025,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V3.2 Speciale",
+      "year": 2025,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "Janus-Pro",
+      "year": 2025,
+      "url": "https://github.com/deepseek-ai/Janus"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek OCR 2",
+      "year": 2026,
+      "url": "https://github.com/deepseek-ai/DeepSeek-OCR-2"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V4 Flash",
+      "year": 2026,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V4 Flash Vision",
+      "year": 2026,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V4 Pro",
+      "year": 2026,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "DeepSeek",
+      "name": "DeepSeek V4.1 Flash",
+      "year": 2026,
+      "url": "https://api-docs.deepseek.com/zh-cn/updates/"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Moonshot-v1",
+      "year": 2024,
+      "url": "https://platform.moonshot.cn/blog/posts/changelog"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi Dev",
+      "year": 2025,
+      "url": "https://huggingface.co/moonshotai/Kimi-Dev-72B"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi K2",
+      "year": 2025,
+      "url": "https://github.com/MoonshotAI/Kimi-K2"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi K2 Thinking",
+      "year": 2025,
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi Linear",
+      "year": 2025,
+      "url": "https://github.com/MoonshotAI/Kimi-Linear"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi VL",
+      "year": 2025,
+      "url": "https://github.com/MoonshotAI/Kimi-VL"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi VL Thinking",
+      "year": 2025,
+      "url": "https://github.com/MoonshotAI/Kimi-VL"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi k1.5",
+      "year": 2025,
+      "url": "https://github.com/MoonshotAI/Kimi-k1.5"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Moonshot-v1 Vision",
+      "year": 2025,
+      "url": "https://platform.moonshot.cn/blog/posts/changelog"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi K2.5",
+      "year": 2026,
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi K2.6",
+      "year": 2026,
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi K2.7 Code",
+      "year": 2026,
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
+    },
+    {
+      "brand": "Kimi",
+      "name": "Kimi K3",
+      "year": 2026,
+      "url": "https://huggingface.co/moonshotai/Kimi-K3"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen",
+      "year": 2023,
+      "url": "https://github.com/QwenLM/Qwen"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen Audio",
+      "year": 2023,
+      "url": "https://github.com/QwenLM/Qwen-Audio"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen VL",
+      "year": 2023,
+      "url": "https://github.com/QwenLM/Qwen-VL"
+    },
+    {
+      "brand": "Qwen",
+      "name": "QwQ",
+      "year": 2024,
+      "url": "https://qwenlm.github.io/blog/qwq-32b-preview/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen QVQ",
+      "year": 2024,
+      "url": "https://qwenlm.github.io/blog/qvq-72b-preview/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen1.5",
+      "year": 2024,
+      "url": "https://github.com/QwenLM/Qwen3"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2",
+      "year": 2024,
+      "url": "https://github.com/QwenLM/Qwen3"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2 Audio",
+      "year": 2024,
+      "url": "https://qwenlm.github.io/blog/qwen2-audio/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2 Math",
+      "year": 2024,
+      "url": "https://qwenlm.github.io/blog/qwen2-math/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2 VL",
+      "year": 2024,
+      "url": "https://qwenlm.github.io/blog/qwen2-vl/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2.5",
+      "year": 2024,
+      "url": "https://github.com/QwenLM/Qwen3"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2.5 Coder",
+      "year": 2024,
+      "url": "https://qwenlm.github.io/blog/qwen2.5/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2.5 Math",
+      "year": 2024,
+      "url": "https://qwenlm.github.io/blog/qwen2.5/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2.5 Turbo",
+      "year": 2024,
+      "url": "https://qwenlm.github.io/blog/qwen2.5-turbo/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen Image",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen-image/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen Image Edit",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen-image-edit/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen MT",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen-mt/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen VLo",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen-vlo/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2.5 Max",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen2.5-max/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2.5 Omni",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen2.5-omni/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen2.5 VL",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen2.5-vl/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 Coder",
+      "year": 2025,
+      "url": "https://qwenlm.github.io/blog/qwen3-coder/"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 Max",
+      "year": 2025,
+      "url": "https://qwen.ai/blog?id=72071a922385147be2ca81cdfaa50035db6e85d0"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 Next",
+      "year": 2025,
+      "url": "https://github.com/QwenLM/Qwen3-Next"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 Omni",
+      "year": 2025,
+      "url": "https://github.com/QwenLM/Qwen3-Omni"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 VL",
+      "year": 2025,
+      "url": "https://github.com/QwenLM/Qwen3-VL"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen AgentWorld",
+      "year": 2026,
+      "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen Drive 1.0",
+      "year": 2026,
+      "url": "https://huggingface.co/Qwen/Qwen-Drive-1.0-4B"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen Image 2.1",
+      "year": 2026,
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 ASR",
+      "year": 2026,
+      "url": "https://github.com/QwenLM/Qwen3-ASR"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 Coder Next",
+      "year": 2026,
+      "url": "https://github.com/QwenLM/Qwen3-Coder"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 TTS",
+      "year": 2026,
+      "url": "https://github.com/QwenLM/Qwen3-TTS"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 TTS CustomVoice",
+      "year": 2026,
+      "url": "https://github.com/QwenLM/Qwen3-TTS"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3 TTS VoiceDesign",
+      "year": 2026,
+      "url": "https://github.com/QwenLM/Qwen3-TTS"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3.5",
+      "year": 2026,
+      "url": "https://huggingface.co/Qwen/Qwen3.5-397B-A17B"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3.6",
+      "year": 2026,
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3.8",
+      "year": 2026,
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3.8 Flash Next",
+      "year": 2026,
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+    },
+    {
+      "brand": "Qwen",
+      "name": "Qwen3.8 Omni Flash",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.25611"
+    },
+    {
+      "brand": "GLM",
+      "name": "ChatGLM",
+      "year": 2023,
+      "url": "https://github.com/zai-org/ChatGLM-6B"
+    },
+    {
+      "brand": "GLM",
+      "name": "ChatGLM2",
+      "year": 2023,
+      "url": "https://github.com/zai-org/ChatGLM2-6B"
+    },
+    {
+      "brand": "GLM",
+      "name": "ChatGLM3",
+      "year": 2023,
+      "url": "https://github.com/zai-org/ChatGLM3"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4",
+      "year": 2024,
+      "url": "https://github.com/zai-org/GLM-4"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4 Voice",
+      "year": 2024,
+      "url": "https://github.com/zai-org/GLM-4-Voice"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4V",
+      "year": 2024,
+      "url": "https://github.com/zai-org/GLM-4"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.1V Thinking",
+      "year": 2025,
+      "url": "https://github.com/zai-org/GLM-4"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.5",
+      "year": 2025,
+      "url": "https://github.com/zai-org/GLM-4.5"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.5 Air",
+      "year": 2025,
+      "url": "https://github.com/zai-org/GLM-4.5"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.5V",
+      "year": 2025,
+      "url": "https://github.com/zai-org/GLM-4.5"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.6",
+      "year": 2025,
+      "url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.6V",
+      "year": 2025,
+      "url": "https://github.com/zai-org/GLM-V"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.6V Flash",
+      "year": 2025,
+      "url": "https://github.com/zai-org/GLM-V"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.7",
+      "year": 2025,
+      "url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-Z1",
+      "year": 2025,
+      "url": "https://github.com/zai-org/GLM-4"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-Z1 Rumination",
+      "year": 2025,
+      "url": "https://github.com/zai-org/GLM-4"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM Image",
+      "year": 2026,
+      "url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-4.7 Flash",
+      "year": 2026,
+      "url": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-5",
+      "year": 2026,
+      "url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-5.1",
+      "year": 2026,
+      "url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-5.2",
+      "year": 2026,
+      "url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-5.3",
+      "year": 2026,
+      "url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-5.3 Flash",
+      "year": 2026,
+      "url": "https://docs.z.ai/release-notes/new-released"
+    },
+    {
+      "brand": "GLM",
+      "name": "GLM-5V Turbo",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2604.26752"
+    }
+  ],
+  "modelReleaseScope": "已核实的主要命名生成式模型版本，按首次公开发布年份（含公开预览）计数；不拆参数规模、量化、Base/Instruct、上下文长度或日期快照，同名预览转正式版、API 别名及服务提速不重复计数。独立命名的专业版本分别计数。不包含嵌入、审核分类器、内部研究模型和仅有产品功能更新的项目。Meta 收录 Llama、Code Llama、Muse；Gemini 收录 Gemini 及其 Nano Banana 别名，不含 Gemma、Veo、Lyria、Imagen。清单不是穷尽统计，0 表示该年未收录可核实版本。"
+}

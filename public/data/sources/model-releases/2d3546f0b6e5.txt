@@ -1,0 +1,1636 @@
+中文
+｜  English   ｜
+日本語
+｜
+한국어
+Qwen-VL
+🤗
+🤖
+｜ 
+  Qwen-VL-Chat
+🤗
+🤖
+(Int4:
+🤗
+🤖
+) ｜
+  Qwen-VL-Plus
+🤗
+🤖
+｜ 
+  Qwen-VL-Max
+🤗
+🤖
+Web
+|
+APP
+|
+API
+|
+WeChat
+|
+Discord
+|
+Paper
+|
+Tutorial
+Qwen-VL-Plus & Qwen-VL-Max
+Qwen-Vl-Plus and Qwen-VL-Max are the upgraded and latest versions of the Qwen-VL model family, currently supporting access for free through
+🤗
+,
+🤖
+,
+Web pages
+,
+APP
+and
+APIs
+.
+Model name
+Model description
+Qwen-VL-Plus
+Qwen's
+Enhanced Large Visual Language Model
+. Significantly upgraded for detailed recognition capabilities and text recognition abilities, supporting ultra-high pixel resolutions up to millions of pixels and extreme aspect ratios for image input. It delivers
+significant
+performance across a broad range of visual tasks.
+Qwen-VL-Max
+Qwen's
+Most Capable Large Visual Language Model
+. Compared to the enhanced version, further improvements have been made to visual reasoning and instruction-following capabilities, offering a higher level of visual perception and cognitive understanding. It delivers
+optimal
+performance on an even broader range of complex tasks.
+The key technical advancements in these versions include:
+Substantially boost in image-related
+reasoning capabilities
+;
+Considerable enhancement in recognizing, extracting, and analyzing
+details of images
+, especially for text-oriented tasks;
+Support for
+high-definition images
+with resolutions above one million pixels and extreme aspect ratios;
+These two models not only significantly surpass all previous best results from open-source LVLM models, but also perform on par with Gemini Ultra and GPT-4V in multiple text-image multimodal tasks.
+Notably, Qwen-VL-Max outperforms both GPT-4V from OpenAI and Gemini from Google in tasks on Chinese question answering and Chinese text comprehension. This breakthrough underscores the model’s advanced capabilities and its potential to set new standards in the field of multimodal AI research and application.
+Model
+DocVQA
+ChartQA
+AI2D
+TextVQA
+MMMU
+MathVista
+MM-Bench-CN
+Other Best
+Open-source LVLM
+81.6%
+(CogAgent)
+68.4%
+(CogAgent)
+73.7%
+(Fuyu-Medium)
+76.1%
+(CogAgent)
+45.9%
+(Yi-VL-34B)
+36.7%
+(SPHINX-V2)
+72.4%
+(InternLM-XComposer-VL)
+Gemini Pro
+88.1%
+74.1%
+73.9%
+74.6%
+47.9%
+45.2%
+74.3%
+Gemini Ultra
+90.9%
+80.8%
+1
+79.5%
+1
+82.3%
+1
+59.4%
+1
+53.0%
+1
+-
+GPT-4V
+88.4%
+78.5%
+78.2%
+78.0%
+56.8%
+49.9%
+73.9%
+Qwen-VL-Plus
+91.4%
+78.1%
+75.9%
+78.9%
+45.2%
+43.3%
+68.0%
+Qwen-VL-Max
+93.1%
+1
+79.8%
+2
+79.3%
+2
+79.5%
+2
+51.4%
+3
+51.0%
+2
+75.1%
+1
+All numbers are obtained without any use of external OCR tools ('pixel only').
+News and Updates
+2024.01.18
+💥💥💥 We introduce Qwen-VL-Max, our most capable model that significantly surpasses all previous open-source LVLM models, and it performs on par with Gemini Ultra and GPT-4V in multiple text-image multimodal tasks. You can enjoy the new model by directly visiting our
+web pages
+,
+🤗
+and
+🤖
+.
+2023.11.28
+🏆🏆🏆 Qwen-VL-Plus achieved the best performance in
+DOCVQA
+by using a single model, surpassing GPT4V and PALI-X, without using model ensemble or OCR-pipeline. Meanwhile, it is also a general model that can help you analyze and understand various tasks by directly inputting images.
+2023.9.25
+🚀🚀🚀 We update Qwen-VL-Chat with more robust Chinese instruction-following ability, improved understanding of web pages and table images, and better dialogue performance (Touchstone: CN: 401.2->481.7, EN: 645.2->711.6).
+2023.9.12
+😃😃😃 We now support finetuning on the Qwen-VL models, including full-parameter finetuning, LoRA and Q-LoRA.
+2023.9.8
+👍👍👍 Thanks to
+camenduru
+for contributing the wonderful
+Colab
+. Everyone can use it as a local or online Qwen-VL-Chat-Int4 Demo tutorial on one 12G GPU.
+2023.9.5
+👏👏👏 Qwen-VL-Chat achieves SOTAs on
+MME Benchmark
+, a comprehensive evaluation benchmark for multimodal large language models. It measures both perception and cognition abilities on a total of 14 subtasks.
+2023.9.4
+⭐⭐⭐ Qwen-VL series achieve SOTAs on
+Seed-Bench
+, a multimodal benchmark of 19K multiple-choice questions with accurate human annotations for evaluating Multimodal LLMs including both image and video understanding.
+2023.9.1
+🔥🔥🔥 We release the
+TouchStone
+Evaluation, which is a comprehensive assessment of multimodal language models, encompassing not only basic recognition and comprehension but also extending to literary creation. By using strong LLMs as judges and converting multimodal information into text.
+2023.8.31
+🌟🌟🌟 We release the Int4 quantized model for Qwen-VL-Chat,
+Qwen-VL-Chat-Int4
+, which requires low memory costs but achieves improved inference speed. Besides, there is no significant performance degradation on the benchmark evaluation.
+2023.8.22
+🎉🎉🎉 We release both
+Qwen-VL
+and
+Qwen-VL-Chat
+on ModelScope and Hugging Face. We also provide a
+paper
+for more details about the model, including training details and model performance.
+Qwen-VL
+Qwen-VL
+(Qwen Large Vision Language Model) is the multimodal version of the large model series, Qwen (abbr. Tongyi Qianwen), proposed by Alibaba Cloud. Qwen-VL accepts image, text, and bounding box as inputs, outputs text, and bounding box. The features of Qwen-VL include:
+Strong performance
+: It significantly surpasses existing open-sourced Large Vision Language Models (LVLM) under a similar model scale on multiple English evaluation benchmarks (including Zero-shot Captioning, VQA, DocVQA, and Grounding).
+Multi-lingual LVLM supporting text recognition
+: Qwen-VL naturally supports English, Chinese, and multi-lingual conversation, and it promotes end-to-end recognition of Chinese and English bi-lingual text in images.
+Multi-image interleaved conversations
+: This feature allows for the input and comparison of multiple images, as well as the ability to specify questions related to the images and engage in multi-image storytelling.
+First generalist model supporting grounding in Chinese
+: Detecting bounding boxes through open-domain language expression in both Chinese and English.
+Fine-grained recognition and understanding
+: Compared to the 224*224 resolution currently used by other open-sourced LVLM, the 448*448 resolution promotes fine-grained text recognition, document QA, and bounding box annotation.
+We release two models of the Qwen-VL series:
+Qwen-VL: The pre-trained LVLM model uses Qwen-7B as the initialization of the LLM, and
+Openclip ViT-bigG
+as the initialization of the visual encoder. And connects them with a randomly initialized cross-attention layer.
+Qwen-VL-Chat: A multimodal LLM-based AI assistant, which is trained with alignment techniques. Qwen-VL-Chat supports more flexible interaction, such as multiple image inputs, multi-round question answering, and creative capabilities.
+Evaluation
+We evaluated the model's abilities from three perspectives:
+Standard Benchmarks
+: We evaluate the model's basic task capabilities on four major categories of multimodal tasks:
+Zero-shot Captioning: Evaluate model's zero-shot image captioning ability on unseen datasets;
+General VQA: Evaluate the general question-answering ability of pictures, such as the judgment, color, number, category, etc;
+Text-based VQA: Evaluate the model's ability to recognize text in pictures, such as document QA, chart QA, etc;
+Referring Expression Comprehension: Evaluate the ability to localize a target object in an image described by a referring expression.
+TouchStone
+: To evaluate the overall text-image dialogue capability and alignment level with humans, we have constructed a benchmark called
+TouchStone
+, which is based on scoring with GPT4 to evaluate the LVLM model.
+The TouchStone benchmark covers a total of 300+ images, 800+ questions, and 27 categories. Such as attribute-based Q&A, celebrity recognition, writing poetry, summarizing multiple images, product comparison, math problem solving, etc;
+In order to break the current limitation of GPT4 in terms of direct image input, TouchStone provides fine-grained image annotations by human labeling. These detailed annotations, along with the questions and the model's output, are then presented to GPT4 for scoring.
+The benchmark includes both English and Chinese versions.
+Other Multimodal Benchmarks
+: We also evaluated our model's capabilities in other multimodal benchmarks:
+MME Benchmark
+, a comprehensive evaluation benchmark for multimodal large language models. Qwen-VL-Chat achieves SOTAs on both perception and cognition tracks.
+Seed-Bench
+, a multimodal benchmark of 19K multiple-choice questions with accurate human annotations for evaluating Multimodal LLMs. Qwen series achieves SOTAs on this benchmark.
+The results of the evaluation are as follows:
+Qwen-VL outperforms current SOTA generalist models on multiple VL tasks and has a more comprehensive coverage in terms of capability range.
+Zero-shot Captioning & General VQA
+Model type
+Model
+Zero-shot Captioning
+General VQA
+NoCaps
+Flickr30K
+VQAv2
+dev
+OK-VQA
+GQA
+SciQA-Img
+(0-shot)
+VizWiz
+(0-shot)
+Generalist
+Models
+Flamingo-9B
+-
+61.5
+51.8
+44.7
+-
+-
+28.8
+Flamingo-80B
+-
+67.2
+56.3
+50.6
+-
+-
+31.6
+Unified-IO-XL
+100.0
+-
+77.9
+54.0
+-
+-
+-
+Kosmos-1
+-
+67.1
+51.0
+-
+-
+-
+29.2
+Kosmos-2
+-
+80.5
+51.1
+-
+-
+-
+-
+BLIP-2 (Vicuna-13B)
+103.9
+71.6
+65.0
+45.9
+32.3
+61.0
+19.6
+InstructBLIP (Vicuna-13B)
+121.9
+82.8
+-
+-
+49.5
+63.1
+33.4
+Shikra (Vicuna-13B)
+-
+73.9
+77.36
+47.16
+-
+-
+-
+Qwen-VL (Qwen-7B)
+121.4
+85.8
+78.8
+58.6
+59.3
+67.1
+35.2
+Qwen-VL-Chat
+120.2
+81.0
+78.2
+56.6
+57.5
+68.2
+38.9
+Previous SOTA
+(Per Task Fine-tuning)
+-
+127.0
+(PALI-17B)
+84.5
+(InstructBLIP
+-FlanT5-XL)
+86.1
+(PALI-X
+-55B)
+66.1
+(PALI-X
+-55B)
+72.1
+(CFR)
+92.53
+(LLaVa+
+GPT-4)
+70.9
+(PALI-X
+-55B)
+For zero-shot image captioning, Qwen-VL achieves the
+SOTA
+on Flickr30K and competitive results on Nocaps with InstructBlip.
+For general VQA, Qwen-VL achieves the
+SOTA
+under the same generalist LVLM scale settings.
+Text-oriented VQA (Focused on text understanding capabilities in images)
+Model type
+Model
+TextVQA
+DocVQA
+ChartQA
+AI2D
+OCR-VQA
+Generalist Models
+BLIP-2 (Vicuna-13B)
+42.4
+-
+-
+-
+-
+InstructBLIP (Vicuna-13B)
+50.7
+-
+-
+-
+-
+mPLUG-DocOwl (LLaMA-7B)
+52.6
+62.2
+57.4
+-
+-
+Pix2Struct-Large (1.3B)
+-
+76.6
+58.6
+42.1
+71.3
+Qwen-VL (Qwen-7B)
+63.8
+65.1
+65.7
+62.3
+75.7
+Specialist SOTAs
+(Specialist/Finetuned)
+PALI-X-55B (Single-task FT)
+(Without OCR Pipeline)
+71.44
+80.0
+70.0
+81.2
+75.0
+In text-related recognition/QA evaluation, Qwen-VL achieves the SOTA under the generalist LVLM scale settings.
+Resolution is important for several above evaluations. While most open-sourced LVLM models with 224 resolution are incapable of these evaluations or can only solve these by cutting images, Qwen-VL scales the resolution to 448 so that it can be evaluated end-to-end. Qwen-VL even outperforms Pix2Struct-Large models of 1024 resolution on some tasks.
+Referring Expression Comprehension
+Model type
+Model
+RefCOCO
+RefCOCO+
+RefCOCOg
+GRIT
+val
+test-A
+test-B
+val
+test-A
+test-B
+val-u
+test-u
+refexp
+Generalist Models
+GPV-2
+-
+-
+-
+-
+-
+-
+-
+-
+51.50
+OFA-L*
+79.96
+83.67
+76.39
+68.29
+76.00
+61.75
+67.57
+67.58
+61.70
+Unified-IO
+-
+-
+-
+-
+-
+-
+-
+-
+78.61
+VisionLLM-H
+86.70
+-
+-
+-
+-
+-
+-
+-
+Shikra-7B
+87.01
+90.61
+80.24
+81.60
+87.36
+72.12
+82.27
+82.19
+69.34
+Shikra-13B
+87.83
+91.11
+81.81
+82.89
+87.79
+74.41
+82.64
+83.16
+69.03
+Qwen-VL-7B
+89.36
+92.26
+85.34
+83.12
+88.25
+77.21
+85.58
+85.48
+78.22
+Qwen-VL-7B-Chat
+88.55
+92.27
+84.51
+82.82
+88.59
+76.79
+85.96
+86.32
+-
+Specialist SOTAs
+(Specialist/Finetuned)
+G-DINO-L
+90.56
+93.19
+88.24
+82.75
+88.95
+75.92
+86.13
+87.02
+-
+UNINEXT-H
+92.64
+94.33
+91.46
+85.24
+89.63
+79.79
+88.73
+89.37
+-
+ONE-PEACE
+92.58
+94.18
+89.26
+88.77
+92.21
+83.23
+89.22
+89.27
+-
+Qwen-VL achieves the
+SOTA
+in all above referring expression comprehension benchmarks.
+Qwen-VL has not been trained on any Chinese grounding data, but it can still generalize to the Chinese Grounding tasks in a zero-shot way by training Chinese Caption data and English Grounding data.
+We provide all of the above evaluation scripts for reproducing our experimental results. Please read
+eval_mm/EVALUATION.md
+for more information.
+Chat evaluation
+TouchStone is a benchmark based on scoring with GPT4 to evaluate the abilities of the LVLM model on text-image dialogue and alignment levels with humans. It covers a total of 300+ images, 800+ questions, and 27 categories, such as attribute-based Q&A, celebrity recognition, writing poetry, summarizing multiple images, product comparison, math problem solving, etc. Please read
+touchstone/README.md
+for more information.
+English evaluation
+Model
+Score
+PandaGPT
+488.5
+MiniGPT4
+531.7
+InstructBLIP
+552.4
+LLaMA-AdapterV2
+590.1
+LLaVA
+602.7
+mPLUG-Owl
+605.4
+Qwen-VL-Chat
+645.2
+Qwen-VL-Chat-1.1
+711.6
+Chinese evaluation
+Model
+Score
+VisualGLM
+247.1
+Qwen-VL-Chat
+401.2
+Qwen-VL-Chat-1.1
+481.7
+Qwen-VL-Chat has achieved the best results in both Chinese and English alignment evaluation.
+Other Benchmarks
+MME Benchmark
+MME
+is a comprehensive evaluation benchmark for multimodal large language models. It measures both perception and cognition abilities on a total of 14 subtasks, including existence, count, position, color, poster, celebrity, scene, landmark, artwork, OCR, commonsense reasoning, numerical calculation, text translation, and code reasoning.
+Qwen-VL-Chat achieves SOTAs on both perception and cognition evaluation. See more details on
+HERE
+.
+SEED-Bench
+SEED-Bench
+is a multimodal benchmark of 19K multiple-choice questions with accurate human annotations for evaluating Multimodal LLMs, covering 12 evaluation dimensions including both
+image
+and
+video
+understanding. See more details on
+HERE
+.
+Qwen-VL and Qwen-VL-Chat achieve SOTAs on this benchmark.
+Requirements
+python 3.8 and above
+pytorch 1.12 and above, 2.0 and above are recommended
+CUDA 11.4 and above are recommended (this is for GPU users)
+Quickstart
+Below, we provide simple examples to show how to use Qwen-VL and Qwen-VL-Chat with 🤖 ModelScope and 🤗 Transformers.
+Before running the code, make sure you have setup the environment and installed the required packages. Make sure you meet the above requirements, and then install the dependent libraries.
+pip install -r requirements.txt
+Now you can start with ModelScope or Transformers. More usage aboue vision encoder, please refer to the
+tutorial
+.
+🤗 Transformers
+To use Qwen-VL-Chat for the inference, all you need to do is to input a few lines of codes as demonstrated below. However,
+please make sure that you are using the latest code.
+from
+transformers
+import
+AutoModelForCausalLM
+,
+AutoTokenizer
+from
+transformers
+.
+generation
+import
+GenerationConfig
+import
+torch
+torch
+.
+manual_seed
+(
+1234
+)
+# Note: The default behavior now has injection attack prevention off.
+tokenizer
+=
+AutoTokenizer
+.
+from_pretrained
+(
+"Qwen/Qwen-VL-Chat"
+,
+trust_remote_code
+=
+True
+)
+# use bf16
+# model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL-Chat", device_map="auto", trust_remote_code=True, bf16=True).eval()
+# use fp16
+# model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL-Chat", device_map="auto", trust_remote_code=True, fp16=True).eval()
+# use cpu only
+# model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL-Chat", device_map="cpu", trust_remote_code=True).eval()
+# use cuda device
+model
+=
+AutoModelForCausalLM
+.
+from_pretrained
+(
+"Qwen/Qwen-VL-Chat"
+,
+device_map
+=
+"cuda"
+,
+trust_remote_code
+=
+True
+).
+eval
+()
+# Specify hyperparameters for generation
+model
+.
+generation_config
+=
+GenerationConfig
+.
+from_pretrained
+(
+"Qwen/Qwen-VL-Chat"
+,
+trust_remote_code
+=
+True
+)
+# 1st dialogue turn
+query
+=
+tokenizer
+.
+from_list_format
+([
+    {
+'image'
+:
+'https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg'
+},
+# Either a local path or an url
+{
+'text'
+:
+'这是什么?'
+},
+])
+response
+,
+history
+=
+model
+.
+chat
+(
+tokenizer
+,
+query
+=
+query
+,
+history
+=
+None
+)
+print
+(
+response
+)
+# 图中是一名女子在沙滩上和狗玩耍，旁边是一只拉布拉多犬，它们处于沙滩上。
+# 2nd dialogue turn
+response
+,
+history
+=
+model
+.
+chat
+(
+tokenizer
+,
+'框出图中击掌的位置'
+,
+history
+=
+history
+)
+print
+(
+response
+)
+# <ref>击掌</ref><box>(536,509),(588,602)</box>
+image
+=
+tokenizer
+.
+draw_bbox_on_latest_picture
+(
+response
+,
+history
+)
+if
+image
+:
+image
+.
+save
+(
+'1.jpg'
+)
+else
+:
+print
+(
+"no box"
+)
+Running Qwen-VL
+Running Qwen-VL pretrained base model is also simple.
+from
+transformers
+import
+AutoModelForCausalLM
+,
+AutoTokenizer
+from
+transformers
+.
+generation
+import
+GenerationConfig
+import
+torch
+torch
+.
+manual_seed
+(
+1234
+)
+tokenizer
+=
+AutoTokenizer
+.
+from_pretrained
+(
+"Qwen/Qwen-VL"
+,
+trust_remote_code
+=
+True
+)
+# use bf16
+# model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL", device_map="auto", trust_remote_code=True, bf16=True).eval()
+# use fp16
+# model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL", device_map="auto", trust_remote_code=True, fp16=True).eval()
+# use cpu only
+# model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-VL", device_map="cpu", trust_remote_code=True).eval()
+# use cuda device
+model
+=
+AutoModelForCausalLM
+.
+from_pretrained
+(
+"Qwen/Qwen-VL"
+,
+device_map
+=
+"cuda"
+,
+trust_remote_code
+=
+True
+).
+eval
+()
+# Specify hyperparameters for generation (No need to do this if you are using transformers>4.32.0)
+# model.generation_config = GenerationConfig.from_pretrained("Qwen/Qwen-VL", trust_remote_code=True)
+query
+=
+tokenizer
+.
+from_list_format
+([
+    {
+'image'
+:
+'https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg'
+},
+# Either a local path or an url
+{
+'text'
+:
+'Generate the caption in English with grounding:'
+},
+])
+inputs
+=
+tokenizer
+(
+query
+,
+return_tensors
+=
+'pt'
+)
+inputs
+=
+inputs
+.
+to
+(
+model
+.
+device
+)
+pred
+=
+model
+.
+generate
+(
+**
+inputs
+)
+response
+=
+tokenizer
+.
+decode
+(
+pred
+.
+cpu
+()[
+0
+],
+skip_special_tokens
+=
+False
+)
+print
+(
+response
+)
+# <img>https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg</img>Generate the caption in English with grounding:<ref> Woman</ref><box>(451,379),(731,806)</box> and<ref> her dog</ref><box>(219,424),(576,896)</box> playing on the beach<|endoftext|>
+image
+=
+tokenizer
+.
+draw_bbox_on_latest_picture
+(
+response
+)
+if
+image
+:
+image
+.
+save
+(
+'2.jpg'
+)
+else
+:
+print
+(
+"no box"
+)
+In the event of a network issue while attempting to download model checkpoints and codes from HuggingFace, an alternative approach is to initially fetch the checkpoint from ModelScope and then load it from the local directory as outlined below:
+from
+modelscope
+import
+snapshot_download
+from
+transformers
+import
+AutoModelForCausalLM
+,
+AutoTokenizer
+# Downloading model checkpoint to a local dir model_dir
+# model_dir = snapshot_download('qwen/Qwen-VL')
+model_dir
+=
+snapshot_download
+(
+'qwen/Qwen-VL-Chat'
+)
+# Loading local checkpoints
+# trust_remote_code is still set as True since we still load codes from local dir instead of transformers
+tokenizer
+=
+AutoTokenizer
+.
+from_pretrained
+(
+model_dir
+,
+trust_remote_code
+=
+True
+)
+model
+=
+AutoModelForCausalLM
+.
+from_pretrained
+(
+model_dir
+,
+device_map
+=
+"cuda"
+,
+trust_remote_code
+=
+True
+).
+eval
+()
+🤖 ModelScope
+ModelScope is an opensource platform for Model-as-a-Service (MaaS), which provides flexible and cost-effective model service to AI developers. Similarly, you can run the models with ModelScope as shown below:
+from
+modelscope
+import
+(
+snapshot_download
+,
+AutoModelForCausalLM
+,
+AutoTokenizer
+,
+GenerationConfig
+)
+import
+torch
+model_id
+=
+'qwen/Qwen-VL-Chat'
+revision
+=
+'v1.0.0'
+model_dir
+=
+snapshot_download
+(
+model_id
+,
+revision
+=
+revision
+)
+torch
+.
+manual_seed
+(
+1234
+)
+tokenizer
+=
+AutoTokenizer
+.
+from_pretrained
+(
+model_dir
+,
+trust_remote_code
+=
+True
+)
+if
+not
+hasattr
+(
+tokenizer
+,
+'model_dir'
+):
+tokenizer
+.
+model_dir
+=
+model_dir
+# use bf16
+# model = AutoModelForCausalLM.from_pretrained(model_dir, device_map="auto", trust_remote_code=True, bf16=True).eval()
+# use fp16
+model
+=
+AutoModelForCausalLM
+.
+from_pretrained
+(
+model_dir
+,
+device_map
+=
+"auto"
+,
+trust_remote_code
+=
+True
+,
+fp16
+=
+True
+).
+eval
+()
+# use cpu
+# model = AutoModelForCausalLM.from_pretrained(model_dir, device_map="cpu", trust_remote_code=True).eval()
+# use auto
+model
+=
+AutoModelForCausalLM
+.
+from_pretrained
+(
+model_dir
+,
+device_map
+=
+"auto"
+,
+trust_remote_code
+=
+True
+).
+eval
+()
+# Specify hyperparameters for generation (No need to do this if you are using transformers>=4.32.0)
+# model.generation_config = GenerationConfig.from_pretrained(model_dir, trust_remote_code=True)
+# 1st dialogue turn
+# Either a local path or an url between <img></img> tags.
+image_path
+=
+'https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg'
+response
+,
+history
+=
+model
+.
+chat
+(
+tokenizer
+,
+query
+=
+f'<img>
+{
+image_path
+}
+</img>这是什么'
+,
+history
+=
+None
+)
+print
+(
+response
+)
+# 图中是一名年轻女子在沙滩上和她的狗玩耍，狗的品种是拉布拉多。她们坐在沙滩上，狗的前腿抬起来，与人互动。
+# 2nd dialogue turn
+response
+,
+history
+=
+model
+.
+chat
+(
+tokenizer
+,
+'输出击掌的检测框'
+,
+history
+=
+history
+)
+print
+(
+response
+)
+# <ref>"击掌"</ref><box>(211,412),(577,891)</box>
+image
+=
+tokenizer
+.
+draw_bbox_on_latest_picture
+(
+response
+,
+history
+)
+if
+image
+:
+image
+.
+save
+(
+'output_chat.jpg'
+)
+else
+:
+print
+(
+"no box"
+)
+Quantization
+Usage
+We provide a new solution based on
+AutoGPTQ
+, and release an Int4 quantized model for Qwen-VL-Chat, Qwen-VL-Chat-Int4
+Click here
+, which achieves nearly lossless model effects but improved performance on both memory costs and inference speed.
+Here we demonstrate how to use our provided quantized models for inference. Before you start, make sure you meet the requirements (e.g., torch 2.0 and above, transformers 4.32.0 and above, etc.) and install the required packages:
+pip install optimum
+git clone https://github.com/JustinLin610/AutoGPTQ.git
+&
+cd
+AutoGPTQ
+pip install -v
+.
+If you meet problems installing
+auto-gptq
+, we advise you to check out the official
+repo
+to find a wheel.
+Then you can load the quantized model easily and run inference as same as usual:
+model
+=
+AutoModelForCausalLM
+.
+from_pretrained
+(
+"Qwen/Qwen-VL-Chat-Int4"
+,
+device_map
+=
+"auto"
+,
+trust_remote_code
+=
+True
+).
+eval
+()
+# Either a local path or an url between <img></img> tags.
+image_path
+=
+'https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg'
+response
+,
+history
+=
+model
+.
+chat
+(
+tokenizer
+,
+query
+=
+f'<img>
+{
+image_path
+}
+</img>这是什么'
+,
+history
+=
+None
+)
+print
+(
+response
+)
+Performance
+We illustrate the model performance of both BF16 and Int4 models on the benchmark
+TouchStone
+, and we find that the quantized model does not suffer from significant performance degradation. Results are shown below:
+Quantization
+ZH
+EN
+BF16
+401.2
+645.2
+Int4
+386.6
+651.4
+Inference Speed
+We measured the average inference speed (tokens/s) of generating 1792 (2048-258) and 7934 (8192-258) tokens with the context of an image (which takes 258 tokens) under BF16 precision and Int4 quantization, respectively.
+Quantization
+Speed (2048 tokens)
+Speed (8192 tokens)
+BF16
+28.87
+24.32
+Int4
+37.79
+34.34
+The profiling runs on a single A100-SXM4-80G GPU with PyTorch 2.0.1 and CUDA 11.4.
+GPU Memory Usage
+We also profile the peak GPU memory usage for encoding 1792 (2048-258) tokens (including an image) as context (and generating single token) and generating 7934 (8192-258) tokens (with an image as context) under BF16 or Int4 quantization level, respectively. The results are shown below.
+Quantization
+Peak Usage for Encoding 2048 Tokens
+Peak Usage for Generating 8192 Tokens
+BF16
+22.60GB
+28.01GB
+Int4
+11.82GB
+17.23GB
+The above speed and memory profiling are conducted using
+this script
+.
+Finetuning
+Now we provide the official training script,
+finetune.py
+, for users to finetune the pretrained model for downstream applications in a simple fashion. Additionally, we provide shell scripts to launch finetuning with no worries. This script supports the training with DeepSpeed and FSDP. The shell scripts that we provide use DeepSpeed, and thus we advise you to install DeepSpeed before you start:
+pip install deepspeed
+Data preparation
+To prepare your training data, you need to put all the samples into a list and save it to a json file. Each sample is a dictionary consisting of an id and a list for conversation. Below is a simple example list with 1 sample:
+[
+  {
+"id"
+:
+"
+identity_0
+"
+,
+"conversations"
+: [
+      {
+"from"
+:
+"
+user
+"
+,
+"value"
+:
+"
+你好
+"
+},
+      {
+"from"
+:
+"
+assistant
+"
+,
+"value"
+:
+"
+我是Qwen-VL,一个支持视觉输入的大模型。
+"
+}
+    ]
+  },
+  {
+"id"
+:
+"
+identity_1
+"
+,
+"conversations"
+: [
+      {
+"from"
+:
+"
+user
+"
+,
+"value"
+:
+"
+Picture 1: <img>https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-VL/assets/demo.jpeg</img>
+\n
+图中的狗是什么品种？
+"
+},
+      {
+"from"
+:
+"
+assistant
+"
+,
+"value"
+:
+"
+图中是一只拉布拉多犬。
+"
+},
+      {
+"from"
+:
+"
+user
+"
+,
+"value"
+:
+"
+框出图中的格子衬衫
+"
+},
+      {
+"from"
+:
+"
+assistant
+"
+,
+"value"
+:
+"
+<ref>格子衬衫</ref><box>(588,499),(725,789)</box>
+"
+}
+    ]
+  },
+  {
+"id"
+:
+"
+identity_2
+"
+,
+"conversations"
+: [
+      {
+"from"
+:
+"
+user
+"
+,
+"value"
+:
+"
+Picture 1: <img>assets/mm_tutorial/Chongqing.jpeg</img>
+\n
+Picture 2: <img>assets/mm_tutorial/Beijing.jpeg</img>
+\n
+图中都是哪
+"
+},
+      {
+"from"
+:
+"
+assistant
+"
+,
+"value"
+:
+"
+第一张图片是重庆的城市天际线，第二张图片是北京的天际线。
+"
+}
+    ]
+  }
+]
+For the VL tasks, there are special tokens that are used, including
+<img> </img> <ref> </ref> <box> </box>
+.
+The picture is represented as
+Picture id: <img>img_path</img>\n{your prompt}
+, where
+id
+indicates the position of the image in the conversation, starting from 1. The "img_path" can be a local file path or a web link.
+The coordinate box is expressed as
+<box>(x1,y1),(x2,y2)</box>
+·, where
+(x1, y1)
+and
+(x2, y2)
+are normalized values in the range
+[0, 1000)
+. Its corresponding text description can be identified by
+<ref>text_caption</ref>
+.
+After data preparation, you can use the provided shell scripts to run finetuning. Remember to specify the path to the data file,
+$DATA
+.
+The finetuning scripts allow you to perform:
+Full-parameter finetuning
+LoRA
+Q-LoRA
+Full-parameter finetuning
+Full-parameter parameter finetuning requires updating all parameters of LLM in the whole training process. In our experiments, frozening the parameters of ViT during the fine-tuning phase achieves better performance. To launch your training, run the following script:
+sh finetune/finetune_ds.sh
+Remember to specify the correct model name or path, the data path, as well as the output directory in the shell scripts. If you want to make changes, just remove the argument
+--deepspeed
+or make changes in the DeepSpeed configuration json file based on your requirements. Additionally, this script supports mixed-precision training, and thus you can use
+--bf16 True
+or
+--fp16 True
+. Empirically we advise you to use bf16 to make your training consistent with our pretraining and alignment if your machine supports bf16, and thus we use it by default.
+LoRA
+Similarly, to run LoRA, use another script to run as shown below. Before you start, make sure that you have installed
+peft
+. Also, you need to specify your paths to your model, data, and output. We advise you to use absolute path for your pretrained model. This is because LoRA only saves the adapter and the absolute path in the adapter configuration json file is used for finding out the pretrained model to load.
+#
+Single GPU training
+sh finetune/finetune_lora_single_gpu.sh
+#
+Distributed training
+sh finetune/finetune_lora_ds.sh
+In comparison with full-parameter finetuning, LoRA (
+paper
+) only updates the parameters of adapter layers but keeps the original large language model layers frozen. This allows much fewer memory costs and thus fewer computation costs.
+Note that if you use LoRA to finetune the base language model, e.g., Qwen-VL, instead of chat models, e.g., Qwen-VL-Chat, the script automatically switches the embedding and output layer as trainable parameters. This is because the base language model has no knowledge of special tokens brought by ChatML format. Thus these layers should be updated for the model to understand and predict the tokens. Or in another word, if your training brings in special tokens in LoRA, you should set the layers to trainable parameters by setting
+modules_to_save
+inside the code. Additionally, we find that there is a significant gap between the memory footprint of LoRA with and without these trainable parameters. Therefore, if you have trouble with memory, we advise you to LoRA finetune the chat models. Check the profile below for more information.
+Q-LoRA
+However, if you still suffer from insufficient memory, you can consider Q-LoRA (
+paper
+), which uses the quantized large language model and other techniques such as paged attention to allow even fewer memory costs. To run Q-LoRA, directly run the following script:
+#
+Single GPU training
+sh finetune/finetune_qlora_single_gpu.sh
+#
+Distributed training
+sh finetune/finetune_qlora_ds.sh
+For Q-LoRA, we advise you to load our provided quantized model, e.g., Qwen-VL-Chat-Int4.
+You
+SHOULD NOT
+use the bf16 models. Different from full-parameter finetuning and LoRA, only fp16 is supported for Q-LoRA. Besides, for Q-LoRA, the troubles with the special tokens in LoRA still exist. However, as we only provide the Int4 models for chat models, which means the language model has learned the special tokens of ChatML format, you have no worry about the layers. Note that the layers of the Int4 model should not be trainable, and thus if you introduce special tokens in your training, Q-LoRA might not work.
+Different from full-parameter finetuning, the training of both LoRA and Q-LoRA only saves the adapter parameters. You can load the finetuned model for inference as shown below:
+from
+peft
+import
+AutoPeftModelForCausalLM
+model
+=
+AutoPeftModelForCausalLM
+.
+from_pretrained
+(
+path_to_adapter
+,
+# path to the output directory
+device_map
+=
+"auto"
+,
+trust_remote_code
+=
+True
+).
+eval
+()
+If you want to merge the adapters and save the finetuned model as a standalone model (you can only do this with LoRA, and you CANNOT merge the parameters from Q-LoRA), you can run the following codes:
+from
+peft
+import
+AutoPeftModelForCausalLM
+model
+=
+AutoPeftModelForCausalLM
+.
+from_pretrained
+(
+path_to_adapter
+,
+# path to the output directory
+device_map
+=
+"auto"
+,
+trust_remote_code
+=
+True
+).
+eval
+()
+merged_model
+=
+model
+.
+merge_and_unload
+()
+# max_shard_size and safe serialization are not necessary.
+# They respectively work for sharding checkpoint and save the model to safetensors
+merged_model
+.
+save_pretrained
+(
+new_model_directory
+,
+max_shard_size
+=
+"2048MB"
+,
+safe_serialization
+=
+True
+)
+Note: For multi-GPU training, you need to specify the proper hyperparameters for distributed training based on your machine. Besides, we advise you to specify your maximum sequence length with the argument --model_max_length, based on your consideration of data, memory footprint, and training speed.
+Profiling of Memory and Speed
+We profile the GPU memory and training speed of both LoRA (Base) refers to training the embedding and output layer, while LoRA (Chat) has no trainable embedding and output layer) and Q-LoRA in the setup of single-GPU training. In this test, we experiment on a single A100-SXM4-80G GPU, and we use CUDA 11.8 and Pytorch 2.0. We uniformly use a batch size of 1 and gradient accumulation of 8. Each sample contains an image. We profile the memory (GB) and speed (s/iter) of inputs of different lengths, namely 384, 512, 1024, and 2048. The statistics are listed below:
+Method
+Sequence Length
+384
+512
+1024
+2048
+LoRA (Base)
+37.1G / 2.3s/it
+37.3G / 2.4s/it
+38.7G / 3.6s/it
+38.7G / 6.1s/it
+LoRA (Chat)
+23.3G / 2.2s/it
+23.6G / 2.3s/it
+25.1G / 3.5s/it
+27.3G / 5.9s/it
+Q-LoRA
+17.0G / 4.2s/it
+17.2G / 4.5s/it
+18.2G / 5.5s/it
+19.3G / 7.9s/it
+Demo
+Web UI
+We provide code for users to build a web UI demo. Before you start, make sure you install the following packages:
+pip install -r requirements_web_demo.txt
+Then run the command below and click on the generated link:
+python web_demo_mm.py
+FAQ
+If you meet problems, please refer to
+FAQ
+and the issues first to search a solution before you launch a new issue.
+License Agreement
+Researchers and developers are free to use the codes and model weights of both Qwen-VL and Qwen-VL-Chat. We also allow their commercial use. Check our license at
+LICENSE
+for more details.
+Citation
+If you find our paper and code useful in your research, please consider giving a star ⭐ and citation 📝 :)
+@article
+{
+Qwen-VL
+,
+title
+=
+{
+Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond
+}
+,
+author
+=
+{
+Bai, Jinze and Bai, Shuai and Yang, Shusheng and Wang, Shijie and Tan, Sinan and Wang, Peng and Lin, Junyang and Zhou, Chang and Zhou, Jingren
+}
+,
+journal
+=
+{
+arXiv preprint arXiv:2308.12966
+}
+,
+year
+=
+{
+2023
+}
+}
+Contact Us
+If you are interested to leave a message to either our research team or product team, feel free to send an email to
+qianwen_opensource@alibabacloud.com
+.
